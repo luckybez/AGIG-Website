@@ -173,8 +173,8 @@
 
         .outcomes-grid {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 40px;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 28px;
             margin-top: 88px;
         }
 
@@ -488,6 +488,12 @@
             opacity: 0.85;
         }
 
+        @media (max-width: 1024px) {
+            .outcomes-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
         @media (max-width: 768px) {
             .outcomes-grid, .cases-grid {
                 grid-template-columns: 1fr;
@@ -652,20 +658,23 @@
             <section class="hero">
                 <p class="hero-eyebrow">For those who make the final call</p>
                 <h1>Need to make a decision you <span class="accent">can’t afford to get wrong</span>?</h1>
-                <p class="hero-subtitle">We build you a private AI that learns your world — your people, your projects, your non-negotiables — and works within them, so nothing slips through the cracks and the decision stays yours.</p>
 
                 <div class="outcomes-grid">
                     <div class="outcome-card">
-                        <div class="outcome-title">It Knows Your World</div>
-                        <div class="outcome-description">Most AI starts every conversation with a blank slate. Yours doesn’t. The system we build learns how you work, what matters to you, and the standards you expect — then keeps it all in context. You stop repeating yourself.</div>
+                        <div class="outcome-title">It Knows Your Business</div>
+                        <div class="outcome-description">Most AI starts every conversation from scratch. Yours doesn’t. It learns your people, priorities, and the way you work, so every interaction begins with context instead of guesswork.</div>
+                    </div>
+                    <div class="outcome-card">
+                        <div class="outcome-title">Nothing Gets Lost</div>
+                        <div class="outcome-description">Important details have a way of slipping through the cracks. This system keeps critical information, commitments, and context in view, helping you catch what others miss before it becomes a problem.</div>
                     </div>
                     <div class="outcome-card">
                         <div class="outcome-title">You Stay in Control</div>
-                        <div class="outcome-description">AI can provide insight. It can’t provide judgment. The system highlights opportunities, flags risks, and gives you what you need to decide. The data is yours. The decisions are yours. The outcome is yours.</div>
+                        <div class="outcome-description">AI can provide insight. It can’t provide judgment. The system highlights opportunities, flags risks, and organizes information. The decisions remain yours.</div>
                     </div>
                     <div class="outcome-card">
-                        <div class="outcome-title">It Learns as You Go</div>
-                        <div class="outcome-description">You don’t have to be a prompt engineer. The system learns how you work and coaches you as you go. The more you use it, the sharper it gets — no guesswork.</div>
+                        <div class="outcome-title">It Improves Over Time</div>
+                        <div class="outcome-description">The more you use it, the more useful it becomes. It learns from your business, adapts to your preferences, and delivers increasingly relevant support over time.</div>
                     </div>
                 </div>
             </section>
