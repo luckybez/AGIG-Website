@@ -1,5 +1,7 @@
 # Deployed build — keep history diffs clean; format intentionally, not on bulk.
 index.html
+live-website.html
+live-website-preview.html
 # Vendored assets
 fonts/
 node_modules/

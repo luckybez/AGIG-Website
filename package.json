@@ -6,6 +6,7 @@
   "description": "Avant Garde International Group — marketing site (single-file static build) + preview/build tooling.",
   "scripts": {
     "render": "node scripts/render.mjs",
+    "bundle": "node scripts/bundle.mjs",
     "serve": "python3 -m http.server 8080",
     "fonts": "node scripts/fetch-fonts.mjs",
     "format": "prettier --write \"*.html\"",
