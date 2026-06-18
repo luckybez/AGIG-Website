@@ -2,6 +2,12 @@
 
 _Last updated: 2026-06-18_
 
+## ⚠️ START HERE — launching a web session
+When starting a Claude Code web session, set the **branch/source to `AGIG-Website-Redesign`**
+in the new-session screen. Do **not** accept the auto-generated `claude/…` branch — it starts
+from `main` and is missing all redesign work. If the screen won't let you pick a branch, tell
+Claude in the first message: "We're working on `AGIG-Website-Redesign` — switch to it first."
+
 ## TL;DR — where to work
 - **Canonical repo:** `luckybez/AGIG-Website`
 - **Canonical branch:** **`AGIG-Website-Redesign`** (open draft **PR #2** → `main`)
