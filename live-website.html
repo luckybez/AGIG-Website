@@ -192,6 +192,49 @@
             background-color: rgba(192, 138, 94, 0.08);
         }
 
+        .demo-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+            max-width: 1000px;
+            margin: 40px auto 0;
+            text-align: left;
+        }
+
+        .demo-card {
+            border: 1px solid rgba(192, 138, 94, 0.2);
+            border-radius: 8px;
+            background-color: rgba(192, 138, 94, 0.03);
+            padding: 32px 36px;
+        }
+
+        .demo-card.given {
+            border-color: rgba(192, 138, 94, 0.45);
+            background-color: rgba(192, 138, 94, 0.06);
+        }
+
+        .demo-label {
+            font-family: 'Inter', sans-serif;
+            font-size: 12px;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: #C08A5E;
+            margin-bottom: 16px;
+        }
+
+        .demo-text {
+            font-size: 17px;
+            line-height: 1.7;
+            color: #C8CDD5;
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            .demo-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
         .outcome-label {
             color: #C08A5E;
             font-size: 13px;
@@ -688,27 +731,57 @@
             <section class="hero">
                 <p class="hero-eyebrow">For those who make the final call</p>
                 <h1>A co-founder with every skill set, <span class="accent">on call, day or night</span>.</h1>
-                <p class="hero-subtitle">From the decisions you can’t afford to get wrong to the hundred smaller ones in between, you never have to think it through alone again.</p>
+                <p class="hero-subtitle">Big calls or small, you think them through with something that already knows your people, your work, and the lines you won’t cross.</p>
+                <p class="hero-description">The cost of a scattered system is not always a crisis. Sometimes it is the weight you carry every day until something slips.</p>
 
                 <div class="outcomes-grid">
                     <div class="outcome-card">
-                        <div class="outcome-title">It Knows You</div>
-                        <div class="outcome-description">Most AI conversations start from scratch. Yours doesn’t. It learns your people, priorities, and the way you work, so every interaction begins with context instead of guesswork.</div>
+                        <div class="outcome-title">It already knows your world</div>
+                        <div class="outcome-description">Every session opens with your people, your projects, and your non-negotiables already loaded. You stop re-explaining yourself.</div>
                     </div>
                     <div class="outcome-card">
-                        <div class="outcome-title">You Stay in Control</div>
-                        <div class="outcome-description">AI can provide insight. It can’t provide judgment. The system organizes information, highlights opportunities, and flags risks. The decisions remain yours.</div>
+                        <div class="outcome-title">The judgment stays yours</div>
+                        <div class="outcome-description">It lays out every angle, names the risks, and shows its reasoning. You make the call. You own the data and the decision.</div>
                     </div>
                     <div class="outcome-card">
-                        <div class="outcome-title">It Improves Over Time</div>
-                        <div class="outcome-description">The more you use it, the more useful it becomes. It learns from your business, adapts to your preferences, and delivers increasingly relevant support over time.</div>
+                        <div class="outcome-title">It compounds</div>
+                        <div class="outcome-description">A week in, it is useful. A year in, it knows things about your world no new hire ever could. The more you use it, the more it is worth.</div>
                     </div>
                 </div>
             </section>
 
             <section class="section">
+                <h2>See it work.</h2>
+                <p class="hero-description">You bring the mess. It brings back something you can use.</p>
+                <div class="demo-grid">
+                    <div class="demo-card">
+                        <div class="demo-label">What you asked</div>
+                        <p class="demo-text">There’s a city permit due today. I don’t understand the form, and I think I filed something like it last year but I can’t find it.</p>
+                    </div>
+                    <div class="demo-card given">
+                        <div class="demo-label">What it gave back</div>
+                        <p class="demo-text">Pulled last year’s appeal from your stored files, flagged the two fields that tripped you up then, and drafted the filing ready to submit. Done the same day.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2>Some decisions don’t offer a second attempt.</h2>
+                <p class="hero-description">Most of what it does is everyday: organize a messy project, pressure-test a move, get days of work done in hours. But the reason people trust it with the small things is the same reason they want it for the big ones. When a choice can’t be undone, it helps you see every angle, weigh what each one costs, and walk in prepared instead of overwhelmed. The decision is still yours. You just stop making it half-informed.</p>
+                <p class="hero-description">One father used it to think through how to support a child with complex needs. Not to be told what to do, but to walk into every conversation seeing what he might otherwise have missed.</p>
+            </section>
+
+            <section class="section">
                 <h2>Why Not Just ChatGPT?</h2>
-                <p class="hero-description">Most AI forgets you the moment you close the tab. Every time, you start over: re-explaining who you are, what you’re working on, what you already tried. This works the opposite way. It remembers your world and gets sharper every time you use it. The longer you work together, the more it’s worth. It compounds.</p>
+                <p class="hero-description">Most AI forgets you the moment you close the tab, so you start over every time. This works the opposite way. It remembers your world and gets sharper every time you use it. The longer you work together, the more it is worth.</p>
+            </section>
+
+            <section class="section">
+                <h2>See how it held up.</h2>
+                <p class="hero-description">A founder running his whole operation through it. A father facing hard questions about his son. An executive weighing a call he could not take back. Read what it did for each of them, then tell us about your world.</p>
+                <div style="text-align: center;">
+                    <a href="https://calendly.com/avantgarde-discovery" target="_blank" class="book-btn">Book Your Discovery Call</a>
+                </div>
             </section>
         </div>
 
