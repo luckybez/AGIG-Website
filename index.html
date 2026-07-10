@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script>window.__resources={"https://unpkg.com/react@18.3.1/umd/react.production.min.js":"assets/vendor/react.production.min.js","https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js":"assets/vendor/react-dom.production.min.js"};</script>
 <script src="./support.js"></script>
 </head>
 <body>
@@ -16,11 +17,10 @@ html{scroll-behavior:smooth}
 body{margin:0;background:#081426;color:#F4F1EC;font-family:Inter,-apple-system,sans-serif;-webkit-font-smoothing:antialiased}
 a{color:#F4F1EC}
 a:hover{color:#C08A5E}
-p{text-wrap:pretty}
 summary::-webkit-details-marker{display:none}
 @keyframes agPulse{0%,100%{opacity:.75}50%{opacity:.38}}
 @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
-@media (max-width:700px){details[data-depth] summary{padding:12px 22px !important}}
+@media (max-width:700px){#hero-play{display:none}}
 </style>
 </helmet>
 
@@ -29,21 +29,18 @@ summary::-webkit-details-marker{display:none}
     <b style="font-family:'Source Serif 4',Georgia,serif;font-weight:500;font-size:15px;letter-spacing:.14em">AVANT GARDE</b>
     <span style="display:block;font-size:8.5px;font-weight:500;letter-spacing:.34em;color:rgba(244,241,236,.6)">INTERNATIONAL GROUP</span>
   </a>
-  <a href="https://calendly.com/avantgarde-discovery" data-slot="scheduling-url" style="font-size:12px;font-weight:600;letter-spacing:.04em;color:#0b1520;text-decoration:none;background:#C08A5E;border:1px solid #C08A5E;padding:10px 18px;border-radius:3px;transition:filter .3s" style-hover="filter:brightness(1.08)">Schedule a private conversation</a>
+  <a href="https://calendly.com/avantgarde-discovery/30min" data-slot="scheduling-url" style="font-size:12px;font-weight:600;letter-spacing:.04em;color:#0b1520;text-decoration:none;background:#C08A5E;border:1px solid #C08A5E;padding:10px 18px;border-radius:3px;transition:filter .3s" style-hover="filter:brightness(1.08)">Schedule a private conversation</a>
 </header>
 
-<section id="top" data-screen-label="Hero film" style="position:relative;min-height:94svh;display:flex;align-items:center;overflow:hidden">
+<section id="top" data-screen-label="Hero film" style="position:relative;min-height:94svh;display:flex;align-items:flex-end;overflow:hidden">
   <img src="assets/hero.jpg" alt="Seen through the leader's own eyes from the head of a long dark conference table: advisors on both sides look toward you, one document and a pen resting in the light directly in front of you" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover">
   <div style="position:absolute;inset:0;background:radial-gradient(ellipse 42% 26% at 50% 18%, rgba(8,20,38,.5), rgba(8,20,38,0) 72%), linear-gradient(180deg,rgba(8,20,38,.12) 30%,rgba(8,20,38,.82) 82%)"></div>
-  <sc-if value="{{ showChips }}" hint-placeholder-val="{{ true }}">
-    <div data-slot="hero-film" style="position:absolute;bottom:16px;left:16px;z-index:3;font-size:10px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:rgba(244,241,236,.55);border:1px solid rgba(244,241,236,.16);background:rgba(8,20,38,.4);backdrop-filter:blur(4px);padding:7px 11px;border-radius:3px;max-width:min(72vw,420px);text-align:left;line-height:1.5"><b style="color:rgba(192,138,94,.9);font-weight:500">Hero v3 live</b> · film slot parked until a real film earns it</div>
-  </sc-if>
   <div data-fade="" style="position:relative;z-index:2;padding:max(96px,7vw) clamp(26px,6vw,90px) clamp(16px,2vw,28px);max-width:900px;margin:0 auto;width:100%;text-align:center">
     <div style="font-size:11px;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:#C08A5E;text-shadow:0 1px 14px rgba(8,20,38,.9),0 0 28px rgba(8,20,38,.7)">For the person who makes the final call</div>
     <h1 style="font-family:'Source Serif 4',Georgia,serif;font-weight:400;font-size:clamp(2rem,4.6vw,3.7rem);line-height:1.16;margin:14px auto 18px;max-width:16ch;color:#F4F1EC">You can delegate the work. You cannot delegate the decision.</h1>
     <p style="margin:0 auto 26px;font-weight:300;font-size:clamp(.95rem,1.4vw,1.1rem);line-height:1.6;color:#F4F1EC;max-width:46ch">Before you decide, you still have to weigh the risks, remember what was promised, and be accountable for the outcome. We build the private system around that responsibility.</p>
     <div style="display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:12px 20px;margin-bottom:22px">
-      <a href="https://calendly.com/avantgarde-discovery" data-slot="scheduling-url" style="display:inline-block;background:#C08A5E;color:#0b1520;font-weight:600;font-size:14px;letter-spacing:.02em;padding:15px 28px;border-radius:3px;text-decoration:none;transition:filter .3s" style-hover="filter:brightness(1.08)">Schedule a private conversation</a>
+      <a href="https://calendly.com/avantgarde-discovery/30min" data-slot="scheduling-url" style="display:inline-block;background:#C08A5E;color:#0b1520;font-weight:600;font-size:14px;letter-spacing:.02em;padding:15px 28px;border-radius:3px;text-decoration:none;transition:filter .3s" style-hover="filter:brightness(1.08)">Schedule a private conversation</a>
       <a href="#beat-1" style="display:inline-block;font-size:13px;color:rgba(244,241,236,.7);text-decoration:underline;text-underline-offset:4px;transition:color .3s" style-hover="color:#C08A5E">See the story</a>
       <a href="mailto:travis@avantgarde-internationalgroup.com?subject=Private%20overview%20request" data-slot="overview-request" style="display:inline-block;font-size:13px;color:rgba(244,241,236,.7);text-decoration:underline;text-underline-offset:4px;transition:color .3s" style-hover="color:#C08A5E">Prefer to read first? Request a private overview of the approach.</a>
     </div>
@@ -51,11 +48,8 @@ summary::-webkit-details-marker{display:none}
 </section>
 
 <section id="beat-1" data-screen-label="01 The Weight" style="position:relative;min-height:94svh;display:flex;align-items:flex-end;overflow:hidden">
-  <video data-lazy-src="assets/loops/beat1-weight.mp4" poster="assets/beat1-weight.jpg" preload="none" muted="{{ true }}" loop="{{ true }}" playsInline="{{ true }}" aria-label="Ambient loop: the same boardroom after the advisors have gone, one man alone at the head of the empty table, deliberating" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"></video>
+  <video src="assets/loops/beat1-weight.mp4" poster="assets/beat1-weight.jpg" autoPlay="{{ true }}" muted="{{ true }}" loop="{{ true }}" playsInline="{{ true }}" aria-label="Ambient loop: the same boardroom after the advisors have gone, one man alone at the head of the empty table, deliberating" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"></video>
   <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,20,38,.12) 30%,rgba(8,20,38,.82) 82%)"></div>
-  <sc-if value="{{ showChips }}" hint-placeholder-val="{{ true }}">
-    <div data-slot="beat-01-loop" style="position:absolute;top:16px;right:16px;z-index:3;font-size:10px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:rgba(244,241,236,.55);border:1px solid rgba(244,241,236,.16);background:rgba(8,20,38,.4);backdrop-filter:blur(4px);padding:7px 11px;border-radius:3px;max-width:min(72vw,420px);text-align:right;line-height:1.5"><b style="color:rgba(192,138,94,.9);font-weight:500">Loop v2 live</b> · the room emptied, the call remains</div>
-  </sc-if>
   <div data-fade="" style="position:relative;z-index:2;padding:clamp(26px,6vw,90px);max-width:900px">
     <div style="font-size:11px;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:#C08A5E">01 · The weight</div>
     <h2 style="font-family:'Source Serif 4',Georgia,serif;font-weight:400;font-size:clamp(1.65rem,3.6vw,2.85rem);line-height:1.16;margin:14px 0 18px;max-width:22ch;color:#F4F1EC">The weight is not just the decision. It is the deliberation required to reach it.</h2>
@@ -70,12 +64,9 @@ summary::-webkit-details-marker{display:none}
 </section>
 
 <section id="beat-2" data-screen-label="02 How We're Different" style="position:relative;min-height:94svh;display:flex;align-items:flex-end;overflow:hidden">
-  <video data-lazy-src="assets/loops/beat2-turn.mp4" poster="assets/beat2-turn.jpg" preload="none" muted="{{ true }}" loop="{{ true }}" playsInline="{{ true }}" aria-label="Ambient loop: an executive stands over a table where separate sources have been distilled into one prepared, coherent decision set" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"></video>
+  <video src="assets/loops/beat2-turn.mp4" poster="assets/beat2-turn.jpg" autoPlay="{{ true }}" muted="{{ true }}" loop="{{ true }}" playsInline="{{ true }}" aria-label="Ambient loop: an executive stands over a table where separate sources have been distilled into one prepared, coherent decision set" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"></video>
   <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,20,38,.12) 30%,rgba(8,20,38,.82) 82%)"></div>
-  <sc-if value="{{ showChips }}" hint-placeholder-val="{{ true }}">
-    <div data-slot="beat-02-loop" style="position:absolute;top:16px;right:16px;z-index:3;font-size:10px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:rgba(244,241,236,.55);border:1px solid rgba(244,241,236,.16);background:rgba(8,20,38,.4);backdrop-filter:blur(4px);padding:7px 11px;border-radius:3px;max-width:min(72vw,420px);text-align:right;line-height:1.5"><b style="color:rgba(192,138,94,.9);font-weight:500">Loop v3 live</b> · many sources, one prepared decision set</div>
-  </sc-if>
-  <div data-fade="" style="position:relative;z-index:2;padding:clamp(26px,6vw,90px) clamp(26px,6vw,90px) max(150px,18svh);max-width:1240px;width:100%;display:flex;flex-wrap:wrap;gap:16px 32px;align-items:flex-start">
+  <div data-fade="" style="position:relative;z-index:2;padding:clamp(26px,6vw,90px);max-width:1240px;width:100%;display:flex;flex-wrap:wrap;gap:16px 32px;align-items:flex-start">
     <div id="b2-left" style="flex:1 1 320px;min-width:0">
       <div style="font-size:11px;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:#C08A5E">02 · How we're different</div>
       <h2 style="font-family:'Source Serif 4',Georgia,serif;font-weight:400;font-size:clamp(1.65rem,3.6vw,2.85rem);line-height:1.16;margin:14px 0 18px;max-width:20ch;color:#F4F1EC">They sell you a tool. We engineer a system around how you decide.</h2>
@@ -88,51 +79,14 @@ summary::-webkit-details-marker{display:none}
         <p style="margin:0;font-weight:300;font-size:15.5px;line-height:1.75;color:#F4F1EC;padding-top:16px">“When I built this system, I thought I was solving my own problem. I discovered I was continuing a century-old endeavor: the same project these thinkers kept reaching for and could not build. It was never blocked by imagination. It was blocked by technology. It isn’t anymore.”</p>
         <p style="margin:0;font-size:12px;color:rgba(244,241,236,.75);letter-spacing:.08em;text-transform:uppercase;padding-top:8px">Travis Lewis · Founder</p>
       </details>
+      <a href="about.html" data-slot="about-url" style="display:inline-block;margin-top:18px;font-size:13px;color:rgba(244,241,236,.7);text-decoration:underline;text-underline-offset:4px;transition:color .3s" style-hover="color:#C08A5E">The full lineage, and the founder’s story →</a>
     </div>
-    <sc-if value="{{ lineageVisible }}" hint-placeholder-val="{{ false }}">
-    <div style="flex:1 1 340px;min-width:0;border-left:1px solid rgba(192,138,94,.45);padding-left:28px">
-      <p style="margin:0;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:rgba(192,138,94,.85)">History of IA · hover over a year for details</p>
-      <div style="position:relative;margin-top:12px">
-        <div style="position:absolute;left:4px;right:4px;top:16px;height:2px;border-radius:1px;background:rgba(214,155,106,.8)"></div>
-        <div style="position:relative;display:flex;flex-wrap:nowrap">
-          <sc-for list="{{ thinkers }}" as="t" hint-placeholder-count="8">
-            <div onMouseEnter="{{ t.enter }}" onClick="{{ t.enter }}" title="{{ t.name }}" style="display:flex;flex-direction:column;align-items:center;gap:8px;padding:10px 2px;flex:1;min-width:0;cursor:pointer;opacity:{{ t.opacity }};transition:opacity .2s">
-              <div style="width:{{ t.dotSize }};height:{{ t.dotSize }};border-radius:50%;background:{{ t.dotBg }};box-shadow:{{ t.dotShadow }};transition:all .2s"></div>
-              <div style="font-size:10.5px;letter-spacing:.03em;color:{{ t.yearColor }};font-weight:{{ t.yearWeight }};white-space:nowrap">{{ t.year }}</div>
-            </div>
-          </sc-for>
-          <div title="Avant Garde" style="display:flex;flex-direction:column;align-items:center;gap:8px;padding:10px 2px;flex:1;min-width:0">
-            <div style="width:12px;height:12px;border-radius:50%;background:#C08A5E;box-shadow:0 0 0 5px rgba(192,138,94,.15)"></div>
-            <div style="font-size:10.5px;letter-spacing:.06em;color:#C08A5E;font-weight:600;white-space:nowrap">NOW</div>
-          </div>
-        </div>
-      </div>
-      <div id="b2-cardwrap" style="min-height:0;overflow-y:auto">
-        <sc-if value="{{ hasActive }}" hint-placeholder-val="{{ false }}">
-          <div style="border:1px solid rgba(192,138,94,.3);background:rgba(8,20,38,.55);border-radius:3px;padding:16px 18px;margin-top:8px">
-            <p style="margin:0;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:rgba(192,138,94,.85)">{{ activeYear }} · {{ activeName }}</p>
-            <p style="margin:0;font-family:'Source Serif 4',Georgia,serif;font-weight:400;font-size:17px;color:#F4F1EC;padding-top:4px">{{ activeWork }}</p>
-            <p style="margin:0;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:rgba(244,241,236,.55);padding-top:12px">The question they asked</p>
-            <p style="margin:0;font-weight:300;font-size:14.5px;line-height:1.65;color:#F4F1EC;padding-top:4px">{{ activeQuestion }}</p>
-            <p style="margin:0;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:rgba(244,241,236,.55);padding-top:12px">Where it led</p>
-            <p style="margin:0;font-weight:300;font-size:14.5px;line-height:1.65;color:#F4F1EC;padding-top:4px">{{ activeDirection }}</p>
-            <p style="margin:0;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:rgba(244,241,236,.55);padding-top:12px">What blocked them</p>
-            <p style="margin:0;font-weight:300;font-size:14.5px;line-height:1.65;color:#F4F1EC;padding-top:4px">{{ activeObstacle }}</p>
-          </div>
-        </sc-if>
-      </div>
-      <a href="about.html" data-slot="about-url" style="display:inline-block;margin-top:12px;font-size:13px;color:rgba(244,241,236,.7);text-decoration:underline;text-underline-offset:4px;transition:color .3s" style-hover="color:#C08A5E">The full lineage, and the founder’s story →</a>
-    </div>
-    </sc-if>
   </div>
 </section>
 
 <section id="beat-3" data-screen-label="03 What It Is" style="position:relative;min-height:94svh;display:flex;align-items:flex-end;overflow:hidden">
-  <video data-lazy-src="assets/loops/beat3-system.mp4" poster="assets/beat3-system.jpg" preload="none" muted="{{ true }}" loop="{{ true }}" playsInline="{{ true }}" aria-label="Ambient loop: a man in a dark suit steers a great ship at night, hands steady on the wheel, brass instruments and a paper chart glowing in lamplight" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"></video>
+  <video src="assets/loops/beat3-system.mp4" poster="assets/beat3-system.jpg" autoPlay="{{ true }}" muted="{{ true }}" loop="{{ true }}" playsInline="{{ true }}" aria-label="Ambient loop: a man in a dark suit steers a great ship at night, hands steady on the wheel, brass instruments and a paper chart glowing in lamplight" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"></video>
   <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,20,38,.12) 30%,rgba(8,20,38,.82) 82%)"></div>
-  <sc-if value="{{ showChips }}" hint-placeholder-val="{{ true }}">
-    <div data-slot="beat-03-loop" style="position:absolute;top:16px;right:16px;z-index:3;font-size:10px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:rgba(244,241,236,.55);border:1px solid rgba(244,241,236,.16);background:rgba(8,20,38,.4);backdrop-filter:blur(4px);padding:7px 11px;border-radius:3px;max-width:min(72vw,420px);text-align:right;line-height:1.5"><b style="color:rgba(192,138,94,.9);font-weight:500">Loop v5 live</b> · at the helm, the vessel carries, he steers</div>
-  </sc-if>
   <div data-fade="" style="position:relative;z-index:2;padding:clamp(26px,6vw,90px);max-width:900px">
     <div style="font-size:11px;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:#C08A5E">03 · What it is</div>
     <h2 style="font-family:'Source Serif 4',Georgia,serif;font-weight:400;font-size:clamp(1.65rem,3.6vw,2.85rem);line-height:1.16;margin:14px 0 18px;max-width:20ch;color:#F4F1EC">It does not think for you. It carries the load while you steer.</h2>
@@ -148,11 +102,8 @@ summary::-webkit-details-marker{display:none}
 </section>
 
 <section id="beat-4" data-screen-label="04 Proof" style="position:relative;min-height:94svh;display:flex;align-items:flex-end;overflow:hidden">
-  <video data-lazy-src="assets/loops/beat4-proof.mp4" poster="assets/beat4-proof.jpg" preload="none" muted="{{ true }}" loop="{{ true }}" playsInline="{{ true }}" aria-label="Ambient loop: a man deep in thought at a small table, hand at his chin, scattered papers under one lamp in vast darkness" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"></video>
+  <video src="assets/loops/beat4-proof.mp4" poster="assets/beat4-proof.jpg" autoPlay="{{ true }}" muted="{{ true }}" loop="{{ true }}" playsInline="{{ true }}" aria-label="Ambient loop: a man deep in thought at a small table, hand at his chin, scattered papers under one lamp in vast darkness" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"></video>
   <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,20,38,.38) 22%,rgba(8,20,38,.94) 76%)"></div>
-  <sc-if value="{{ showChips }}" hint-placeholder-val="{{ true }}">
-    <div data-slot="beat-04-loop" style="position:absolute;top:16px;right:16px;z-index:3;font-size:10px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:rgba(244,241,236,.55);border:1px solid rgba(244,241,236,.16);background:rgba(8,20,38,.4);backdrop-filter:blur(4px);padding:7px 11px;border-radius:3px;max-width:min(72vw,420px);text-align:right;line-height:1.5"><b style="color:rgba(192,138,94,.9);font-weight:500">Loop v3 live</b> · the deciding night, lamplight breathing, stillness</div>
-  </sc-if>
   <div data-fade="" style="position:relative;z-index:2;padding:clamp(26px,6vw,90px);max-width:900px">
     <div style="font-size:11px;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:#C08A5E">04 · Proof</div>
     <h2 style="font-family:'Source Serif 4',Georgia,serif;font-weight:400;font-size:clamp(1.65rem,3.6vw,2.85rem);line-height:1.16;margin:14px 0 18px;max-width:24ch;color:#F4F1EC">The founder built the first private system for himself, for a decision he could not afford to get wrong.</h2>
@@ -186,16 +137,15 @@ summary::-webkit-details-marker{display:none}
   </div>
 </section>
 
-<section id="invitation" data-screen-label="05 The Invitation" style="position:relative;background:#081426">
-  <sc-if value="{{ showChips }}" hint-placeholder-val="{{ true }}">
-    <div data-slot="beat-05-loop" style="position:absolute;top:16px;right:16px;z-index:3;font-size:10px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:rgba(244,241,236,.55);border:1px solid rgba(244,241,236,.16);background:rgba(8,20,38,.4);backdrop-filter:blur(4px);padding:7px 11px;border-radius:3px;max-width:min(72vw,420px);text-align:right;line-height:1.5"><b style="color:rgba(192,138,94,.9);font-weight:500">Loop v1 live</b> · an open room, unhurried, light settles</div>
-  </sc-if>
-  <div data-fade="" style="position:relative;z-index:2;padding:max(60px,7svh) clamp(26px,6vw,90px) 6px;max-width:900px;margin:0 auto;width:100%;text-align:center">
+<section id="invitation" data-screen-label="05 The Invitation" style="position:relative;min-height:94svh;display:flex;align-items:flex-end;overflow:hidden">
+  <video src="assets/loops/beat5-invitation.mp4" poster="assets/beat5-invitation.jpg" autoPlay="{{ true }}" muted="{{ true }}" loop="{{ true }}" playsInline="{{ true }}" aria-label="Ambient loop: a pool of warm light breathes softly over two facing armchairs" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"></video>
+  <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,20,38,.12) 30%,rgba(8,20,38,.82) 82%)"></div>
+  <div data-fade="" style="position:relative;z-index:2;padding:clamp(26px,6vw,90px);max-width:900px;margin:0 auto;width:100%;text-align:center">
     <div style="font-size:11px;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:#C08A5E">05 · The invitation</div>
-    <h2 style="font-family:'Source Serif 4',Georgia,serif;font-weight:400;font-size:clamp(1.65rem,3.6vw,2.85rem);line-height:1.16;margin:10px auto 12px;max-width:20ch;color:#F4F1EC">Built for the person who owns the outcome.</h2>
-    <p style="margin:0 auto 16px;font-weight:300;font-size:clamp(.95rem,1.4vw,1.1rem);line-height:1.6;color:#F4F1EC;max-width:52ch">If the final call belongs to you, the system is built around you. If you want the machine to decide for you, this is not the right fit.</p>
-    <div style="display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:12px 20px;margin-bottom:12px">
-      <a href="https://calendly.com/avantgarde-discovery" data-slot="scheduling-url" style="display:inline-block;background:#C08A5E;color:#0b1520;font-weight:600;font-size:14px;letter-spacing:.02em;padding:15px 28px;border-radius:3px;text-decoration:none;transition:filter .3s" style-hover="filter:brightness(1.08)">Schedule a private conversation</a>
+    <h2 style="font-family:'Source Serif 4',Georgia,serif;font-weight:400;font-size:clamp(1.65rem,3.6vw,2.85rem);line-height:1.16;margin:14px auto 18px;max-width:20ch;color:#F4F1EC">Built for the person who owns the outcome.</h2>
+    <p style="margin:0 auto 26px;font-weight:300;font-size:clamp(.95rem,1.4vw,1.1rem);line-height:1.6;color:#F4F1EC;max-width:52ch">If the final call belongs to you, the system is built around you. If you want the machine to decide for you, this is not the right fit.</p>
+    <div style="display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:12px 20px;margin-bottom:22px">
+      <a href="https://calendly.com/avantgarde-discovery/30min" data-slot="scheduling-url" style="display:inline-block;background:#C08A5E;color:#0b1520;font-weight:600;font-size:14px;letter-spacing:.02em;padding:15px 28px;border-radius:3px;text-decoration:none;transition:filter .3s" style-hover="filter:brightness(1.08)">Schedule a private conversation</a>
       <a href="mailto:travis@avantgarde-internationalgroup.com?subject=Private%20overview%20request" data-slot="overview-request" style="display:inline-block;font-size:13px;color:rgba(244,241,236,.7);text-decoration:underline;text-underline-offset:4px;transition:color .3s" style-hover="color:#C08A5E">Prefer to read first? Request a private overview of the approach.</a>
     </div>
     <details data-depth="" style="max-width:64ch;margin:0 auto">
@@ -207,13 +157,9 @@ summary::-webkit-details-marker{display:none}
       <p style="margin:0;font-family:'Source Serif 4',Georgia,serif;font-weight:400;font-size:17px;line-height:1.6;color:#F4F1EC;padding-top:14px">If you are the one who has to make the call, let's talk.</p>
     </details>
   </div>
-  <div style="position:relative">
-    <video data-lazy-src="assets/loops/beat5-invitation.mp4" poster="assets/beat5-invitation.jpg" preload="none" muted="{{ true }}" loop="{{ true }}" playsInline="{{ true }}" aria-label="Ambient loop: a pool of warm light breathes softly over two facing armchairs" style="display:block;width:100%;height:clamp(340px,52vh,620px);object-fit:cover;object-position:50% 55%"></video>
-    <div style="position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,#081426 0%,rgba(8,20,38,0) 22%,rgba(8,20,38,0) 70%,#081426 100%)"></div>
-  </div>
 </section>
 
-<footer style="padding:28px clamp(26px,6vw,90px) 56px;text-align:center">
+<footer style="padding:60px clamp(26px,6vw,90px) 70px;text-align:center">
   <div style="font-family:'Source Serif 4',Georgia,serif;font-size:14px;letter-spacing:.16em;margin-bottom:12px">AVANT GARDE INTERNATIONAL GROUP</div>
   <p style="margin:0 auto 18px;max-width:60ch;font-weight:300;font-size:13px;line-height:1.7;color:rgba(244,241,236,.8)">We build a private operating layer around one accountable decision-maker's judgment: a system that remembers what matters, shows its work, and keeps you sharp while it carries the load.</p>
   <div style="font-size:10px;letter-spacing:.28em;color:rgba(244,241,236,.5);text-transform:uppercase">Founder-led · Private · No generic pitch</div>
@@ -342,7 +288,6 @@ class Component extends DCLogic {
 
   componentDidMount() {
     this._applyReveals();
-    this._setupLazyVideos();
     this._muteAll();
     this._fitLineageCard();
     var self = this;
@@ -400,48 +345,19 @@ class Component extends DCLogic {
     wrap.style.maxHeight = h + 'px';
   }
 
-  _setupLazyVideos() {
-    var vids = Array.prototype.slice.call(document.querySelectorAll('video[data-lazy-src]'));
-    if (!vids.length) return;
-    var reduceV = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    if (reduceV) return;
-    var load = function (v) {
-      var s = v.getAttribute('data-lazy-src');
-      if (!s) return;
-      v.src = s;
-      v.removeAttribute('data-lazy-src');
-      v.muted = true;
-      v.addEventListener('canplay', function () {
-        if (v.paused) { var p2 = v.play(); if (p2 && p2.catch) p2.catch(function () {}); }
-      }, { once: true });
-      var p = v.play();
-      if (p && p.catch) p.catch(function () {});
-    };
-    if (!('IntersectionObserver' in window)) { vids.forEach(load); return; }
-    var io = new IntersectionObserver(function (entries) {
-      entries.forEach(function (en) {
-        if (en.isIntersecting) { io.unobserve(en.target); load(en.target); }
-      });
-    }, { rootMargin: '60% 0px 60% 0px' });
-    vids.forEach(function (v) { io.observe(v); });
-    this._lazyIo = io;
-  }
-
   _muteAll() {
     var reduceV = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     document.querySelectorAll('video').forEach(function (v) {
       v.muted = true;
       v.defaultMuted = true;
       v.volume = 0;
-      if (v.getAttribute('data-lazy-src')) return;
       if (reduceV) { v.pause(); v.removeAttribute('autoplay'); }
-      else if (v.paused && v.getAttribute('src')) { var p = v.play(); if (p && p.catch) p.catch(function () {}); }
+      else if (v.paused) { var p = v.play(); if (p && p.catch) p.catch(function () {}); }
     });
   }
 
   componentWillUnmount() {
     if (this._io) this._io.disconnect();
-    if (this._lazyIo) this._lazyIo.disconnect();
     if (this._onKey) document.removeEventListener('keydown', this._onKey);
     if (this._vo) this._vo.pause();
   }
