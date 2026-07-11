@@ -83,42 +83,8 @@ summary::-webkit-details-marker{display:none}
         <p style="margin:0;font-weight:300;font-size:15.5px;line-height:1.75;color:#F4F1EC;padding-top:20px">“I began by building the support I needed around my own decisions. What emerged was something larger: a private system that could preserve context, challenge assumptions, and strengthen judgment over time, without trying to replace the person responsible for the outcome.”</p>
         <p style="margin:0;font-size:12px;color:rgba(244,241,236,.75);letter-spacing:.08em;text-transform:uppercase;padding-top:8px">Travis Lewis · Founder</p>
       </details>
+      <a href="about.html" data-slot="about-url" style="display:inline-block;margin-top:18px;font-size:13px;color:rgba(244,241,236,.7);text-decoration:underline;text-underline-offset:4px;transition:color .3s" style-hover="color:#C08A5E">The full lineage, and the founder’s story →</a>
     </div>
-    <sc-if value="{{ lineageVisible }}" hint-placeholder-val="{{ false }}">
-    <div style="flex:1 1 340px;min-width:0;border-left:1px solid rgba(192,138,94,.45);padding-left:28px">
-      <p style="margin:0;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:rgba(192,138,94,.85)">History of IA · hover over a year for details</p>
-      <div style="position:relative;margin-top:12px">
-        <div style="position:absolute;left:4px;right:4px;top:16px;height:2px;border-radius:1px;background:rgba(214,155,106,.8)"></div>
-        <div style="position:relative;display:flex;flex-wrap:nowrap">
-          <sc-for list="{{ thinkers }}" as="t" hint-placeholder-count="8">
-            <div onMouseEnter="{{ t.enter }}" onClick="{{ t.enter }}" title="{{ t.name }}" style="display:flex;flex-direction:column;align-items:center;gap:8px;padding:10px 2px;flex:1;min-width:0;cursor:pointer;opacity:{{ t.opacity }};transition:opacity .2s">
-              <div style="width:{{ t.dotSize }};height:{{ t.dotSize }};border-radius:50%;background:{{ t.dotBg }};box-shadow:{{ t.dotShadow }};transition:all .2s"></div>
-              <div style="font-size:10.5px;letter-spacing:.03em;color:{{ t.yearColor }};font-weight:{{ t.yearWeight }};white-space:nowrap">{{ t.year }}</div>
-            </div>
-          </sc-for>
-          <div title="Avant Garde" style="display:flex;flex-direction:column;align-items:center;gap:8px;padding:10px 2px;flex:1;min-width:0">
-            <div style="width:12px;height:12px;border-radius:50%;background:#C08A5E;box-shadow:0 0 0 5px rgba(192,138,94,.15)"></div>
-            <div style="font-size:10.5px;letter-spacing:.06em;color:#C08A5E;font-weight:600;white-space:nowrap">NOW</div>
-          </div>
-        </div>
-      </div>
-      <div id="b2-cardwrap" style="min-height:0;overflow-y:auto">
-        <sc-if value="{{ hasActive }}" hint-placeholder-val="{{ false }}">
-          <div style="border:1px solid rgba(192,138,94,.3);background:rgba(8,20,38,.55);border-radius:3px;padding:16px 18px;margin-top:8px">
-            <p style="margin:0;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:rgba(192,138,94,.85)">{{ activeYear }} · {{ activeName }}</p>
-            <p style="margin:0;font-family:'Source Serif 4',Georgia,serif;font-weight:400;font-size:17px;color:#F4F1EC;padding-top:4px">{{ activeWork }}</p>
-            <p style="margin:0;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:rgba(244,241,236,.55);padding-top:12px">The question they asked</p>
-            <p style="margin:0;font-weight:300;font-size:14.5px;line-height:1.65;color:#F4F1EC;padding-top:4px">{{ activeQuestion }}</p>
-            <p style="margin:0;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:rgba(244,241,236,.55);padding-top:12px">Where it led</p>
-            <p style="margin:0;font-weight:300;font-size:14.5px;line-height:1.65;color:#F4F1EC;padding-top:4px">{{ activeDirection }}</p>
-            <p style="margin:0;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:rgba(244,241,236,.55);padding-top:12px">What blocked them</p>
-            <p style="margin:0;font-weight:300;font-size:14.5px;line-height:1.65;color:#F4F1EC;padding-top:4px">{{ activeObstacle }}</p>
-          </div>
-        </sc-if>
-      </div>
-      <a href="about.html" data-slot="about-url" style="display:inline-block;margin-top:12px;font-size:13px;color:rgba(244,241,236,.7);text-decoration:underline;text-underline-offset:4px;transition:color .3s" style-hover="color:#C08A5E">The full lineage, and the founder’s story →</a>
-    </div>
-    </sc-if>
   </div>
 </section>
 
