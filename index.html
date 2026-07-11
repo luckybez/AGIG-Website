@@ -22,6 +22,9 @@ summary::-webkit-details-marker{display:none}
 @keyframes agPulse{0%,100%{opacity:.75}50%{opacity:.38}}
 @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
 @media (max-width:700px){details[data-depth] summary{padding:12px 22px !important}}
+section h1,section h2{font-size:clamp(1.8rem,4vw,3.1rem)!important}
+section h1::after,section h2::after{content:"";display:block;width:64px;height:3px;background:#C08A5E;border-radius:2px;margin-top:20px}
+#top h1::after,#invitation h2::after{margin-left:auto;margin-right:auto}
 </style>
 </helmet>
 
