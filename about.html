@@ -24,6 +24,8 @@ a:hover{color:#C08A5E}
 .ln-node{display:flex;flex-direction:column;align-items:center;gap:9px;padding:13px 8px;flex:1;min-width:0;cursor:pointer;transition:opacity .2s}
 .ln-dot{border-radius:50%;transition:all .2s}
 .ln-cardgrid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:36px}
+section h1::after,section h2::after{content:"";display:block;width:64px;height:3px;background:#C08A5E;border-radius:2px;margin-top:20px}
+#top h1::after,#invitation h2::after{margin-left:auto;margin-right:auto}
 @media (max-width:760px){
   .story-row{grid-template-columns:1fr;gap:8px;padding:26px 0}
   .ln-cardgrid{grid-template-columns:1fr;gap:22px}
