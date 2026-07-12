@@ -102,6 +102,18 @@ h3 { font-size: 21px; margin: 0 0 12px; }
 .doctrine { font-family: var(--serif); font-size: clamp(20px, 2.2vw, 26px); line-height: 1.4; color: var(--navy); margin: 40px 0 0; max-width: 680px; }
 .fineprint { font-size: 13px; color: var(--muted-warm); line-height: 1.6; }
 .muted { color: var(--muted-cool); font-size: 15px; }
+/* Visually hidden: keeps a structural heading in the accessibility tree without affecting layout. */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
 
 /* Layout */
 .container { max-width: 1060px; margin: 0 auto; }
