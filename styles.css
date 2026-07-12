@@ -290,7 +290,6 @@ dialog#trust-dialog p { font-size: 15px; color: var(--muted); }
 .cap-boundary { margin: 44px 0 0; font-size: 15px; color: var(--muted-cool); max-width: 640px; }
 
 /* Outcomes (what changes — single-column editorial) */
-.rule-copper-light { width: 64px; height: 2px; background: var(--copper); margin: 0 0 40px; }
 .outcomes-solo { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; margin: 0 0 28px; }
 .outcomes-solo > div { border-top: 2px solid var(--copper); padding-top: 16px; }
 .outcomes-solo dt { font-family: var(--serif); font-size: 21px; font-weight: 600; margin-bottom: 6px; }
