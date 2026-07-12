@@ -1,420 +1,372 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<script>window.__resources={"https://unpkg.com/react@18.3.1/umd/react.production.min.js":"assets/vendor/react.production.min.js","https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js":"assets/vendor/react-dom.production.min.js"};</script>
-<script src="./support.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Avant Garde International Group — Private Cognitive Infrastructure</title>
+  <meta name="description" content="Private cognitive infrastructure built around one person's world — a system that remembers, prepares, researches, teaches, and assists while the decisions remain yours.">
+  <link rel="canonical" href="https://avantgarde-internationalgroup.com/">
+  <meta name="robots" content="index,follow">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="You can delegate the work. You cannot delegate the decision.">
+  <meta property="og:description" content="A private system that remembers, prepares, researches, teaches, and assists — built around the person who makes the final call. Founder-led. Private.">
+  <meta property="og:url" content="https://avantgarde-internationalgroup.com/index.html">
+  <meta property="og:image" content="https://avantgarde-internationalgroup.com/assets/social-preview.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="You can delegate the work. You cannot delegate the decision.">
+  <meta name="twitter:description" content="A private system that remembers, prepares, researches, teaches, and assists — built around the person who makes the final call.">
+  <meta name="twitter:image" content="https://avantgarde-internationalgroup.com/assets/social-preview.jpg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Avant Garde International Group",
+    "url": "https://avantgarde-internationalgroup.com/",
+    "description": "Private cognitive infrastructure built around one accountable person's world.",
+    "founder": {
+      "@type": "Person",
+      "name": "Travis Lewis",
+      "jobTitle": "Founder and Chief Cognitive Architect"
+    }
+  }
+  </script>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230E1A2B'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-family='Georgia,serif' font-size='26' fill='%23C89B6D'%3EAG%3C/text%3E%3C/svg%3E">
+  <!-- Fonts: system-font fallback per privacy directive (no live Google Fonts requests).
+       Source Serif 4 + Source Sans 3 are SIL OFL — self-host via @font-face in styles.css to restore the review-candidate typography. -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<x-dc>
-<helmet data-dc-atomics="">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,500&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
-<style>
-html{scroll-behavior:smooth}
-body{margin:0;background:#081426;color:#F4F1EC;font-family:Inter,-apple-system,sans-serif;-webkit-font-smoothing:antialiased}
-a{color:#F4F1EC}
-a:hover{color:#D6A67C}
-p{text-wrap:pretty}
-summary::-webkit-details-marker{display:none}
-@keyframes agPulse{0%,100%{opacity:.75}50%{opacity:.38}}
-@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
-@media (max-width:700px){details[data-depth] summary{padding:12px 22px !important}}
-section h1,section h2{font-size:clamp(1.8rem,4vw,3.1rem)!important}
-section h1::after,section h2::after{content:"";display:block;width:64px;height:3px;background:#D6A67C;border-radius:2px;margin-top:20px}
-#top h1::after,#invitation h2::after{margin-left:auto;margin-right:auto}
-</style>
-</helmet>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-<header style="position:fixed;top:0;left:0;right:0;z-index:20;display:flex;justify-content:space-between;align-items:center;padding:18px clamp(20px,4vw,48px);background:linear-gradient(180deg,rgba(8,20,38,.88),rgba(8,20,38,0))">
-  <a href="#top" style="line-height:1.15;text-decoration:none;color:#F4F1EC">
-    <b style="font-family:'Source Serif 4',Georgia,serif;font-weight:500;font-size:15px;letter-spacing:.14em">AVANT GARDE</b>
-    <span style="display:block;font-size:8.5px;font-weight:500;letter-spacing:.34em;color:rgba(244,241,236,.6)">INTERNATIONAL GROUP</span>
-  </a>
-  <a href="https://calendly.com/avantgarde-discovery/30min" data-slot="scheduling-url" style="font-size:12px;font-weight:600;letter-spacing:.04em;color:#0b1520;text-decoration:none;background:#C08A5E;border:1px solid #C08A5E;padding:10px 18px;border-radius:3px;transition:filter .3s" style-hover="filter:brightness(1.08)">Schedule a private conversation</a>
-</header>
+  <header class="site-header">
+    <nav aria-label="Primary">
+      <a class="wordmark" href="#top"><strong>AVANT GARDE</strong>&nbsp; INTERNATIONAL GROUP</a>
+      <a class="btn btn-outline" data-event="calendly_clicked" href="https://calendly.com/avantgarde-discovery/30min">Schedule a private conversation</a>
+    </nav>
+  </header>
 
-<section id="top" data-screen-label="Hero film" style="position:relative;min-height:94svh;display:flex;align-items:center;overflow:hidden">
-  <img src="assets/hero.jpg" alt="Seen through the leader's own eyes from the head of a long dark conference table: advisors on both sides look toward you, one document and a pen resting in the light directly in front of you" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover">
-  <div style="position:absolute;inset:0;background:radial-gradient(ellipse 42% 26% at 50% 18%, rgba(8,20,38,.5), rgba(8,20,38,0) 72%), linear-gradient(180deg,rgba(8,20,38,.12) 30%,rgba(8,20,38,.82) 82%)"></div>
-  <div data-fade="" style="position:relative;z-index:2;padding:max(96px,7vw) clamp(26px,6vw,90px) clamp(16px,2vw,28px);max-width:900px;margin:0 auto;width:100%;text-align:center">
-    <div style="font-size:11px;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:#D6A67C;text-shadow:0 1px 14px rgba(8,20,38,.9),0 0 28px rgba(8,20,38,.7)">For the person who makes the final call</div>
-    <h1 style="font-family:'Source Serif 4',Georgia,serif;font-weight:400;font-size:clamp(2rem,4.6vw,3.7rem);line-height:1.16;margin:14px auto 18px;max-width:16ch;color:#F4F1EC">You can delegate the work. You cannot delegate the decision.</h1>
-    <p style="margin:0 auto 26px;font-weight:300;font-size:clamp(.95rem,1.4vw,1.1rem);line-height:1.6;color:#F4F1EC;max-width:46ch">Before you decide, you still have to weigh the risks, remember what was promised, and be accountable for the outcome. We build the private system around that responsibility.</p>
-    <div style="display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:12px 20px;margin-bottom:22px">
-      <a href="https://calendly.com/avantgarde-discovery/30min" data-slot="scheduling-url" style="display:inline-block;background:#C08A5E;color:#0b1520;font-weight:600;font-size:14px;letter-spacing:.02em;padding:15px 28px;border-radius:3px;text-decoration:none;transition:filter .3s" style-hover="filter:brightness(1.08)">Schedule a private conversation</a>
-      <a href="#beat-1" style="display:inline-block;font-size:13px;color:rgba(244,241,236,.7);text-decoration:underline;text-underline-offset:4px;transition:color .3s" style-hover="color:#D6A67C">See the story</a>
-      <a href="mailto:travis@avantgarde-internationalgroup.com?subject=Private%20overview%20request" data-slot="overview-request" style="display:inline-block;font-size:13px;color:rgba(244,241,236,.7);text-decoration:underline;text-underline-offset:4px;transition:color .3s" style-hover="color:#D6A67C">Prefer to read first? Request a private overview of the approach.</a>
-    </div>
-  </div>
-</section>
+  <main id="main">
 
-<section id="beat-1" data-screen-label="01 The Weight" style="position:relative;min-height:94svh;display:flex;align-items:flex-end;overflow:hidden">
-  <video data-lazy-src="assets/loops/beat1-weight.mp4" poster="assets/beat1-weight.jpg" preload="none" muted="{{ true }}" loop="{{ true }}" playsInline="{{ true }}" aria-label="Ambient loop: the same boardroom after the advisors have gone, one man alone at the head of the empty table, deliberating" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"></video>
-  <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,20,38,.12) 30%,rgba(8,20,38,.82) 82%)"></div>
-  <div data-fade="" style="position:relative;z-index:2;padding:clamp(26px,6vw,90px);max-width:900px">
-    <div style="font-size:13px;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:#D6A67C">01 · The weight</div>
-    <h2 style="font-family:'Source Serif 4',Georgia,serif;font-weight:400;font-size:clamp(1.65rem,3.6vw,2.85rem);line-height:1.16;margin:14px 0 18px;max-width:22ch;color:#F4F1EC">The weight is not just the decision. It is the deliberation required to reach it.</h2>
-    <p style="margin:0 0 26px;font-weight:300;font-size:clamp(.95rem,1.4vw,1.1rem);line-height:1.6;color:#F4F1EC;max-width:52ch">The promise you made three months ago, living only in your memory, due the week everything else is on fire.</p>
-    <details data-depth="" style="max-width:64ch">
-      <summary style="list-style:none;cursor:pointer;display:inline-block;font-size:12.5px;font-weight:500;letter-spacing:.06em;color:rgba(244,241,236,.85);border:1px solid rgba(244,241,236,.3);padding:9px 18px;border-radius:3px;transition:border-color .3s,color .3s;user-select:none" style-hover="border-color:#D6A67C;color:#D6A67C">More</summary>
-      <p style="margin:0;font-weight:300;font-size:15.5px;line-height:1.75;color:#F4F1EC;padding-top:16px">The assumption everyone in the room is treating as fact, because nobody remembers who first said it.</p>
-      <p style="margin:0;font-weight:300;font-size:15.5px;line-height:1.75;color:#F4F1EC;padding-top:10px">The risk you saw clearly six weeks ago and cannot quite reconstruct now, when the call is finally live.</p>
-      <p style="margin:0;font-weight:300;font-size:15.5px;line-height:1.75;color:#F4F1EC;padding-top:14px">The advice from everywhere, the accountability from nowhere. In the end, it all falls on you.</p>
-    </details>
-  </div>
-</section>
+    <section id="top" class="hero-stack hero" aria-label="Introduction">
+      <div class="hero-lead">
+        <p class="eyebrow">For the person who makes the final call</p>
+        <h1>You can delegate the work. You cannot delegate the decision.</h1>
+        <p class="lede">Before you decide, you still have to weigh the risks, remember what was promised, reconcile the advice, and own what follows. We build the private system that keeps that context together and helps carry the work surrounding it.</p>
+      </div>
+      <figure class="hero-photo">
+        <picture>
+          <source media="(max-width: 640px)" srcset="assets/hero-mobile.jpg">
+          <img src="assets/hero-desktop.jpg" alt="Seen through the leader's own eyes from the head of a long dark conference table: advisors on both sides look toward you, one document and a pen resting in the light directly in front of you" loading="eager">
+        </picture>
+      </figure>
+      <div class="hero-actions">
+        <div class="cta-row">
+          <a class="btn btn-solid" data-event="calendly_clicked" href="https://calendly.com/avantgarde-discovery/30min">Schedule a private conversation</a>
+          <a class="btn btn-ghost" href="#capabilities">See what the system can do</a>
+        </div>
+        <p class="cta-tertiary"><a href="mailto:travis@avantgarde-internationalgroup.com?subject=Private%20overview%20request">Prefer to read first? Request the private overview.</a></p>
+      </div>
+    </section>
 
-<section id="beat-2" data-screen-label="02 How We're Different" style="position:relative;min-height:94svh;display:flex;align-items:flex-end;overflow:hidden">
-  <video data-lazy-src="assets/loops/beat2-turn.mp4" poster="assets/beat2-turn.jpg" preload="none" muted="{{ true }}" loop="{{ true }}" playsInline="{{ true }}" aria-label="Ambient loop: an executive stands over a table where separate sources have been distilled into one prepared, coherent decision set" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"></video>
-  <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,20,38,.12) 30%,rgba(8,20,38,.82) 82%)"></div>
-  <div data-fade="" style="position:relative;z-index:2;padding:clamp(26px,6vw,90px) clamp(26px,6vw,90px) max(150px,18svh);max-width:1240px;width:100%;display:flex;flex-wrap:wrap;gap:16px 32px;align-items:flex-start">
-    <div id="b2-left" style="flex:1 1 320px;min-width:0">
-      <div style="font-size:13px;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:#D6A67C">02 · How we're different</div>
-      <h2 style="font-family:'Source Serif 4',Georgia,serif;font-weight:400;font-size:clamp(1.65rem,3.6vw,2.85rem);line-height:1.16;margin:14px 0 18px;max-width:24ch;color:#F4F1EC">Most AI gives you an answer. Intelligence Augmentation strengthens how you decide.</h2>
-      <details data-depth="" onToggle="{{ beat2Toggled }}" style="max-width:64ch">
-        <summary style="list-style:none;cursor:pointer;display:inline-block;font-size:12.5px;font-weight:500;letter-spacing:.06em;color:rgba(244,241,236,.85);border:1px solid rgba(244,241,236,.3);padding:9px 18px;border-radius:3px;transition:border-color .3s,color .3s;user-select:none" style-hover="border-color:#D6A67C;color:#D6A67C">More</summary>
-        <p style="margin:0;font-weight:300;font-size:15.5px;line-height:1.75;color:#F4F1EC;padding-top:16px">Most artificial intelligence is designed to perform a task for you. You give it a prompt, it produces an answer, and you are left to reconnect that answer to everything the system does not know: what happened before, what was promised, what changed, who is affected, and what could go wrong.</p>
-        <p style="margin:0;font-family:'Source Serif 4',Georgia,serif;font-weight:400;font-size:17px;line-height:1.6;color:#F4F1EC;padding-top:24px">Intelligence Augmentation is different.</p>
-        <p style="margin:0;font-weight:300;font-size:15.5px;line-height:1.75;color:#F4F1EC;padding-top:10px">It does not try to remove you from the decision. It gives your judgment continuity.</p>
-        <p style="margin:0;font-weight:300;font-size:15.5px;line-height:1.75;color:#F4F1EC;padding-top:14px">Avant Garde builds a private system around your world: your history, commitments, priorities, risks, relationships, and prior reasoning. It preserves what matters across decisions and brings the relevant context forward when you need it.</p>
-        <p style="margin:0;font-family:'Source Serif 4',Georgia,serif;font-weight:400;font-size:17px;line-height:1.6;color:#F4F1EC;padding-top:24px">Artificial intelligence can generate an answer.</p>
-        <p style="margin:0;font-weight:300;font-size:15.5px;line-height:1.75;color:#F4F1EC;padding-top:10px">Intelligence Augmentation helps you understand the situation, weigh the consequences, and make the call with greater continuity, calm, and precision.</p>
-        <p style="margin:0;font-family:'Source Serif 4',Georgia,serif;font-weight:400;font-size:17px;line-height:1.6;color:#F4F1EC;padding-top:24px">The system supports the judgment. The responsibility remains yours.</p>
-        <p style="margin:0;font-weight:300;font-size:15.5px;line-height:1.75;color:#F4F1EC;padding-top:20px">“I began by building the support I needed around my own decisions. What emerged was something larger: a private system that could preserve context, challenge assumptions, and strengthen judgment over time, without trying to replace the person responsible for the outcome.”</p>
-        <p style="margin:0;font-size:12px;color:rgba(244,241,236,.75);letter-spacing:.08em;text-transform:uppercase;padding-top:8px">Travis Lewis · Founder</p>
-      </details>
-      <a href="about.html" data-slot="about-url" style="display:inline-block;margin-top:18px;font-size:13px;color:rgba(244,241,236,.7);text-decoration:underline;text-underline-offset:4px;transition:color .3s" style-hover="color:#D6A67C">The full lineage, and the founder’s story →</a>
-    </div>
-  </div>
-</section>
+    <section class="split-scene reverse weight" aria-labelledby="h-weight">
+      <div class="split-copy">
+        <p class="label label-copper">01 · The weight</p>
+        <h2 id="h-weight">The weight is not only the decision. It is everything you have to hold before you can make it.</h2>
+        <ul class="vignettes">
+          <li>The email that needs your attention before it becomes a problem.</li>
+          <li>The commitment you made weeks ago, living only in your memory.</li>
+          <li>The project whose history is scattered across tools and people.</li>
+          <li>The research that still has to be reconciled before it is useful.</li>
+          <li>The meeting tomorrow that deserves better preparation than tonight allows.</li>
+          <li>The advice that arrived without the context it depends on.</li>
+          <li>The risk you recognized once — and then buried under everything since.</li>
+          <li>And the final decision that still belongs to you.</li>
+        </ul>
+        <p class="kicker inverse">Advice comes from everywhere. Accountability still lands on you.</p>
+      </div>
+      <figure class="split-media">
+        <picture>
+          <source media="(max-width: 640px)" srcset="assets/weight-mobile.jpg">
+          <img src="assets/weight-desktop.jpg" alt="The same boardroom after the advisors have left: empty chairs, annotated pages, one figure remaining in a single pool of warm light" loading="lazy">
+        </picture>
+      </figure>
+    </section>
 
-<section id="beat-3" data-screen-label="03 What It Is" style="position:relative;min-height:94svh;display:flex;align-items:flex-end;overflow:hidden">
-  <video data-lazy-src="assets/loops/beat3-system.mp4" poster="assets/beat3-system.jpg" preload="none" muted="{{ true }}" loop="{{ true }}" playsInline="{{ true }}" aria-label="Ambient loop: a man in a dark suit steers a great ship at night, hands steady on the wheel, brass instruments and a paper chart glowing in lamplight" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"></video>
-  <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,20,38,.12) 30%,rgba(8,20,38,.82) 82%)"></div>
-  <div data-fade="" style="position:relative;z-index:2;padding:clamp(26px,6vw,90px);max-width:900px">
-    <div style="font-size:13px;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:#D6A67C">03 · Intelligence Augmentation</div>
-    <h2 style="font-family:'Source Serif 4',Georgia,serif;font-weight:400;font-size:clamp(1.65rem,3.6vw,2.85rem);line-height:1.16;margin:14px 0 18px;max-width:20ch;color:#F4F1EC">It does not replace your judgment. It strengthens it.</h2>
-    <details data-depth="" style="max-width:64ch">
-      <summary style="list-style:none;cursor:pointer;display:inline-block;font-size:12.5px;font-weight:500;letter-spacing:.06em;color:rgba(244,241,236,.85);border:1px solid rgba(244,241,236,.3);padding:9px 18px;border-radius:3px;transition:border-color .3s,color .3s;user-select:none" style-hover="border-color:#D6A67C;color:#D6A67C">See how it works</summary>
-      <p style="margin:0;font-family:'Source Serif 4',Georgia,serif;font-weight:400;font-size:17px;line-height:1.6;color:#F4F1EC;padding-top:16px">A private cognitive system built around how you decide.</p>
-      <p style="margin:0;font-weight:300;font-size:15.5px;line-height:1.75;color:#F4F1EC;padding-top:10px"><span style="color:#D6A67C;font-weight:500">Your Doctrine.</span> The principles, priorities, and non-negotiables that govern how you make decisions.</p>
-      <p style="margin:0;font-weight:300;font-size:15.5px;line-height:1.75;color:#F4F1EC;padding-top:10px"><span style="color:#D6A67C;font-weight:500">Your Memory.</span> What was decided, what was promised, what changed, and why it mattered, preserved across time.</p>
-      <p style="margin:0;font-weight:300;font-size:15.5px;line-height:1.75;color:#F4F1EC;padding-top:10px"><span style="color:#D6A67C;font-weight:500">Your Advisory Board.</span> Relevant perspectives brought forward when needed, so assumptions, risks, and alternatives can be examined before you decide.</p>
-      <p style="margin:0;font-weight:300;font-size:15.5px;line-height:1.75;color:#F4F1EC;padding-top:14px">The system supports the judgment. You make the call.</p>
-    </details>
-  </div>
-</section>
+    <section class="editorial" aria-labelledby="h-continuity">
+      <div class="container two-col">
+        <div>
+          <p class="label">02 · The continuity problem</p>
+          <h2 id="h-continuity">The information is usually there.</h2>
+          <p>What disappears is the connection between what was decided, why it was decided, what was promised, what changed, and what still carries risk.</p>
+          <p>Messages separate from commitments. Research separates from the question that created it. Tasks separate from the larger purpose. Advice loses its context.</p>
+          <p>So the story gets rebuilt again and again, usually from memory and rarely in full.</p>
+          <p class="kicker">The constraint is not information.<br>It is continuity.</p>
+        </div>
+        <figure class="still">
+          <picture>
+            <source media="(max-width: 640px)" srcset="assets/continuity-mobile.jpg">
+            <img src="assets/continuity-desktop.jpg" alt="Overhead view of a refined dark desk holding four orderly but separate groups of papers — notes, commitments, a calendar, a research folder — with a single pen resting in the space between them" loading="lazy">
+          </picture>
+        </figure>
+      </div>
+    </section>
 
-<section id="beat-4" data-screen-label="04 Proof" style="position:relative;min-height:94svh;display:flex;align-items:flex-end;overflow:hidden">
-  <video data-lazy-src="assets/loops/beat4-proof.mp4" poster="assets/beat4-proof.jpg" preload="none" muted="{{ true }}" loop="{{ true }}" playsInline="{{ true }}" aria-label="Ambient loop: a man deep in thought at a small table, hand at his chin, scattered papers under one lamp in vast darkness" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"></video>
-  <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,20,38,.38) 22%,rgba(8,20,38,.94) 76%)"></div>
-  <div data-fade="" style="position:relative;z-index:2;padding:clamp(26px,6vw,90px);max-width:900px">
-    <div style="font-size:13px;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:#D6A67C">04 · Built Under Real Stakes</div>
-    <h2 style="font-family:'Source Serif 4',Georgia,serif;font-weight:400;font-size:clamp(1.65rem,3.6vw,2.85rem);line-height:1.16;margin:14px 0 18px;max-width:24ch;color:#F4F1EC">The first system was built around decisions the founder had to own.</h2>
-    <details data-depth="" style="max-width:64ch">
-      <summary style="list-style:none;cursor:pointer;display:inline-block;font-size:12.5px;font-weight:500;letter-spacing:.06em;color:rgba(244,241,236,.85);border:1px solid rgba(244,241,236,.3);padding:9px 18px;border-radius:3px;transition:border-color .3s,color .3s;user-select:none" style-hover="border-color:#D6A67C;color:#D6A67C">More</summary>
-      <p style="margin:0;font-family:'Source Serif 4',Georgia,serif;font-weight:400;font-size:17px;line-height:1.6;color:#F4F1EC;padding-top:16px">Avant Garde operates on the same private cognitive infrastructure it builds for clients. The first system was created around the founder's own decisions, where context could not be lost and accountability could not be delegated.</p>
-      <p style="margin:0;font-weight:300;font-size:15.5px;line-height:1.75;color:#F4F1EC;padding-top:10px">Client stories are shared with permission, with identifying details changed to protect privacy.</p>
-      <p style="margin:0;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:rgba(214,166,124,.85);padding-top:22px">Founder origin · Built for himself first</p>
-      <p style="margin:0;font-family:'Source Serif 4',Georgia,serif;font-weight:400;font-size:19px;color:#F4F1EC;padding-top:6px">The Founder's Own Call</p>
-      <p style="margin:0;font-weight:300;font-size:15.5px;line-height:1.75;color:#F4F1EC;padding-top:10px">Before Avant Garde was a company, the founder faced a consequential medical decision involving several possible procedures and specialists who did not agree.</p>
-      <p style="margin:0;font-weight:300;font-size:15.5px;line-height:1.75;color:#F4F1EC;padding-top:10px">The information he needed was scattered across consultation notes, imaging, clinical research, risks, assumptions, and conflicting recommendations. No single conversation held the entire decision.</p>
-      <p style="margin:0;font-weight:300;font-size:15.5px;line-height:1.75;color:#F4F1EC;padding-top:10px">He built a private system to bring it together: options compared, evidence separated from assumption, unanswered questions surfaced, and the tradeoffs prepared for discussion with his doctors.</p>
-      <p style="margin:0;font-weight:300;font-size:15.5px;line-height:1.75;color:#F4F1EC;padding-top:10px">The system did not make the decision. It helped him arrive prepared to make it.</p>
-      <p style="margin:0;font-weight:300;font-size:15.5px;line-height:1.75;color:#F4F1EC;padding-top:10px">What began as support for one consequential choice became the foundation for a system designed to preserve context across the decisions that followed.</p>
-      <p style="margin:0;font-size:12px;color:rgba(244,241,236,.75);letter-spacing:.02em;padding-top:8px">Decision support only. The medical decision remained his, made with qualified clinicians.</p>
-      <p style="margin:0;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:rgba(214,166,124,.85);padding-top:22px">High-stakes medical decision</p>
-      <p style="margin:0;font-family:'Source Serif 4',Georgia,serif;font-weight:400;font-size:19px;color:#F4F1EC;padding-top:6px">The Informed Patient</p>
-      <p style="margin:0;font-weight:300;font-size:15.5px;line-height:1.75;color:#F4F1EC;padding-top:10px">A patient was preparing for a serious medical decision after months of fragmented research, specialist conversations, charts, and competing recommendations.</p>
-      <p style="margin:0;font-weight:300;font-size:15.5px;line-height:1.75;color:#F4F1EC;padding-top:10px">A major quality-of-life risk and an unresolved safety question had received too little attention.</p>
-      <p style="margin:0;font-weight:300;font-size:15.5px;line-height:1.75;color:#F4F1EC;padding-top:10px">His private system brought the relevant material into one preparation brief: the options, known risks, competing tradeoffs, unresolved assumptions, and the questions his doctors needed to answer.</p>
-      <p style="margin:0;font-weight:300;font-size:15.5px;line-height:1.75;color:#F4F1EC;padding-top:10px">He entered the consultation better prepared to examine the decision and make an informed choice with his medical team.</p>
-      <p style="margin:0;font-size:12px;color:rgba(244,241,236,.75);letter-spacing:.02em;padding-top:8px">Decision support only. The system does not diagnose, prescribe, or replace qualified medical judgment.</p>
-      <p style="margin:0;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:rgba(214,166,124,.85);padding-top:22px">Family support</p>
-      <p style="margin:0;font-family:'Source Serif 4',Georgia,serif;font-weight:400;font-size:19px;color:#F4F1EC;padding-top:6px">A Father Supporting His Autistic Son</p>
-      <p style="margin:0;font-weight:300;font-size:15.5px;line-height:1.75;color:#F4F1EC;padding-top:10px">The moments that required the most care happened at home, often without time to search through notes or reconstruct what had worked before.</p>
-      <p style="margin:0;font-weight:300;font-size:15.5px;line-height:1.75;color:#F4F1EC;padding-top:10px">Important context was scattered across routines, observations, behavioral patterns, specialist guidance, and family memory.</p>
-      <p style="margin:0;font-weight:300;font-size:15.5px;line-height:1.75;color:#F4F1EC;padding-top:10px">His private system kept that context ready: trusted guidance, established routines, prior observations, and practical next steps organized for the moments when he needed them.</p>
-      <p style="margin:0;font-weight:300;font-size:15.5px;line-height:1.75;color:#F4F1EC;padding-top:10px">The system did not replace his judgment as a parent. It helped him respond with greater preparation, consistency, and care.</p>
-      <p style="margin:0;font-size:12px;color:rgba(244,241,236,.75);letter-spacing:.02em;padding-top:8px">The child is never the spectacle. Identifying details have been changed to protect family privacy.</p>
-      <p style="margin:0;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:rgba(214,166,124,.85);padding-top:22px">Legacy and succession</p>
-      <p style="margin:0;font-family:'Source Serif 4',Georgia,serif;font-weight:400;font-size:19px;color:#F4F1EC;padding-top:6px">The Philanthropist</p>
-      <p style="margin:0;font-weight:300;font-size:15.5px;line-height:1.75;color:#F4F1EC;padding-top:10px">A founder had decades of giving behind him and a family who would carry it forward.</p>
-      <p style="margin:0;font-weight:300;font-size:15.5px;line-height:1.75;color:#F4F1EC;padding-top:10px">His family could inherit the assets. The judgment behind them had nowhere durable to live.</p>
-      <p style="margin:0;font-weight:300;font-size:15.5px;line-height:1.75;color:#F4F1EC;padding-top:10px">His philanthropic intent, values, family conversations, manuscript material, and decision history were scattered across documents and memory.</p>
-      <p style="margin:0;font-weight:300;font-size:15.5px;line-height:1.75;color:#F4F1EC;padding-top:10px">A private stewardship system connected that history into one durable body of context. The work became more than a memoir. It preserved the principles behind the giving, so the next generation could understand not only what had been decided, but why.</p>
-      <p style="margin:0;font-size:12px;color:rgba(244,241,236,.75);letter-spacing:.02em;padding-top:8px">Identifying details have been changed to protect client privacy.</p>
-      <p style="margin:0;font-family:'Source Serif 4',Georgia,serif;font-weight:400;font-size:17px;line-height:1.6;color:#F4F1EC;padding-top:28px">These are not stories about a system making decisions.</p>
-      <p style="margin:0;font-family:'Source Serif 4',Georgia,serif;font-weight:400;font-size:17px;line-height:1.6;color:#F4F1EC;padding-top:6px">They are stories about people arriving better prepared to make the decisions that remained theirs.</p>
-    </details>
-  </div>
-</section>
+    <section id="different" class="editorial ruled" aria-labelledby="h-ia">
+      <div class="container">
+        <p class="label">03 · Artificial Intelligence and Intelligence Augmentation</p>
+        <h2 id="h-ia">Most AI gives you an answer. Intelligence Augmentation strengthens how you decide.</h2>
+        <div class="contrast">
+          <article class="card card-light">
+            <h3 class="card-label">Artificial Intelligence</h3>
+            <p>You give it a prompt. It produces an answer, summary, task, or prediction. You still have to reconnect that output to your history, priorities, commitments, people, and risks.</p>
+          </article>
+          <article class="card card-dark">
+            <h3 class="card-label copper">Intelligence Augmentation</h3>
+            <p>It preserves the history, commitments, risks, and reasoning surrounding your work. It brings forward what needs attention, helps prepare the next step, and leaves authority with you.</p>
+          </article>
+        </div>
+        <p class="doctrine">It doesn't make the decision. It carries what the decision depends on.</p>
+        <p class="follow-link">It does not replace the person. It strengthens the person's ability to see, prepare, act, and decide. <a href="about.html">The full lineage, and the founder's story →</a></p>
+      </div>
+    </section>
 
-<section id="invitation" data-screen-label="05 The Invitation" style="position:relative;background:#081426">
-  <div data-fade="" style="position:relative;z-index:2;padding:max(164px,18svh) clamp(26px,6vw,90px) 6px;max-width:900px;margin:0 auto;width:100%;text-align:center">
-    <div style="font-size:11px;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:#D6A67C">05 · The invitation</div>
-    <h2 style="font-family:'Source Serif 4',Georgia,serif;font-weight:400;font-size:clamp(1.65rem,3.6vw,2.85rem);line-height:1.16;margin:10px auto 12px;max-width:20ch;color:#F4F1EC">Built for the person who owns the outcome.</h2>
-    <p style="margin:0 auto 16px;font-weight:300;font-size:clamp(.95rem,1.4vw,1.1rem);line-height:1.6;color:#F4F1EC;max-width:52ch">If the final call belongs to you, the system is built around you. If you want the machine to decide for you, this is not the right fit.</p>
-    <div style="display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:12px 20px;margin-bottom:12px">
-      <a href="https://calendly.com/avantgarde-discovery/30min" data-slot="scheduling-url" style="display:inline-block;background:#C08A5E;color:#0b1520;font-weight:600;font-size:14px;letter-spacing:.02em;padding:15px 28px;border-radius:3px;text-decoration:none;transition:filter .3s" style-hover="filter:brightness(1.08)">Schedule a private conversation</a>
-      <a href="mailto:travis@avantgarde-internationalgroup.com?subject=Private%20overview%20request" data-slot="overview-request" style="display:inline-block;font-size:13px;color:rgba(244,241,236,.7);text-decoration:underline;text-underline-offset:4px;transition:color .3s" style-hover="color:#D6A67C">Prefer to read first? Request a private overview of the approach.</a>
-    </div>
-    <details data-depth="" style="max-width:64ch;margin:0 auto">
-      <summary style="list-style:none;cursor:pointer;display:inline-block;font-size:12.5px;font-weight:500;letter-spacing:.06em;color:rgba(244,241,236,.85);border:1px solid rgba(244,241,236,.3);padding:9px 18px;border-radius:3px;transition:border-color .3s,color .3s;user-select:none" style-hover="border-color:#D6A67C;color:#D6A67C">What the conversation is</summary>
-      <p style="margin:0;font-weight:300;font-size:15.5px;line-height:1.75;color:#F4F1EC;padding-top:16px;text-align:left"><span style="color:#D6A67C;font-weight:500">What it is.</span> Thirty minutes, founder led, about your decisions and the burden behind them. Private.</p>
-      <p style="margin:0;font-weight:300;font-size:15.5px;line-height:1.75;color:#F4F1EC;padding-top:10px;text-align:left"><span style="color:#D6A67C;font-weight:500">What it isn't.</span> Not a demo. Not a pitch. No follow-up sequence if it isn't a fit.</p>
-      <p style="margin:0;font-weight:300;font-size:15.5px;line-height:1.75;color:#F4F1EC;padding-top:10px;text-align:left"><span style="color:#D6A67C;font-weight:500">What you leave with.</span> A map of what a private system around your world could look like, whether or not we work together.</p>
-      <p style="margin:0;font-weight:300;font-size:15.5px;line-height:1.75;color:#F4F1EC;padding-top:14px;text-align:left">This is a bespoke engagement, not a subscription, and we only work with a small number of aligned leaders at a time.</p>
-      <p style="margin:0;font-family:'Source Serif 4',Georgia,serif;font-weight:400;font-size:17px;line-height:1.6;color:#F4F1EC;padding-top:14px">If you are the one who has to make the call, let's talk.</p>
-    </details>
-  </div>
-  <div style="position:relative">
-    <video data-lazy-src="assets/loops/beat5-invitation.mp4" poster="assets/beat5-invitation.jpg" preload="none" muted="{{ true }}" loop="{{ true }}" playsInline="{{ true }}" aria-label="Ambient loop: a pool of warm light breathes softly over two facing armchairs" style="display:block;width:100%;height:clamp(340px,52vh,620px);object-fit:cover;object-position:50% 55%"></video>
-    <div style="position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,#081426 0%,rgba(8,20,38,0) 22%,rgba(8,20,38,0) 70%,#081426 100%)"></div>
-  </div>
-</section>
+    <section id="capabilities" class="capabilities" aria-labelledby="h-capabilities">
+      <div class="container wide">
+        <p class="label label-copper">04 · What the system can do</p>
+        <h2 id="h-capabilities">Built for the work before the decision, between decisions, and after the decision is made.</h2>
+        <p class="lede-small">It can remember, prepare, research, teach, assist, and support approved automations across the work and life surrounding your responsibilities.</p>
+        <div class="cap-grid">
+          <div><h3>Remember</h3><p>It preserves decisions and their reasoning, keeps commitments visible, and maintains continuity across projects, relationships, and changing circumstances.</p></div>
+          <div><h3>Prepare</h3><p>It can brief the emails that matter, prepare meetings, surface open questions, and assemble the context needed before a call.</p></div>
+          <div><h3>Research</h3><p>It conducts deep research, compares sources, separates evidence from assumption, summarizes competing positions, and identifies what still needs verification.</p></div>
+          <div><h3>Teach</h3><p>It explains unfamiliar subjects, provides teachable moments, surfaces AI best practices, and helps you become more capable with the system rather than dependent on it.</p></div>
+          <div><h3>Assist</h3><p>It can monitor approved conditions, prepare recurring briefings and drafts, keep reminders visible, organize bounded tasks, and support repeatable workflows.</p></div>
+        </div>
+        <p class="cap-boundary">Automations operate within defined permissions and approval rules. Consequential authority remains human.</p>
+      </div>
+    </section>
 
-<footer style="padding:28px clamp(26px,6vw,90px) 56px;text-align:center">
-  <div style="font-family:'Source Serif 4',Georgia,serif;font-size:14px;letter-spacing:.16em;margin-bottom:12px">AVANT GARDE INTERNATIONAL GROUP</div>
-  <p style="margin:0 auto 18px;max-width:60ch;font-weight:300;font-size:13px;line-height:1.7;color:rgba(244,241,236,.8)">We build a private operating layer around one accountable decision-maker's judgment: a system that remembers what matters, shows its work, and keeps you sharp while it carries the load.</p>
-  <div style="font-size:10px;letter-spacing:.28em;color:rgba(244,241,236,.5);text-transform:uppercase">Founder-led · Private · No generic pitch</div>
-</footer>
-</x-dc>
-<script type="text/x-dc" data-dc-script data-props="{
-  &quot;showChips&quot;: {&quot;editor&quot;: &quot;boolean&quot;, &quot;default&quot;: false, &quot;tsType&quot;: &quot;boolean&quot;, &quot;section&quot;: &quot;Review aids&quot;},
-  &quot;openAllReveals&quot;: {&quot;editor&quot;: &quot;boolean&quot;, &quot;default&quot;: false, &quot;tsType&quot;: &quot;boolean&quot;, &quot;section&quot;: &quot;Review aids&quot;}
-}">
-class Component extends DCLogic {
-  state = { lineageIdx: null, beat2Open: false, filmOpen: false, filmIdx: 0, filmDone: false, voMissing: false };
+    <section class="editorial ruled" aria-labelledby="h-builds">
+      <div class="container">
+        <p class="label">05 · The private cognitive system</p>
+        <h2 id="h-builds">A private system that remembers what your decisions depend on.</h2>
+        <p class="sub">Built around your principles, history, commitments, responsibilities, and recurring decisions.</p>
+        <div class="triad">
+          <article class="card card-dark"><h3>Your Doctrine</h3><p>The principles, priorities, standards, and non-negotiables that guide how the system supports you.</p></article>
+          <article class="card card-dark"><h3>Your Memory</h3><p>What was decided, promised, learned, changed, left unresolved — and why it mattered.</p></article>
+          <article class="card card-dark"><h3>Your Advisory Perspectives</h3><p>The specialist perspectives needed to challenge assumptions, examine risk, compare alternatives, and consider what each choice may set in motion.</p></article>
+          <article class="card card-dark"><h3>Your Working System</h3><p>The approved tools, recurring briefings, monitoring, automations, research workflows, and operating routines through which the system helps in daily use.</p></article>
+        </div>
 
-  _filmShots() {
-    return [];
-  }
+        <div class="desk-intro">
+          <p class="kicker">The library holds everything. The desk holds what must be in front of you now.</p>
+          <p>When a decision matters, the system prepares it. This is what can arrive on your desk:</p>
+        </div>
+        <article class="decision-desk" aria-label="Representative prepared decision brief">
+          <header>
+            <div>
+              <p class="dd-label">The Decision Desk · Prepared brief</p>
+              <h3>Decision: Renew the Hartwell building lease, or consolidate into the east facility</h3>
+            </div>
+            <p class="dd-date">Prepared Tuesday · for Thursday's call</p>
+          </header>
+          <dl class="dd-grid">
+            <div><dt>What changed</dt><dd>The landlord's renewal terms arrived Friday: +18% over three years. The east facility's renovation finished under budget.</dd></div>
+            <div><dt>Relevant history</dt><dd>You considered consolidating in 2024 and deferred — the deciding reason was the Hartwell team's commute. That reason was recorded, and two of the three people it concerned have since relocated.</dd></div>
+            <div><dt>Commitments</dt><dd>You told the Hartwell staff in March there would be no changes "this year." A renewal decision after December keeps that promise; a move before it does not.</dd></div>
+            <div><dt>Sourced facts</dt><dd>Renewal terms (landlord letter, Fri). East-facility capacity report (May). Current lease exit clause: 90-day notice, no penalty after Q3.</dd></div>
+            <div><dt>Assumptions to examine</dt><dd>"The team will resist the move" — based on 2024 conversations, not current ones. "The east facility can absorb everyone" — the capacity report assumed current headcount, not next year's plan.</dd></div>
+            <div><dt>Risks</dt><dd>Consolidation risks losing the two senior staff who anchored the 2024 deferral. Renewal locks the higher cost through the period when the succession question lands.</dd></div>
+            <div><dt>Tradeoffs</dt><dd>Renewal buys stability and keeps the promise, at a known cost. Consolidation frees capital and simplifies operations, at a people cost that is currently assumed, not verified.</dd></div>
+            <div><dt>Perspectives</dt><dd>Your accountant would examine the exit-clause timing. A facilities advisor would question the capacity assumption. The person you trust on people matters would ask what the team actually thinks now.</dd></div>
+            <div><dt>Open questions</dt><dd>What do the current Hartwell staff actually prefer? Does the landlord have room on the 18%? Does next year's plan change the capacity math?</dd></div>
+          </dl>
+          <footer>
+            <p><span>Authority</span> The decision is yours.</p>
+            <p><span>Next action</span> Three questions to settle before Thursday's call — drafted and ready.</p>
+          </footer>
+        </article>
+        <p class="fineprint">Representative example. Each system is built around the client's actual responsibilities, sources, and decision patterns.</p>
+        <p class="sub" style="margin-top:24px;">The same infrastructure that prepares a consequential decision can also prepare your morning brief, recover a commitment, organize a project, research a question, or show you what requires attention today.</p>
 
-  _startVO() {
-    var self = this;
-    try {
-      if (this._vo) { this._vo.pause(); }
-      if (this._voTimer) { clearTimeout(this._voTimer); }
-      this._vo = new Audio();
-      this._vo.addEventListener('error', function () { self.setState({ voMissing: true }); });
-      this._vo.addEventListener('playing', function () {
-        if (self._voTimer) { clearTimeout(self._voTimer); self._voTimer = null; }
-        self.setState({ voMissing: false });
-      });
-      this._voTimer = setTimeout(function () {
-        if (!self._vo || self._vo.readyState < 2) self.setState({ voMissing: true });
-      }, 2000);
-      var p = this._vo.play();
-      if (p && p.catch) p.catch(function () { self.setState({ voMissing: true }); });
-    } catch (e) {
-      this.setState({ voMissing: true });
-    }
-  }
+        <p class="flow" aria-label="How it works"><strong>Your world</strong> <span aria-hidden="true">→</span> <strong>Private cognitive infrastructure</strong> <span aria-hidden="true">→</span> <strong>Better-prepared judgment</strong></p>
+        <p class="kicker center">The system supports the judgment. You make the call.</p>
+      </div>
+    </section>
 
-  renderVals() {
-    var self = this;
-    var idx = this.state.lineageIdx;
-    var data = [
-      { year: '1895', name: 'Paul Otlet', work: 'The Universal Bibliography & the Mundaneum',
-        question: 'Could all of the world\u2019s knowledge be organized so that anyone could find what they need, when they need it?',
-        direction: 'Externalized, linked, queryable memory: millions of index cards forming an \u201Cartificial brain,\u201D and by 1934, a vision of screen-based remote access to networked knowledge.',
-        obstacle: 'Paper could not scale, funding collapsed, and war scattered the Mundaneum. The vision outlived the medium it was built in.' },
-      { year: '1938', name: 'H.G. Wells', work: 'World Brain',
-        question: 'Could a permanent, continuously updated body of knowledge give humanity a shared, reliable memory?',
-        direction: 'A living knowledge commons, constantly revised and universally accessible, anticipating the networked world by half a century.',
-        obstacle: 'No technology existed to build it, institutions would not carry it, and a world war buried the project.' },
-      { year: '1945', name: 'Vannevar Bush', work: '\u201CAs We May Think\u201D: the memex',
-        question: 'How can one mind keep track of exploding knowledge and find the right thing at the right moment?',
-        direction: 'The memex: a personal device holding books, records, and notes, linked by associative trails the way memory actually works. The direct ancestor of hypertext.',
-        obstacle: 'Microfilm-era hardware could not deliver it. The vision waited decades for digital computing to catch up.' },
-      { year: '1957', name: 'Herbert Simon', work: 'Bounded Rationality',
-        question: 'How do people really decide, given limited time, attention, and information?',
-        direction: 'We satisfice rather than optimize, so support for decisions must be built for real human limits, not ideal reasoners.',
-        obstacle: 'Knowing our limits came with no system to support them. The science described a problem it could not yet solve.' },
-      { year: '1960', name: 'J.C.R. Licklider', work: '\u201CMan\u2013Computer Symbiosis\u201D',
-        question: 'What if humans and computers thought together, each doing what it does best?',
-        direction: 'A division of labor: the human sets goals and exercises judgment; the machine carries retrieval and clerical load. His funding seeded the internet, the personal computer, and the interface.',
-        obstacle: 'The computers of his era were batch processors, too slow and too scarce for a real partnership.' },
-      { year: '1962', name: 'Douglas Engelbart', work: '\u201CAugmenting Human Intellect\u201D',
-        question: 'Can we raise our collective capability to handle complex, urgent problems?',
-        direction: 'Augmentation lives in the whole system (the human plus language, artifacts, methodology, and training), never in the tool alone. And you use the system to improve the system.',
-        obstacle: 'The industry took his tools (the mouse, hypertext, windows) and left his philosophy. Augmentation lost to automation.' },
-      { year: '1998', name: 'Clark & Chalmers', work: '\u201CThe Extended Mind\u201D',
-        question: 'Where does the mind stop, and the rest of the world begin?',
-        direction: 'If an external system does the mind\u2019s work reliably enough, it becomes part of the mind. Extension is real, not a metaphor.',
-        obstacle: 'Their critics proved the claim is cheap unless earned: through constancy, demonstrated reliability, and a system that can always show its work.' },
-      { year: '2011\u201321', name: 'Kahneman, Sibony & Sunstein', work: 'Thinking, Fast and Slow \u00B7 Noise',
-        question: 'Why do capable people, facing the same facts, judge so differently, and so wrongly?',
-        direction: 'Bias and noise are measurable, and judgment improves with structure, records, and outside perspectives, not willpower.',
-        obstacle: 'Insight alone does not fix judgment. The science existed; the private infrastructure to apply it did not.' }
-    ];
-    var thinkers = data.map(function (d, i) {
-      var active = i === idx;
-      var dimmed = idx !== null && !active;
-      return {
-        year: d.year,
-        name: d.name,
-        enter: function () { self.setState({ lineageIdx: i }); },
-        opacity: dimmed ? '0.45' : '1',
-        dotSize: active ? '12px' : '7px',
-        dotBg: active ? '#C08A5E' : 'rgba(214,166,124,.55)',
-        dotShadow: active ? '0 0 0 5px rgba(214,166,124,.15)' : 'none',
-        yearColor: active ? '#D6A67C' : 'rgba(244,241,236,.6)',
-        yearWeight: active ? '500' : '400',
-        nameWeight: active ? '600' : '400',
-        nameColor: active ? '#F4F1EC' : 'rgba(244,241,236,.8)'
-      };
-    });
-    var a = idx === null ? null : data[idx];
-    var shots = this._filmShots();
-    var fIdx = this.state.filmIdx;
-    var fDone = this.state.filmDone;
-    return {
-      showChips: this.props.showChips ?? false,
-      lineageVisible: this.state.beat2Open,
-      beat2Toggled: function (e) { self.setState({ beat2Open: !!(e && e.target && e.target.open) }); },
-      filmOpen: this.state.filmOpen,
-      filmPlaying: this.state.filmOpen && !fDone,
-      filmDone: fDone,
-      filmSrc: shots[fIdx],
-      voMissing: this.state.voMissing && this.state.filmOpen,
-      filmSegs: shots.map(function (s, i) {
-        return { bg: fDone || i < fIdx ? '#C08A5E' : i === fIdx ? 'rgba(214,166,124,.85)' : 'rgba(244,241,236,.25)' };
-      }),
-      openFilm: function () { self.setState({ filmOpen: true, filmIdx: 0, filmDone: false, voMissing: false }); self._startVO(); },
-      closeFilm: function () { if (self._vo) self._vo.pause(); self.setState({ filmOpen: false, filmIdx: 0, filmDone: false }); },
-      replayFilm: function () { self.setState({ filmIdx: 0, filmDone: false }); self._startVO(); },
-      filmShotEnded: function () {
-        var i = self.state.filmIdx;
-        if (i < shots.length - 1) self.setState({ filmIdx: i + 1 });
-        else self.setState({ filmDone: true });
-      },
-      thinkers: thinkers,
-      hasActive: idx !== null,
-      activeYear: a ? a.year : '',
-      activeName: a ? a.name : '',
-      activeWork: a ? a.work : '',
-      activeQuestion: a ? a.question : '',
-      activeDirection: a ? a.direction : '',
-      activeObstacle: a ? a.obstacle : ''
-    };
-  }
+    <section class="editorial ruled" aria-labelledby="h-changes">
+      <div class="container narrow">
+        <p class="label">06 · What changes</p>
+        <h2 id="h-changes">Less to hold. More of the right context in view.</h2>
+        <p class="sub">The system reduces the work of remembering, reconstructing, and preparing, while leaving responsibility where it belongs.</p>
+        <div class="rule-copper-light" aria-hidden="true"></div>
+        <dl class="outcomes-solo">
+          <div><dt>Calm</dt><dd>Fewer open loops have to remain in working memory.</dd></div>
+          <div><dt>Preparedness</dt><dd>Meetings, research, and decisions begin with the relevant context already assembled.</dd></div>
+          <div><dt>Trust</dt><dd>Sources, assumptions, commitments, and unresolved questions remain visible, so confidence grows through use rather than blind reliance.</dd></div>
+        </dl>
+        <p class="kicker">You remain responsible. You no longer have to carry every part of the process alone.</p>
+      </div>
+    </section>
 
-  componentDidMount() {
-    this._applyReveals();
-    this._setupLazyVideos();
-    this._muteAll();
-    this._fitLineageCard();
-    var self = this;
-    this._onKey = function (e) {
-      if (e.key === 'Escape' && self.state.filmOpen) {
-        if (self._vo) self._vo.pause();
-        self.setState({ filmOpen: false, filmIdx: 0, filmDone: false });
-      }
-    };
-    document.addEventListener('keydown', this._onKey);
-    var els = Array.prototype.slice.call(document.querySelectorAll('[data-fade]'));
-    var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    if (reduce || !('IntersectionObserver' in window)) return;
-    var io = new IntersectionObserver(function (entries) {
-      entries.forEach(function (en) {
-        if (en.isIntersecting) {
-          en.target.style.opacity = '1';
-          en.target.style.transform = 'translateY(0px)';
-          io.unobserve(en.target);
-        }
-      });
-    }, { threshold: 0.25 });
-    els.forEach(function (e) {
-      var r = e.getBoundingClientRect();
-      var inView = r.top < window.innerHeight && r.bottom > 0;
-      if (!inView) {
-        e.style.transition = 'opacity .8s ease, transform .8s ease';
-        e.style.opacity = '0';
-        e.style.transform = 'translateY(16px)';
-        io.observe(e);
-      }
-    });
-    this._io = io;
-  }
+    <section class="testimony" aria-labelledby="h-testimony">
+      <div class="container narrow">
+        <p class="label label-copper" id="h-testimony">07 · In a client's words</p>
+        <div class="rule-copper" aria-hidden="true"></div>
+        <blockquote class="quote-primary"><p>“It's remembering for me. Everything I'm doing is connecting.”</p></blockquote>
+        <blockquote class="quote-secondary"><p>“Honestly, twelve weeks ago, I was not thinking this clearly.”</p></blockquote>
+        <p class="attribution">Larry · Private client</p>
+      </div>
+    </section>
 
-  componentDidUpdate(prevProps) {
-    var prev = prevProps ? (prevProps.openAllReveals ?? false) : false;
-    var next = this.props.openAllReveals ?? false;
-    if (prev !== next) this._applyReveals();
-    this._muteAll();
-    this._fitLineageCard();
-  }
+    <section class="editorial" aria-labelledby="h-stakes">
+      <div class="container">
+        <p class="label">08 · Built under real stakes</p>
+        <h2 id="h-stakes">The first system was built around decisions the founder had to own.</h2>
+        <p class="sub">Avant Garde operates on the same private cognitive infrastructure it builds for clients. Client stories are shared with permission, with identifying details changed to protect privacy.</p>
+        <article class="card card-dark featured-story">
+          <p class="card-label copper">Founder origin · Built for himself first</p>
+          <h3>The Founder's Own Call</h3>
+          <p>Before Avant Garde was a company, the founder faced a consequential medical decision involving several possible procedures and specialists who did not agree. No single conversation held the entire decision.</p>
+          <p>He built a private system to bring it together: options compared, evidence separated from assumption, unanswered questions surfaced, and the tradeoffs prepared for discussion with his doctors.</p>
+          <p>The system did not make the decision. It helped him arrive prepared to make it.</p>
+          <p class="fineprint">Decision support only. The medical decision remained his, made with qualified clinicians.</p>
+        </article>
+        <div class="triad">
+          <article class="card card-light"><p class="card-label">Everyday operation</p><h3>The Daily Brief</h3><p>A private client begins the day with messages, commitments, meetings, and active projects spread across several systems. The system reviews approved email, calendar, project, and commitment sources; surfaces what needs attention; identifies open loops; and prepares suggested next actions. The client decides what to act on.</p><p class="fineprint">Operates only on sources the client has approved.</p></article>
+          <article class="card card-light"><p class="card-label">High-stakes medical decision</p><h3>The Informed Patient</h3><p>Months of fragmented research, charts, and competing recommendations became one preparation brief — options, known risks, unresolved assumptions, and the questions his doctors needed to answer.</p><p class="fineprint">Decision support only. The system does not diagnose, prescribe, or replace qualified medical judgment.</p></article>
+          <article class="card card-light"><p class="card-label">Family support</p><h3>A Father Supporting His Autistic Son</h3><p>Trusted guidance, established routines, and prior observations kept ready for the moments at home that required the most care — without time to search or reconstruct.</p><p class="fineprint">Identifying details changed to protect family privacy.</p></article>
+          <article class="card card-light"><p class="card-label">Legacy and succession</p><h3>The Philanthropist</h3><p>Decades of giving, connected into one durable body of context — so the next generation could understand not only what had been decided, but why.</p><p class="fineprint">Identifying details changed to protect client privacy.</p></article>
+        </div>
+        <p class="kicker">These are not stories about a system making decisions. They are stories about people arriving better prepared to make the decisions that remained theirs.</p>
+      </div>
+    </section>
 
-  _fitLineageCard() {
-    var left = document.getElementById('b2-left');
-    var wrap = document.getElementById('b2-cardwrap');
-    if (!left || !wrap) return;
-    var lr = left.getBoundingClientRect();
-    var wr = wrap.getBoundingClientRect();
-    if (wr.top >= lr.bottom) {
-      wrap.style.maxHeight = '';
-      return;
-    }
-    var h = Math.max(120, Math.floor(lr.bottom - wr.top));
-    wrap.style.maxHeight = h + 'px';
-  }
+    <section class="editorial ruled" aria-labelledby="h-fit">
+      <div class="container">
+        <p class="label" id="h-fit">09 · Who this is for</p>
+        <div class="contrast">
+          <article class="card card-light">
+            <h3>This may be for you when</h3>
+            <ul><li>You have more to hold than any one tool can understand.</li><li>You keep reconstructing the same context — for advisors, for meetings, for yourself.</li><li>You want practical daily assistance without surrendering authority.</li><li>You need research, preparation, memory, and follow-through — not just answers.</li><li>You want to become more capable with AI rather than dependent on it.</li><li>You value private, personalized infrastructure with white-glove implementation and ongoing support.</li></ul>
+          </article>
+          <article class="card card-muted">
+            <h3>Not the right fit when</h3>
+            <ul><li>You only want a chatbot or a generic task bot.</li><li>You want the machine to hold autonomous authority.</li><li>You want mass-market software or cheap automation without personal architecture.</li><li>You will not participate in shaping the system built around you.</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
 
-  _setupLazyVideos() {
-    var vids = Array.prototype.slice.call(document.querySelectorAll('video[data-lazy-src]'));
-    if (!vids.length) return;
-    var reduceV = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    if (reduceV) return;
-    var load = function (v) {
-      var s = v.getAttribute('data-lazy-src');
-      if (!s) return;
-      v.src = s;
-      v.removeAttribute('data-lazy-src');
-      v.muted = true;
-      v.addEventListener('canplay', function () {
-        if (v.paused) { var p2 = v.play(); if (p2 && p2.catch) p2.catch(function () {}); }
-      }, { once: true });
-      var p = v.play();
-      if (p && p.catch) p.catch(function () {});
-    };
-    if (!('IntersectionObserver' in window)) { vids.forEach(load); return; }
-    var io = new IntersectionObserver(function (entries) {
-      entries.forEach(function (en) {
-        if (en.isIntersecting) { io.unobserve(en.target); load(en.target); }
-      });
-    }, { rootMargin: '60% 0px 60% 0px' });
-    vids.forEach(function (v) { io.observe(v); });
-    this._lazyIo = io;
-  }
+    <section class="editorial ruled" aria-labelledby="h-engagement">
+      <div class="container">
+        <p class="label">10 · How the engagement works</p>
+        <h2 id="h-engagement">Built with you, configured for you, taught to you — and supported while it becomes part of how you work.</h2>
+        <ol class="stages">
+          <li><span class="stage-num" aria-hidden="true">1</span><div><h3>Private conversation</h3><p>A short founder-led conversation to understand your world, responsibilities, recurring work, and areas of friction.</p></div></li>
+          <li><span class="stage-num" aria-hidden="true">2</span><div><h3>Deep discovery</h3><p>A structured session to map responsibilities, recurring decisions, people, projects, commitments, information sources, daily friction, desired automations, security boundaries, learning needs, and how you prefer to work.</p></div></li>
+          <li><span class="stage-num" aria-hidden="true">3</span><div><h3>Design and build</h3><p>The private cognitive architecture is designed around you — not adapted from a standard template.</p></div></li>
+          <li><span class="stage-num" aria-hidden="true">4</span><div><h3>White-glove configuration</h3><p>With your permission, the approved tools are configured directly on your machine through a supervised remote session. You remain present, access is permission-based, you enter sensitive credentials yourself, and remote access ends when the session ends unless a separately approved support arrangement says otherwise.</p></div></li>
+          <li><span class="stage-num" aria-hidden="true">5</span><div><h3>Support, training, and refinement</h3><p>The initial engagement includes up to six months of onboarding, training, customization, workflow adjustment, small refinements, and AI best-practice coaching. You are not left alone with a system you do not understand.</p></div></li>
+        </ol>
+        <aside class="reassurance">
+          <h3>Built, configured, taught, and supported.</h3>
+          <p>This is not a handoff of unfamiliar software. The engagement includes implementation, training, and ongoing refinement so the system can become useful in practice.</p>
+        </aside>
+        <p>This is a bespoke engagement, not an off-the-shelf software subscription. We work with a limited number of private clients so each system can be built around the person who will use it. <a data-event="calendly_clicked" href="https://calendly.com/avantgarde-discovery/30min">It begins with a private conversation.</a></p>
+      </div>
+    </section>
 
-  _muteAll() {
-    var reduceV = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    document.querySelectorAll('video').forEach(function (v) {
-      v.muted = true;
-      v.defaultMuted = true;
-      v.volume = 0;
-      if (v.getAttribute('data-lazy-src')) return;
-      if (reduceV) { v.pause(); v.removeAttribute('autoplay'); }
-      else if (v.paused && v.getAttribute('src')) { var p = v.play(); if (p && p.catch) p.catch(function () {}); }
-    });
-  }
+    <section class="trust" aria-labelledby="h-trust">
+      <div class="container two-col">
+        <div>
+          <p class="label label-copper">11 · Privacy, security, and human authority</p>
+          <h2 id="h-trust">Protect what is entrusted.</h2>
+          <p class="lede-small">Your system is built around a durable source of truth, not a collection of disconnected AI conversations.</p>
+          <p class="muted">Important context, decisions, commitments, and approved records remain governed in the environment designed to hold them. AI tools act as interfaces into that environment rather than becoming the authority themselves.</p>
+          <dl class="trust-list">
+            <div><dt>Controlled access</dt><dd>Access is limited to the people and systems authorized to use it. Permissions and information boundaries are defined according to the sensitivity of the work.</dd></div>
+            <div><dt>Strong account protection</dt><dd>Multi-factor authentication is required wherever the selected platform supports it, together with strong passwords, protected devices, and disciplined account access.</dd></div>
+            <div><dt>Inspectable reasoning</dt><dd>Sources, assumptions, and interpretations are kept distinguishable wherever the system and source material allow. Important decisions should be reviewable, not hidden behind an unexplained answer.</dd></div>
+            <div><dt>Human authority</dt><dd>The system can organize, challenge, prepare, and remember. It does not become responsible for the decision.</dd></div>
+            <div><dt>Your information stays yours to give</dt><dd>The system learns directly from you through private onboarding and approved source connections. Access is limited to what is required for the approved work, and sensitive credentials should remain under your control.</dd></div>
+          </dl>
+        </div>
+        <div>
+          <aside class="shared-discipline">
+            <h3>Security is a shared discipline.</h3>
+            <p>No technical control can compensate for a shared password, an unlocked device, or careless access. Avant Garde designs the infrastructure and its boundaries. Your account, device, and access practices remain part of the protection model.</p>
+          </aside>
+          <button class="link-button" id="open-trust" data-event="trust_principles_opened">Read our security and trust principles</button>
+        </div>
+      </div>
+      <div class="container"><p class="kicker inverse">The system carries the context. You retain the authority.</p></div>
+    </section>
 
-  componentWillUnmount() {
-    if (this._io) this._io.disconnect();
-    if (this._lazyIo) this._lazyIo.disconnect();
-    if (this._onKey) document.removeEventListener('keydown', this._onKey);
-    if (this._vo) this._vo.pause();
-  }
+    <section class="editorial founder" aria-labelledby="h-founder">
+      <div class="container two-col">
+        <figure class="still founder-still">
+          <picture>
+            <source media="(max-width: 640px)" srcset="assets/founder.jpg">
+            <img src="assets/founder-wide.jpg" alt="Travis Lewis on the trading floor, market displays behind him" loading="lazy">
+          </picture>
+          <figcaption class="fineprint">Travis Lewis on the trading floor, where he learned to build reliable systems for people operating under consequence.</figcaption>
+        </figure>
+        <div>
+          <p class="label" id="h-founder">12 · The founder</p>
+          <blockquote class="quote-founder"><p>“I began by building the support I needed around my own decisions. The system preserved the history, challenged my assumptions, and helped me prepare without trying to take the decision away from me.”</p></blockquote>
+          <p class="attribution-name">Travis Lewis</p>
+          <p class="attribution-title">Founder and Chief Cognitive Architect</p>
+          <p>A career spent building systems for people operating under consequence — first technical infrastructure, now cognitive infrastructure. <a href="about.html">The founder's story →</a></p>
+        </div>
+      </div>
+    </section>
 
-  _applyReveals() {
-    var open = this.props.openAllReveals ?? false;
-    document.querySelectorAll('details[data-depth]').forEach(function (d) { d.open = open; });
-  }
-}
-</script>
+    <section class="invitation-block" aria-labelledby="h-invitation">
+      <div class="invitation-copy">
+        <p class="label label-copper">13 · The invitation</p>
+        <h2 id="h-invitation">For the decisions that remain yours to make.</h2>
+        <p class="lede">If the final call belongs to you, the system is built around you. If you want the machine to decide for you, this is not the right fit.</p>
+        <div class="invitation-facts">
+          <div><h3>What it is</h3><p>Thirty minutes, founder-led, about your decisions and the burden behind them. Private.</p></div>
+          <div><h3>What it isn't</h3><p>Not a demo. Not a pitch. No follow-up sequence if it isn't a fit.</p></div>
+          <div><h3>What you leave with</h3><p>A map of what a private system around your world could look like, whether or not we work together.</p></div>
+        </div>
+        <p class="trust-quote">Twelve weeks into his own system, one client described the moment it earned its place: <q>I said that to him: I'm starting to trust you. I really did.</q> — Larry · Private client</p>
+        <div class="cta-row">
+          <a class="btn btn-solid" data-event="calendly_clicked" href="https://calendly.com/avantgarde-discovery/30min">Schedule a private conversation</a>
+          <a class="btn btn-ghost" href="mailto:travis@avantgarde-internationalgroup.com?subject=Private%20overview%20request">Request the private overview</a>
+        </div>
+      </div>
+      <figure class="invitation-media">
+        <picture>
+          <source media="(max-width: 640px)" srcset="assets/invitation-mobile.jpg">
+          <img src="assets/invitation-desktop.jpg" alt="Two chairs facing each other across a small table in restrained warm light, ready for a private conversation" loading="lazy">
+        </picture>
+      </figure>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p class="wordmark"><strong>AVANT GARDE</strong>&nbsp; INTERNATIONAL GROUP</p>
+    <p>We build private cognitive infrastructure around one accountable person's world: a system that remembers what matters, prepares what requires attention, and supports better work and judgment without taking authority away.</p>
+    <p class="muted">Founder-led · Private · No generic pitch</p>
+  </footer>
+
+  <dialog id="trust-dialog" aria-labelledby="trust-title">
+    <button class="dialog-close" id="close-trust" aria-label="Close">×</button>
+    <p class="label">Security and trust principles</p>
+    <h2 id="trust-title">Protect what is entrusted.</h2>
+    <p>We treat private knowledge as entrusted material. Systems are designed to support judgment while limiting unnecessary exposure of sensitive information.</p>
+    <p>Your system is built around a durable source of truth. AI tools act as interfaces into that governed environment — they do not become the authority themselves.</p>
+    <p>Access is limited to authorized people and systems. Multi-factor authentication is required wherever the selected platform supports it. Security posture depends on the selected tools, plan level, configuration, and the sensitivity of the work.</p>
+    <p>Our infrastructure providers publish their own enterprise security and compliance programs. Those programs apply to the provider — they are not an Avant Garde certification.</p>
+    <p>Sources, assumptions, and consequential decisions remain inspectable. The system can support, challenge, and prepare. It does not become accountable — and it does not provide medical, legal, financial, or clinical advice.</p>
+    <p>Security is a shared discipline: we design the infrastructure and its boundaries; your account, device, and access practices remain part of the protection model.</p>
+    <p class="fineprint">These principles describe how systems are designed and governed. They are not a certification.</p>
+  </dialog>
+
+  <script src="app.js" defer></script>
 </body>
 </html>
