@@ -97,6 +97,11 @@ h3 { font-size: 21px; margin: 0 0 12px; }
 .flow { display: flex; align-items: center; justify-content: center; gap: 18px; flex-wrap: wrap; margin: 52px 0 0; color: var(--muted); }
 .flow span { color: var(--copper); }
 .follow-link { margin: 14px 0 0; font-size: 15px; }
+/* Merged continuity + intelligence-augmentation section (02 combined with former 03): internal movement break within one ivory section */
+.continuity-hinge { margin-top: clamp(48px, 6vw, 72px); }
+.movement-rule { width: 64px; height: 2px; background: var(--copper); margin: clamp(44px, 5vw, 60px) 0; }
+.merged-bridge { max-width: 720px; margin: 0 0 34px; }
+.movement-heading { font-size: clamp(24px, 2.8vw, 34px); line-height: 1.22; margin: 0 0 24px; }
 
 /* Cards */
 .card { padding: 30px 32px; }
