@@ -288,6 +288,21 @@ dialog#trust-dialog p { font-size: 15px; color: var(--muted); }
 .cap-grid h3 { font-size: 22px; margin: 0 0 12px; }
 .cap-grid p { margin: 0; font-size: 14.5px; line-height: 1.7; color: #B9B2A3; }
 .cap-boundary { margin: 44px 0 0; font-size: 15px; color: var(--muted-cool); max-width: 640px; }
+/* Section 03: centered 3 + 2 desktop composition; 2 + 2 + 1 tablet; single-column mobile */
+@media (min-width: 901px) {
+  .cap-grid { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+  .cap-grid > div { grid-column: span 2; }
+  .cap-grid > div:nth-child(4) { grid-column: 2 / span 2; }
+  .cap-grid > div:nth-child(5) { grid-column: 4 / span 2; }
+}
+@media (min-width: 641px) and (max-width: 900px) {
+  .cap-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .cap-grid > div:nth-child(5) { grid-column: 1 / -1; width: calc(50% - 14px); justify-self: center; }
+}
+@media (max-width: 640px) {
+  .cap-grid { grid-template-columns: 1fr; }
+  .cap-grid > div { grid-column: auto; width: auto; justify-self: stretch; }
+}
 
 /* Outcomes (what changes — single-column editorial) */
 .outcomes-solo { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; margin: 0 0 28px; }
