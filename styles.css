@@ -88,6 +88,9 @@ h3 { font-size: 21px; margin: 0 0 12px; }
 .two-col { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr)); gap: 48px; align-items: center; }
 .two-col.reverse figure { order: -1; }
 .triad, .contrast { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 22px; }
+/* Section 05 only: balanced 2×2 pillar grid on desktop/large tablet; single column on mobile */
+.editorial[aria-labelledby="h-builds"] .triad { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+@media (max-width: 640px) { .editorial[aria-labelledby="h-builds"] .triad { grid-template-columns: 1fr; } }
 .flow { display: flex; align-items: center; justify-content: center; gap: 18px; flex-wrap: wrap; margin: 52px 0 0; color: var(--muted); }
 .flow span { color: var(--copper); }
 .follow-link { margin: 14px 0 0; font-size: 15px; }
