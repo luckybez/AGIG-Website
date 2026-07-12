@@ -165,7 +165,6 @@ h3 { font-size: 21px; margin: 0 0 12px; }
 .trust .two-col { align-items: start; }
 .trust h2 { font-size: clamp(28px, 3.2vw, 38px); margin-bottom: 20px; }
 .trust-list { margin: 28px 0 0; display: flex; flex-direction: column; gap: 18px; }
-.trust-list > div { border-left: 2px solid rgba(200,155,109,0.6); padding-left: 18px; }
 .trust-list dt { font-weight: 600; font-size: 15.5px; margin-bottom: 4px; }
 .trust-list dd { margin: 0; font-size: 14.5px; color: #B9B2A3; }
 .trust .still img { height: 300px; }
