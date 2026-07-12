@@ -292,6 +292,12 @@ dialog#trust-dialog p { font-size: 15px; color: var(--muted); }
 /* Founder still */
 .founder-still img { height: 340px; }
 .founder-still figcaption { margin-top: 10px; }
+/* Desktop only: match founder-wide.jpg's native 3:2 ratio so the full environmental
+   frame renders with no side/top crop, instead of the fixed 340px height clipping it
+   to a tighter, more portrait-like crop. Mobile keeps the fixed height (portrait asset). */
+@media (min-width: 641px) {
+  .founder-still img { height: auto; aspect-ratio: 3 / 2; }
+}
 
 /* About page: hero + lineage */
 .about-hero, .about-invite { min-height: 60vh; background: linear-gradient(180deg, var(--navy-deep) 0%, var(--navy) 100%); }
