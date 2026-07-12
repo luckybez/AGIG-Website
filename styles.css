@@ -1,4 +1,35 @@
 /* Avant Garde International Group — production stylesheet (candidate v1.4.9) */
+
+/* Brand typography: Source Serif 4 + Source Sans 3, self-hosted (SIL OFL) — no external font requests. */
+@font-face {
+  font-family: "Source Serif 4";
+  src: url("fonts/source-serif-4-variable.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 200 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Serif 4";
+  src: url("fonts/source-serif-4-italic-variable.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 200 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Sans 3";
+  src: url("fonts/source-sans-3-variable.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 200 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Sans 3";
+  src: url("fonts/source-sans-3-italic-variable.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 200 900;
+  font-display: swap;
+}
+
 :root {
   --navy-deep: #0A1420;
   --navy: #0E1A2B;
@@ -11,11 +42,7 @@
   --paper-line: #E2DCCF;
   --copper: #C89B6D;
   --copper-dark: #8A5A2B;
-/* Fonts: system-font fallback (no external font requests).
-   To restore candidate typography, self-host Source Serif 4 + Source Sans 3 (SIL OFL)
-   as fonts/SourceSerif4-Variable.woff2 and fonts/SourceSans3-Variable.woff2, add matching
-   @font-face rules (font-weight 400 700, font-display swap), then put the family names
-   back at the front of --serif / --sans. */
+  /* Source Serif 4 + Source Sans 3 are self-hosted (see @font-face above); system families remain as fallbacks. */
   --serif: 'Source Serif 4', Georgia, 'Times New Roman', serif;
   --sans: 'Source Sans 3', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
 }
