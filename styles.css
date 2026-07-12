@@ -51,6 +51,8 @@ a:hover { color: var(--navy); }
 .btn-ghost:hover { border-color: var(--ivory); color: var(--ivory); }
 .btn-outline { border: 1px solid var(--copper); color: var(--copper); padding: 10px 22px; font-size: 14px; white-space: nowrap; text-decoration: none; }
 .btn-outline:hover { background: var(--copper); color: var(--navy-deep); }
+/* Responsive header CTA label: desktop shows the full label; shorter labels swap in on small screens via CSS only */
+.cta-schedule .cta-mid, .cta-schedule .cta-min { display: none; }
 .btn-dark { background: var(--navy); color: var(--ivory); border: none; font-weight: 600; font-size: 16px; }
 .btn-dark:hover { background: var(--copper); color: var(--navy-deep); }
 .btn-dark[disabled] { opacity: 0.6; cursor: wait; }
@@ -119,7 +121,7 @@ h3 { font-size: 21px; margin: 0 0 12px; }
 
 /* Scene copy blocks (split layout — see structural separation below) */
 .cta-row { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
-.cta-tertiary { margin-top: 22px; font-size: 14px; }
+.cta-tertiary { margin: 22px auto 0; font-size: 14px; color: #B9B2A3; max-width: 540px; }
 .cta-tertiary a { color: #B9B2A3; }
 .vignettes { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr)); gap: 20px; }
 .vignettes li { border-top: 1px solid rgba(200,155,109,0.4); padding-top: 16px; color: #D8D3C8; }
@@ -338,12 +340,21 @@ dialog#trust-dialog p { font-size: 15px; color: var(--muted); }
 
 /* Small screens */
 @media (max-width: 640px) {
-  .site-header nav { padding: 12px 20px; }
+  .site-header nav { padding: 12px 16px; gap: 10px; }
   .site-header .btn-outline { padding: 8px 14px; font-size: 13px; }
+  /* Sticky header only: abbreviate the wordmark and CTA to prevent overflow; full names stay in the accessible name */
+  .site-header .wordmark-tail { display: none; }
+  .cta-schedule .cta-full { display: none; }
+  .cta-schedule .cta-mid { display: inline; }
   .editorial, .trust, .testimony { padding-left: 24px; padding-right: 24px; }
   .decision-desk { padding: 28px 24px; }
   .featured-story { padding: 30px 26px; }
   .still img { height: 300px; }
+}
+@media (max-width: 360px) {
+  .site-header nav { padding: 12px 14px; gap: 8px; }
+  .cta-schedule .cta-mid { display: none; }
+  .cta-schedule .cta-min { display: inline; }
 }
 
 /* About page scene blocks (hero + closing invite) — centered content over gradient */
