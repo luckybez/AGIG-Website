@@ -53,9 +53,6 @@ a:hover { color: var(--navy); }
 .btn-outline:hover { background: var(--copper); color: var(--navy-deep); }
 /* Responsive header CTA label: desktop shows the full label; shorter labels swap in on small screens via CSS only */
 .cta-schedule .cta-mid, .cta-schedule .cta-min { display: none; }
-.btn-dark { background: var(--navy); color: var(--ivory); border: none; font-weight: 600; font-size: 16px; }
-.btn-dark:hover { background: var(--copper); color: var(--navy-deep); }
-.btn-dark[disabled] { opacity: 0.6; cursor: wait; }
 .link-button { background: none; border: none; padding: 0; margin-top: 18px; color: var(--copper); font-family: var(--sans); font-size: 15px; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
 .link-button:hover { color: var(--ivory); }
 
@@ -78,8 +75,6 @@ h3 { font-size: 21px; margin: 0 0 12px; }
 .doctrine { font-family: var(--serif); font-size: clamp(20px, 2.2vw, 26px); line-height: 1.4; color: var(--navy); margin: 40px 0 0; max-width: 680px; }
 .fineprint { font-size: 13px; color: var(--muted-warm); line-height: 1.6; }
 .muted { color: var(--muted-cool); font-size: 15px; }
-.optional { font-weight: 400; color: var(--muted-warm); }
-.visually-hidden { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 
 /* Layout */
 .container { max-width: 1060px; margin: 0 auto; }
@@ -232,18 +227,6 @@ h3 { font-size: 21px; margin: 0 0 12px; }
 .invitation-facts p { margin: 0; font-size: 15px; color: #D8D3C8; }
 .trust-quote { font-size: 15px; color: #B9B2A3; max-width: 560px; margin: 0 auto 36px; }
 .trust-quote q { font-family: var(--serif); font-style: italic; color: var(--ivory); quotes: "\201C" "\201D"; }
-
-/* Inquiry form */
-.inquiry h2 { font-size: clamp(28px, 3.4vw, 40px); margin-bottom: 16px; }
-.inquiry form { display: flex; flex-direction: column; gap: 20px; }
-.field-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr)); gap: 20px; }
-.field { display: flex; flex-direction: column; gap: 6px; margin: 0; font-size: 14px; font-weight: 600; }
-.field input, .field textarea, .field select { border: 1px solid #D8D2C2; background: #FFFFFF; padding: 13px 14px; font-size: 15px; font-family: var(--sans); color: var(--ink); min-height: 44px; }
-.field textarea { resize: vertical; }
-.form-status { margin: 0; font-size: 14px; color: #9B3B2A; min-height: 1em; }
-.form-status.ok { color: #2A6B45; }
-.form-success { text-align: center; padding: 40px 0; }
-.form-success p { color: var(--muted); max-width: 480px; margin: 0 auto 30px; }
 
 /* Footer */
 .site-footer { background: var(--navy-deep); color: var(--muted-cool); border-top: 1px solid rgba(244,241,234,0.08); padding: 48px 40px; text-align: center; }
