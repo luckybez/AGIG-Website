@@ -324,6 +324,32 @@ h3 { font-size: 21px; margin: 0 0 12px; }
 @media (max-width: 640px) {
   .split-media, .invitation-media { aspect-ratio: 4 / 5; }
 }
+.invitation-authority {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 26px 32px 4px;
+  text-align: center;
+}
+
+.invitation-authority p {
+  max-width: 720px;
+  margin: 0 auto;
+  font-family: var(--serif);
+  font-size: clamp(18px, 2vw, 24px);
+  line-height: 1.45;
+  color: var(--ivory);
+  text-wrap: pretty;
+}
+
+@media (max-width: 640px) {
+  .invitation-authority {
+    padding: 22px 24px 0;
+  }
+
+  .invitation-authority p {
+    font-size: 18px;
+  }
+}
 .invitation-facts-wrap { padding: 14px 32px 0; }
 .invitation-facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr)); gap: 18px; text-align: left; max-width: 820px; margin: 0 auto 10px; }
 .invitation-facts > div { border-top: 1px solid rgba(200,155,109,0.5); padding-top: 14px; }
