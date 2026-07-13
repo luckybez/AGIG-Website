@@ -118,6 +118,14 @@ h3 { font-size: 21px; margin: 0 0 12px; }
 /* Layout */
 .container { max-width: 1060px; margin: 0 auto; }
 .container.narrow { max-width: 860px; }
+/* Homepage primary rail harmonization: align left-led narrative sections (03, 05, 06) to the standard 1060px container on desktop. Scoped overrides only — global container tokens are unchanged. */
+@media (min-width: 901px) {
+  .capabilities .container.wide,
+  .editorial[aria-labelledby="h-changes"] .container.narrow,
+  .testimony .container.narrow {
+    max-width: 1060px;
+  }
+}
 .editorial { background: var(--ivory); color: var(--ink); padding: 96px 32px; }
 .editorial.ruled { padding-top: 20px; }
 .editorial.ruled > .container { border-top: 1px solid var(--paper-line); padding-top: 72px; }
