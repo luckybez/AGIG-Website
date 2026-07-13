@@ -202,6 +202,64 @@ h3 { font-size: 21px; margin: 0 0 12px; }
 .quote-secondary p { font-family: var(--serif); font-size: 22px; line-height: 1.5; color: #D8D3C8; max-width: 620px; margin: 0; }
 .attribution { font-size: 15px; color: var(--copper); font-weight: 600; margin: 0; }
 
+/* Larry proof module */
+.proof-context .sub + .sub {
+  margin-top: 14px;
+}
+
+.proof-indicators {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  margin: 42px 0 34px;
+}
+
+.proof-indicators div {
+  border-top: 1px solid rgba(124, 78, 43, 0.35);
+  padding-top: 18px;
+}
+
+.proof-indicators dt {
+  font-family: var(--sans);
+  font-size: 13px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--copper-dark);
+  margin: 0 0 10px;
+  font-weight: 500;
+}
+
+.proof-indicators dd {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--muted);
+}
+
+.proof-testimony .container {
+  max-width: 1060px;
+}
+
+.proof-note {
+  max-width: 760px;
+  margin: 22px 0 0;
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(245, 241, 232, 0.68);
+}
+
+@media (max-width: 760px) {
+  .proof-indicators {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    margin: 34px 0 30px;
+  }
+
+  .proof-note {
+    font-size: 13px;
+  }
+}
+
 /* Trust */
 .trust { background: var(--navy); color: var(--ivory); padding: 100px 32px; }
 .trust .two-col { align-items: start; }
