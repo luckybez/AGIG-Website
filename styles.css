@@ -380,7 +380,7 @@ dialog#trust-dialog p { font-size: 15px; color: var(--muted); }
   .site-header .wordmark-tail { display: none; }
   .cta-schedule .cta-full { display: none; }
   .cta-schedule .cta-mid { display: inline; }
-  .editorial, .trust, .testimony { padding-left: 24px; padding-right: 24px; }
+  .editorial, .trust, .testimony, .capabilities { padding-left: 24px; padding-right: 24px; }
   .decision-desk { padding: 28px 24px; }
   .featured-story { padding: 30px 26px; }
   .still img { height: 300px; }
