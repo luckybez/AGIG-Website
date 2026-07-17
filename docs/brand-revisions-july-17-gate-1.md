@@ -4,7 +4,7 @@
 
 The site will follow one continuity-led argument: the buyer already has tools, but those tools hold fragments. The buyer remains the connective tissue across systems, people, information, and time. Reconstructing that context is invisible integration labor. Avant Garde builds private cognitive infrastructure that preserves the meaning, relationships, commitments, changes, and next points of attention that decisions depend on. Repeated, governed performance turns that infrastructure into Decision Infrastructure. The accountable person remains the authority.
 
-The customer is the hero. AI, governed memory, source context, workflows, and reasoning support are mechanisms, not the story.
+The customer is the hero. Artificial-intelligence tools, governed memory, source context, workflows, and reasoning support are mechanisms inside the IA system, not the product identity.
 
 ## Proposed page map
 
@@ -53,7 +53,7 @@ This opens with the buyer's lived burden rather than the product category. “De
 ### Rewrite
 
 - Reframe the opening around fragmentation and invisible integration labor.
-- Replace generic “most AI” comparison with the sharper distinctions between stored chats and governed decision memory, and between tool access and operating capacity.
+- Replace comparisons to generic artificial-intelligence tools with the sharper distinctions between stored chats and governed decision memory, and between tool access and operating capacity.
 - Express capabilities as a continuity loop tied to decisions, not a feature inventory.
 - Replace the long engagement sequence with a bounded first-deployment pathway.
 - Describe benefits as improved preparation, sequencing, follow-through, judgment, and decision quality.
@@ -68,7 +68,7 @@ This opens with the buyer's lived burden rather than the product category. “De
 
 - Repetitive vignettes, repeated CTAs, and overlapping explanations.
 - Any proof whose public consent is not explicit. Use anonymized operating patterns and clearly qualified evidence only.
-- Decorative “AI” language or imagery that implies autonomous authority.
+- Decorative artificial-intelligence language or imagery that implies autonomous authority.
 
 ## CTA hierarchy
 
@@ -87,7 +87,7 @@ Proof is organized around observable system performance rather than inflated out
 
 Client-specific material appears only where public consent is explicit; otherwise it is anonymized or omitted. Objections are answered in sequence:
 
-1. “I already have AI and tools.” Access is not operating capacity; disconnected tools still leave integration with the buyer.
+1. “I already have artificial-intelligence tools.” Tool access is not operating capacity; disconnected tools still leave integration with the buyer.
 2. “Is this just saved chat history?” Stored conversations are retrieval artifacts; governed decision memory is structured, source-aware, permissioned, revisable, and connected to action.
 3. “Will it make decisions for me?” No. It prepares and carries context; the accountable human approves and decides.
 4. “Does it require opening everything?” No. The first deployment is bounded by domain, sources, permissions, review points, and success criteria.

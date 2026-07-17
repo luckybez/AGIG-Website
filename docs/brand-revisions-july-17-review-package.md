@@ -18,7 +18,7 @@ Then open `http://localhost:8080/`. The site is static and has no build step.
 | --- | --- |
 | Opens with the non-delegable decision | Opens with the buyer's invisible continuity burden |
 | Describes many pressures and capabilities | Follows one causal path: fragments → integration labor → governed continuity |
-| Compares generic AI with Intelligence Augmentation | Distinguishes stored chats from governed decision memory and tool access from operating capacity |
+| Compares generic artificial-intelligence tools with Intelligence Augmentation | Distinguishes stored chats from governed decision memory and tool access from operating capacity |
 | Introduces the system through a broad feature inventory | Explains preserve → prepare → sequence → support judgment |
 | Uses a long bespoke-engagement sequence | Offers one bounded first deployment with explicit scope and review |
 | Repeats benefits across examples and proof | Defines Decision Infrastructure as an outcome earned through performance |
@@ -29,7 +29,7 @@ Then open `http://localhost:8080/`. The site is static and has no build step.
 
 1. **Hero** — recognizes the buyer as connective tissue before naming the system.
 2. **Continuity problem** — makes invisible integration labor concrete without a long vignette list.
-3. **Necessary distinction** — answers “I already have AI/tools” and “is this saved chat history?”
+3. **Necessary distinction** — answers “I already have artificial-intelligence tools” and “is this saved chat history?”
 4. **Private cognitive infrastructure** — explains the operating loop and the product expression without leading with technology.
 5. **Bounded first deployment** — lowers perceived scope and makes governance inspectable.
 6. **Decision Infrastructure** — establishes preparation, sequencing, follow-through, and judgment as the strategic outcome.
@@ -49,7 +49,7 @@ Then open `http://localhost:8080/`. The site is static and has no build step.
 
 ### Revised
 
-- Hero, continuity problem, AI distinction, system description, benefits, proof, trust, fit, and engagement pathway.
+- Hero, continuity problem, tool distinction, system description, benefits, proof, trust, fit, and engagement pathway.
 - Capabilities became a four-part continuity loop rather than a generic feature list.
 - Five-step engagement became a bounded four-step first deployment.
 
@@ -63,7 +63,7 @@ Then open `http://localhost:8080/`. The site is static and has no build step.
 - Repetitive pressure vignettes and overlapping benefit sections.
 - Client-specific stories and testimony whose public-consent status is not recorded in the repository.
 - Repeated mid-page conversion buttons.
-- Visual or verbal suggestions of autonomous AI authority.
+- Visual or verbal suggestions that artificial-intelligence tools hold autonomous authority.
 
 ## UI/UX Pro Max findings and corrections
 
@@ -76,7 +76,7 @@ Then open `http://localhost:8080/`. The site is static and has no build step.
 - **Interaction restraint:** no scroll choreography or decorative animation; only 180ms color/border state transitions.
 - **Design-system judgment:** UI/UX Pro Max suggested a brighter aurora treatment and pink accent. Those recommendations were rejected because they conflict with the approved quiet, editorial, technology-invisible doctrine. Its spacious density, editorial typography, contrast, focus, responsive, and motion guidance were retained.
 
-## AI anti-mush audit
+## Anti-mush audit
 
 The homepage and About page were audited after visual review. The pass targeted:
 
@@ -159,7 +159,7 @@ The trust disclosure retains `trust_principles_opened`.
 ## Unresolved decisions for Travis
 
 1. Confirm the recommended hero line or select one Gate 1 alternative.
-2. Confirm whether “Private AI Operating Systems” should remain a product-expression phrase on the homepage or move to a later sales conversation.
+2. Confirm the use and placement of “Private IA Operating Systems” as the product expression.
 3. Decide whether any prior client testimony has explicit, documented public consent and should be restored in a later proof module.
 4. Confirm whether the current Calendly destination and “Schedule a private conversation” label remain canonical.
 5. Review the generated imagery for brand fit and decide whether the human should remain partially visible or the composition should become entirely first-person.
