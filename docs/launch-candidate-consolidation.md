@@ -1,102 +1,127 @@
-# Launch-candidate consolidation — July 17
+# Launch Candidate v2 consolidation — July 18
 
 ## Scope and repository state
 
 - Branch: `feature/brand-revisions-july-17`
-- Foundation commit: `5397b61`
-- Live-site comparison: `main` at `e80a31b`
-- Objective: prepare a launch candidate without restoring the live site’s long-form structure
-- Product doctrine: private Intelligence Augmentation systems; private cognitive infrastructure; Decision Infrastructure
-- Differentiating mechanism: governed continuity across sources, people, commitments, decisions, responsibilities, and time
+- Current branch foundation: `a8f5cff`
+- Original site comparison: `main` at `e80a31b`
+- Governing brief: `WEBSITE-BRIEF-20260718-launch-candidate-v2`
+- Review surface: draft PR #123
+- Governing direction: synthesis build. Restore the original site's rhetorical consequence and proof while keeping the candidate's structural, accessibility, and conversion improvements.
 
-No merge, deployment, `main` modification, or new Higgsfield generation is part of this pass.
+No merge, deployment, or `main` modification is authorized. No generated image is integrated before Travis approves the contact sheet.
 
 ## Consolidation strategy
 
-The July 17 rebuild already had the correct narrative spine: fragmentation → governed continuity → bounded first deployment → Decision Infrastructure → human authority. The launch-candidate pass keeps that spine and selectively restores proof, practical breadth, service depth, ordinary-week usefulness, and broader applications.
+The v2 page is organized into the fourteen movements specified by the brief:
 
-The homepage is organized into ten disciplined movements:
+1. Header with one dominant scheduling action.
+2. Hero: the final call, its burden, and a restrained diagnostic route.
+3. The Weight: six concrete vignettes and the cost of reconstruction.
+4. The Fragments: tools hold fragments; the buyer holds the relationships.
+5. The Distinction: artificial intelligence as a tool, Intelligence Augmentation as the value and operating discipline.
+6. Useful before impressive: six observable capabilities and a Daily Brief.
+7. Built under real stakes: four stories, approved named proof, and performance standards.
+8. Engagement: a five-stage, founder-led, white-glove service with up to six months of support.
+9. Objections: eight accessible buyer questions.
+10. Diagnostic: a private, no-email assessment that now routes to the conversation.
+11. Outcome and earned-trust arc.
+12. Fit, trust, authority, and shared security responsibility.
+13. Founder note.
+14. Final invitation and protected footer signature.
 
-1. Hero: consequence before category; one primary CTA and one restrained diagnostic path.
-2. Lived recognition: three concrete forms of continuity burden.
-3. Missing layer: champion-ready explanation and the relationship-preserving mechanism.
-4. Practical Intelligence Augmentation: six capabilities plus a real Daily Brief artifact.
-5. Proof: founder-use proof and an anonymized delivered operating transformation.
-6. Bounded first deployment: five-stage founder-led service continuation.
-7. Decision Infrastructure: investment/risk bridge and earned-trust progression.
-8. Objections: accessible disclosure of buyer questions.
-9. Fit, trust, founder, and client participation requirements.
-10. Final invitation: precise conversation, non-demo boundary, and approved takeaway.
+Applications keeps the five-domain routing page. About keeps the founder origin and complete Intelligence Augmentation lineage.
 
-The Continuity Diagnostic is an in-browser, no-email assessment. It provides immediate value, creates a low-risk first commitment, and avoids collecting personal information.
+## Original-site and candidate consolidation matrix
 
-The Applications page carries breadth that would otherwise overload the homepage. It is organized by continuity need rather than product package or persona.
-
-## Live-site consolidation matrix
-
-| Live-site element | Launch-candidate disposition | Exact destination | Rationale |
+| Major element | v2 disposition | Exact destination | Review note |
 | --- | --- | --- | --- |
-| Governing hero burden | **Consolidated** | Homepage hero | Retains the stronger rebuild headline; places consequence before the solution. |
-| Repeated CTA blocks | **Intentionally omitted** | — | One dominant conversion path is retained at hero and close. |
-| Important commitment held in memory | **Restored** | Homepage lived recognition | Concrete recognition without feature language. |
-| Project history spread across tools and people | **Restored** | Homepage lived recognition | Makes the continuity burden observable. |
-| Advice becomes stale after a changed fact | **Restored** | Homepage lived recognition | Establishes temporal risk. |
-| Artificial-intelligence-versus-IA education | **Consolidated** | Missing layer and objection accordion | One concise distinction; no duplicated category lecture. |
-| Remember / Prepare / Research / Teach / Assist breadth | **Restored and rewritten** | Homepage practical IA | Observable capability band in six verbs. |
-| “Useful before impressive.” | **Restored** | Homepage practical IA heading | Governs the ordinary-week usefulness standard. |
-| Principles, memory, advisory perspectives, working routines | **Consolidated** | Homepage practical IA and Applications advisory pathway | Preserved without a second conceptual grid. |
-| Daily Brief | **Restored** | Homepage practical IA | Presented as a recurring operating artifact, not a product interface. |
-| Named Larry Conaway proof | **Intentionally omitted** | — | Repository does not document public consent. |
-| Larry quotation and efficiency multiple | **Intentionally omitted** | — | No documented permission or claim approval. |
-| Delivered client operating change | **Restored, anonymized, bounded** | Homepage proof | States starting condition, intervention, observable operating change, retained responsibility, and consent boundary. |
-| Eye-surgery founder-use story | **Restored and consolidated** | Homepage proof; fuller About section | Proves real use without overmedicalizing the homepage. |
-| Performance indicators | **Rewritten** | Homepage “What the system must demonstrate” | Explicit standards, not implied client proof. |
-| Original five-stage engagement | **Consolidated** | Homepage bounded deployment | Discovery, supervised configuration, training/calibration, acceptance, supported refinement; no unapproved duration. |
-| Six-month support promise | **Intentionally omitted** | — | Commercial duration is unresolved. |
-| Security shared responsibility | **Restored** | Homepage trust, accordion, and trust dialog | Makes client/provider/Avant Garde boundaries visible. |
-| Provider compliance caveat | **Restored** | Homepage accordion and trust dialog | Prevents provider programs from reading as Avant Garde certification. |
-| Memoir working brief | **Relocated** | Applications: Authorship and personal history | Strong breadth proof without homepage density. |
-| Philanthropy and legacy | **Relocated and anonymized** | Applications: Philanthropy, succession, and legacy | Preserves continuity across generations without a client claim. |
-| Sensitive family-support story | **Intentionally omitted** | — | No explicit permission documented. |
-| Medical preparation application | **Consolidated** | Homepage founder proof; Applications research pathway | Human authority and professional boundaries remain explicit. |
-| Governed advisory perspectives | **Relocated and expanded** | Applications: specialist and advisory synthesis | Preserves disagreement and adviser authority. |
-| Executive operations | **Relocated and expanded** | Applications: executive operating continuity | Connects Daily Brief usefulness to a broader domain. |
-| Full IA history timeline | **Retained** | About | Stays off the homepage and remains deep-linkable. |
-| Founder origin and infrastructure bridge | **Retained** | About; compact homepage founder block | Credibility appears at the conversion point without duplicating the biography. |
-| Existing generated imagery | **Retained** | Homepage hero and About | No new generation was necessary; current assets support the narrative with low runtime cost. |
-| Generic feature inventories | **Intentionally omitted** | — | Capabilities are limited to observable operating work. |
-| Full application inventory on homepage | **Intentionally omitted** | — | Applications moved to a dedicated page. |
+| Compact sticky header | **Retain** | All pages | One CTA, Applications, About |
+| Original hero consequence | **Restore** | Homepage hero | Protected kicker, H1, support, and reassurance |
+| Candidate fragment headline | **Relocate** | The Fragments | Becomes buyer insight rather than hero identity |
+| Original eight-line weight ladder | **Consolidate** | The Weight | Six recommended concrete lines; Travis may restore eight |
+| Weight H2 and accountability close | **Restore** | The Weight | Verbatim from the original-site spine |
+| Original artificial-intelligence / IA education | **Restore and rewrite** | The Distinction | AI is a tool/mechanism; IA is the value and system discipline |
+| Candidate five-relationship strip | **Retain** | The Fragments | Sources, People, Decisions, Commitments, Time |
+| Candidate chat-history education | **Retain and rewrite** | The Distinction | Plain title; decision-memory distinction preserved |
+| One-system promise and lineage signature | **Restore** | The Distinction | Protected lines used once |
+| Original five capability verbs | **Restore and rewrite** | Useful before impressive | Remember, Prepare, Research and challenge, Teach, Assist |
+| Candidate sixth capability | **Retain** | Useful before impressive | Follow through |
+| Candidate Daily Brief | **Retain and rewrite** | Useful before impressive | Adds before state and human-decision close |
+| Original founder medical story | **Restore** | Built under real stakes; About | Decision-support disclaimer retained |
+| Original Daily Brief client story | **Restore** | Built under real stakes | No numeric or guaranteed claim |
+| Original father/son story | **Restore and bound** | Built under real stakes | Demand/design only; no diagnosis, identity, metric, or outcome |
+| Original philanthropist story | **Restore and anonymize** | Built under real stakes | Why and context preserved across generations |
+| Larry Conaway name and first quote | **Restore** | Homepage proof; Applications pointer | Consent gate recorded as cleared in the brief |
+| Larry efficiency quote | **Restore with disclaimer** | Homepage testimonial | Both quote and existing disclaimer are verbatim |
+| Candidate withheld-consent paragraph | **Remove intentionally** | Not published | Internal review language does not belong on page |
+| Candidate performance standards | **Retain** | Beneath proof stories | Traceability, change awareness, visible boundaries, practical usefulness |
+| Original five-stage white-glove engagement | **Restore and consolidate** | Engagement | Includes credential control and up-to-six-month support |
+| Candidate bounded-entry discipline | **Retain and rewrite** | Engagement | Plain buyer language; one decision domain |
+| Challenge as precision | **Restore** | Engagement | Concrete pre-consequence pushback |
+| Candidate seven objections | **Retain and rewrite** | Objections | Mush and governance language removed |
+| Assistant objection | **Restore** | Objections | Recommended optional addition included for review |
+| Candidate no-email diagnostic | **Retain** | Diagnostic | Adds result-to-conversation CTA |
+| Original outcome consequence | **Restore and rewrite** | Outcome | Six concrete cards |
+| Earned-trust progression | **Restore and consolidate** | Outcome | Day one, weeks, months; no premature extension claim |
+| Candidate fit / not-fit structure | **Retain** | Fit and trust | Human authority and participation stay explicit |
+| Original canonical authority statement | **Restore** | Fit and trust | Verbatim |
+| Provider-program caveat | **Retain verbatim** | Trust dialog | Provider programs are not Avant Garde certifications |
+| Original founder note | **Restore** | Founder note | Name-rule reconciliation remains open |
+| Original closing invitation | **Restore and consolidate** | Final invitation | What it is, is not, and what the visitor leaves with |
+| Protected footer signature | **Restore** | All page footers | Verbatim, canon-controlled exception to kill list |
+| Repeated competing actions | **Remove intentionally** | Site-wide | Scheduling remains the single primary action |
+| Candidate Applications page | **Retain and rewrite** | Applications | Five domains, common discipline, same CTA per domain |
+| Larry Applications proof pointer | **Restore** | Authorship domain | One named proof pointer |
+| Candidate About story | **Retain** | About | Trading-floor origin, personal-stakes turn, founder voice |
+| Original IA lineage | **Retain** | About timeline | Deep history stays off the conversion path |
+| Existing consented founder photo | **Retain** | About | Never regenerated or synthesized |
+| Existing candidate visual system | **Retain temporarily** | All pages | No color or typography work until Option A/B decision |
+| Existing approved imagery | **Retain temporarily** | Current build | Continues to render while new candidates await approval |
+| New Higgsfield candidates | **Relocate to review only** | Contact sheet | Three variants per required asset; none integrated |
+| Optional Weight image | **Remove intentionally for v2 review** | No generated Asset B | The typographic ladder remains the primary treatment |
+| Optional lineage artifacts | **Remove intentionally for v2 review** | No generation | Existing authentic timeline treatment retained |
+| Social/OG recrop | **Defer** | After Asset A approval | Must derive from the approved hero candidate |
+| Generic feature inventories | **Remove intentionally** | Not published | Six observable capabilities carry the mechanism |
+| Internal names and council language | **Remove intentionally** | Not published | Review vocabulary stays in documentation only |
 
-## Proof and consent status
+## Terminology reconciliation
 
-### Founder-use proof
+The pages consistently call the offering a private Intelligence Augmentation or private intelligence system. Artificial intelligence is described only as:
 
-Publishable as founder-origin material already present in the branch. The copy remains bounded:
+- an answer-producing tool in the contrast;
+- a mechanism inside the larger system;
+- a tool that may do thinking for a user in the approved exoskeleton beat;
+- the required brief expression `private AI operating system`, once;
+- the protected footer phrase, “The AI is the leverage.”
 
-- fragmented specialists, procedures, evidence, and assumptions;
-- preserved source material and prepared questions;
-- decision support only;
-- qualified clinicians retained their professional role;
-- Travis retained responsibility.
+The exact product expression appears once on the homepage. No deprecated internal system name appears.
 
-### Client / operating proof
+## Proof and consent disposition
 
-The live site contains a named client, quotations, and a numeric efficiency statement. The repository does not contain documented public consent. The launch candidate therefore:
+- Larry Conaway is the only named client.
+- Both Larry quotes and the existing disclaimer are restored verbatim.
+- The father/son story states design and responsibility only; it includes no outcome claim or identifying detail.
+- The founder medical story says the system supported preparation, not diagnosis or decision-making.
+- The philanthropist and Daily Brief stories are non-identifying.
+- The earlier candidate's public withheld-consent notice is removed because the governing brief records the Larry consent gate as cleared.
 
-- removes the name;
-- removes both quotations;
-- removes the numeric multiple;
-- publishes a restrained, anonymized delivered transformation;
-- states the consent boundary on the page;
-- distinguishes observable operating change from endorsement.
+## Visual and imagery disposition
 
-Named proof remains a launch-improvement opportunity, not a launch-candidate dependency, provided the anonymized summary is commercially and legally acceptable to Travis.
+No visual-system reskin has begun. Structural CSS needed for v2 content is present, but the existing Source Serif 4 / Source Sans 3 and light editorial palette remain unchanged pending Travis's choice:
 
-## What remains intentionally unresolved
+- **Option A:** canonical Fraunces / Inter, navy ground, canonical copper.
+- **Option B:** ratify and version the light editorial system.
 
-1. Whether the anonymized delivered transformation is approved for public use.
-2. Whether a fixed support/refinement duration can be stated.
-3. Whether named client evidence has documented public consent.
-4. Whether the current hero and continuity imagery should later be regenerated for closer desktop/mobile continuity.
-5. Whether the Continuity Diagnostic should later support a consented email handoff or remain fully private in-browser.
+Higgsfield review candidates are generated at GPT Image 2, 2K, high quality. Source generation IDs and raw PNG URLs are logged; lightweight review derivatives and the contact sheet are part of the review package. Higgsfield remains the source archive. No generated candidate is referenced by the website.
 
+## Decisions still required
+
+1. **Blocker:** visual Option A or Option B.
+2. **Blocker:** approve one variant per required image asset before integration.
+3. Six-line or eight-line weight ladder.
+4. Public verification of Choate Rosemary Hall and University of Pennsylvania.
+5. Reconcile founder-led public positioning with the older founder-name restriction.
+6. Confirm the recommended assistant objection.
+
+This consolidation is a review candidate, not approval to merge or deploy.

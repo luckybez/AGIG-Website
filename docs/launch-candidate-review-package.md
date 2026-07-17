@@ -1,221 +1,220 @@
-# Launch-candidate review package — July 17
+# Launch Candidate v2 review package — July 18
 
 ## Recommendation
 
-**Revise further before replacing the live site.**
+**Keep draft PR #123 open for Travis review. Do not merge or deploy.**
 
-The branch is now structurally capable of becoming the replacement site: it has a coherent homepage, proof above the midpoint, practical breadth, a bounded service model, a useful diagnostic, a launch-ready Applications page, a strong About page, consistent terminology, and one dominant conversion path.
+The v2 copy, page structure, proof layer, service sequence, objection layer, diagnostic conversion, Applications page, About page, and source QA are complete. The branch is not a merge candidate until Travis closes the two explicit P0 gates:
 
-Replacement should wait only for the explicit launch blockers listed below and final Travis review of the rendered pages.
+1. choose visual-system Option A or Option B;
+2. approve the Higgsfield contact-sheet sources before any image integration.
 
-## Final page map
+The visual choice also governs the outstanding mobile body-copy-size correction. The current light candidate contains 15px card copy at 375px; the brief requires 16px. No typography change was made because the brief prohibits typography or color work before the Option A/B decision.
 
-| Page | Role | Primary conversion |
-| --- | --- | --- |
-| `/` | Recognition, mechanism, proof, service entry, objection handling, fit, trust, diagnostic | Schedule a private conversation |
-| `/applications.html` | Deep-linkable breadth by continuity need | Schedule a private conversation |
-| `/about.html` | Founder credibility, founder-use origin, IA lineage, human authority | Schedule a private conversation |
-| `/#diagnostic` | No-email continuity assessment and useful pre-call artifact | Print/save result; optional later conversation |
+## Repository-state verification
 
-## Homepage rationale by movement
+- Working branch: `feature/brand-revisions-july-17`
+- Branch foundation before this pass: `a8f5cff`
+- Original-site comparison: `main` at `e80a31b`
+- Draft review surface: PR #123
+- `main` was not checked out, modified, merged, or deployed.
+- Existing unrelated untracked files were left untouched.
+- The local consolidated preview was refreshed at `launch-candidate-single-file.html`; it is a noindex local review artifact, not a production asset.
 
-1. **Hero:** preserves the governing headline, adds disconnected decisions/commitments/research/changing facts, names the capacity cost, and introduces Avant Garde only after consequence.
-2. **Lived recognition:** converts abstraction into three ordinary operating moments.
-3. **Missing layer:** prevents systems-integration and document-management interpretations by defining the relationships the system preserves. Includes a champion-ready internal explanation.
-4. **Practical IA:** uses observable verbs and a Daily Brief artifact. “Useful before impressive” sets the product standard.
-5. **Proof:** founder-use evidence and anonymized delivered operating evidence appear before the midpoint. Consent boundaries are explicit.
-6. **Bounded deployment:** provides a credible service path without a fixed unapproved duration.
-7. **Decision Infrastructure:** gives the Buyer an investment/risk bridge and makes quiet confidence an earned result.
-8. **Objection layer:** answers tool substitution, effort, access, provider change, decision authority, post-pilot support, and shared privacy responsibility.
-9. **Fit, trust, founder:** qualifies the client and states that source approval, principles, boundaries, training, review, and acceptance require participation.
-10. **Final invitation:** says what the call is, what it is not, and what the visitor leaves with.
+## What changed
 
-## Applications page rationale
+### Homepage
 
-The page prevents homepage overload while restoring the strongest breadth from the live site:
+- Restored the protected hero kicker, H1, support copy, reassurance, and dominant scheduling action.
+- Restored the six-line Weight ladder and its consequence close.
+- Relocated the fragments headline and kept the five-relationship strip.
+- Rebuilt the AI/IA distinction so artificial intelligence is a tool/mechanism and Intelligence Augmentation is the value and system discipline.
+- Kept the chat-history distinction and inserted the exact one-time product expression required by the brief.
+- Merged six capabilities with the Daily Brief.
+- Restored four narrative proof stories, both Larry Conaway quotes, and the existing disclaimer.
+- Added the five-stage white-glove engagement, credential-control language, up-to-six-month support, limited-client promise, and challenge-as-precision block.
+- Kept seven objections and added the recommended assistant objection.
+- Routed the diagnostic result to the private conversation.
+- Rewrote outcomes in consequence terms and added the honest day-one/weeks/months trust arc.
+- Restored the canonical authority statement, founder note, invitation, and protected footer signature.
 
-- executive operating continuity;
-- research and consequential preparation;
-- authorship and personal history;
-- philanthropy, succession, and legacy;
-- governed specialist and advisory synthesis.
+### Applications
 
-Each pathway states what is preserved, the recurring artifact, and the human or privacy boundary. Sections are deep-linkable. Sensitive family material is omitted.
+- Kept the five-domain page and protected plural kicker.
+- Rewrote the page around five responsibilities rather than product packages.
+- Added the Larry authorship proof pointer.
+- Added the same instrumented scheduling action to every domain.
 
-## Buyer / Champion / Advocate findings
+### About
 
-### Buyer
+- Kept the trading-floor origin, personal-stakes turn, founder quote, consented founder photograph, and complete IA lineage.
+- Describes modern artificial intelligence only as a tool inside the larger Intelligence Augmentation discipline.
+- Removed em dashes and public-facing internal governance language.
+- Retains the Choate Rosemary Hall and University of Pennsylvania sentence pending Travis verification, as the brief directs.
 
-The Buyer can now see:
+### Interaction
 
-- an ordinary-week artifact;
-- one bounded entry model;
-- the implementation and support sequence;
-- operating risks reduced without an unverified ROI claim;
-- participation requirements;
-- practical answers to access, effort, privacy, and provider-change objections.
+- Kept the dependency-free event tracker, accessible disclosure behavior, diagnostic validation/focus/reset, and IA timeline.
+- Added an explicit Escape handler after rendered QA found that native dialog dismissal was not reliable in the in-app browser.
 
-Remaining Buyer need: Travis must approve the commercial accuracy of the anonymized operating proof and service language.
+## AI / IA terminology audit
 
-### Champion
+The systems are described as Intelligence Augmentation or private intelligence systems. Artificial intelligence appears only in allowed tool/mechanism contexts:
 
-The Champion can repeat:
+- the AI-versus-IA contrast;
+- the statement that a buyer can own every AI tool and still lack a private system;
+- the approved exoskeleton beat;
+- the doctrine line that artificial intelligence is the mechanism;
+- the brief-mandated expression `private AI operating system`, exactly once;
+- the protected footer signature, “The AI is the leverage.”
 
-> Avant Garde builds a private system around one accountable person so the sources, decisions, commitments, changes, and next reviews behind their work remain connected and inspectable.
+No internal system name appears. The one-time product expression follows the latest governing brief even though the site's normal external naming remains IA.
 
-The Applications page provides internal routing by need without requiring the Champion to explain the entire category.
+## Anti-mush audit
 
-### Advocate
+The two-stage mechanical and editor pass is complete across the homepage, Applications, and About.
 
-The Advocate now has founder-use proof, an anonymized operating transformation, a Daily Brief artifact, and explicit performance standards. Named evidence would improve advocacy but must not appear without documented consent.
+| Check | Result |
+| --- | --- |
+| Em dashes in gated HTML prose | 0 |
+| `governed` / `governance` / `bounded` on homepage | 0 each |
+| Rendered `continuity` uses on homepage | 3; cap is 4 |
+| Empty power verbs / dead adjectives / vague stand-ins | 0, excluding protected canon |
+| Fake-profound flips | 0; the required “Why not just use…” question is an objection, not a flip |
+| Internal names and council vocabulary | 0 |
+| `private AI operating system` | 1 |
+| AI as a system category outside the brief-mandated expression | 0 |
 
-## GTM and funnel rationale
+Three canon-controlled exceptions are documented rather than hidden:
 
-The site supports founder-led referral, LinkedIn, email, WhatsApp, BixJet, and direct traffic through two commitments:
-
-1. **Primary:** schedule a private conversation.
-2. **Secondary:** complete the Continuity Diagnostic privately in-browser.
-
-The diagnostic is the lower-risk commitment. It gives an immediate continuity profile and next step without requiring an email address. This protects brand trust and works across shared links. Applications sections provide deep-link destinations for traffic with known intent.
-
-CTA hierarchy remains restrained:
-
-- primary copper button at hero and final invitation;
-- diagnostic as a text link;
-- no repeated section-level scheduling buttons;
-- Applications and About act as evidence paths, not competing conversions.
-
-## Russell Brunson principles used and rejected
-
-### Used, translated into the brand
-
-- **Low-risk first commitment:** the no-email diagnostic precedes a sales conversation.
-- **Value before request:** the diagnostic returns a useful profile and next action immediately.
-- **Hook → story → offer:** headline recognition, founder/client proof, then a bounded conversation.
-- **One clear next step:** scheduling remains the dominant action.
-- **Message-to-market specificity:** recognition examples and application deep links let traffic enter through a known continuity burden.
-
-### Rejected
-
-- cheap tripwires;
-- countdown timers;
-- fake scarcity;
-- exaggerated guarantees;
-- loud funnel styling;
-- forced email gates;
-- stacked bonuses;
-- unsupported transformation claims;
-- repeated high-pressure CTAs.
-
-These tactics would damage the private, consequential, founder-led positioning.
+- “leverage” appears in the locked footer signature;
+- “Decision Infrastructure” is explicitly identified as point-of-view vocabulary;
+- the lowercase cognitive-infrastructure footer descriptor is required by the brief.
 
 ## Proof and consent
 
-- Founder-use eye-surgery story: retained with medical and human-authority boundaries.
-- Named client proof: withheld because consent documentation is absent.
-- Client quotations: withheld.
-- Numeric efficiency claim: withheld.
-- Anonymized delivered operating transformation: included with an explicit boundary and requires Travis’s final public-use approval.
-- Performance standards: clearly labeled as standards rather than client outcomes.
+- Larry Conaway is the only named client.
+- Both Larry quotes and the existing disclaimer match the approved text.
+- The father/son story contains no diagnosis, identifying detail, metric, or outcome claim.
+- The founder medical story states decision support only and retains qualified clinicians.
+- The Daily Brief and philanthropist stories remain non-identifying.
+- The candidate's earlier public withheld-consent paragraph was removed because the v2 brief records Larry's consent gate as cleared.
 
-## Visual direction and asset notes
+## Higgsfield review set
 
-### Visual thesis
+Generated with the installed Higgsfield capability:
 
-The accountable person remains the hero. Continuity is shown through editorial structure, operating artifacts, relationships, and disciplined information hierarchy. Technology stays mostly invisible.
+- model: GPT Image 2;
+- tier: 2K, high quality;
+- 33 completed candidates;
+- three variants for each required A, C, D1–D4, and E1–E5 asset;
+- no Asset B because it is optional and the Weight ladder is typographic;
+- no Asset F generation because the consented founder photograph remains;
+- no Asset G until Travis approves an Asset A source.
 
-### Current assets
+Review materials:
 
-No new Higgsfield generation was justified in this pass. Existing assets remain:
+- `docs/review-assets/higgsfield-v2-contact-sheet.jpg`
+- `docs/review-assets/higgsfield-v2/contact-sheet.html`
+- `docs/review-assets/higgsfield-v2/generations.tsv`
+- `docs/higgsfield-v2-production-log.md`
 
-- `assets/continuity-hero-desktop.webp`
-- `assets/continuity-hero-mobile.webp`
-- `assets/governed-continuity-desktop.webp`
-- `assets/governed-continuity-mobile.webp`
-- `assets/founder-wide.jpg`
-- `assets/founder.jpg`
+The log includes full prompt direction, universal exclusions, model, tier, aspect ratios, generation IDs, raw PNG URLs, review derivatives, critique, and recommended variants. Higgsfield normalized the five requested Applications 4:5 generations to 3:4 sources; their final 4:5 crops remain deferred until approval. Higgsfield generation history remains the raw source archive. The PR contains lightweight high-resolution WebP review derivatives. No candidate is referenced by production HTML or CSS.
 
-The launch candidate uses the hero and authentic founder image. The Daily Brief is rendered as semantic HTML, avoiding generated interface text and improving accessibility.
+## UI/UX Pro Max findings applied
 
-### New visual prompts
+The installed UI/UX capability was used for a private executive-advisory conversion and trust review. The implementation follows its applicable recommendations:
 
-None. No assets were generated.
+- one primary scheduling action;
+- proof before the final conversion;
+- quiet editorial hierarchy and generous spacing;
+- 44px interactive targets;
+- visible focus and reduced-motion handling;
+- responsive verification at 375, 768, 1024, and 1440;
+- no horizontal overflow;
+- semantic sections and a single H1;
+- accessible disclosures, dialog, and diagnostic recovery.
 
-## Before / after screenshots
+The capability's generated color/typography direction was not applied because the brief's visual-system gate takes precedence.
+
+## QA gates
+
+| Gate | Result | Evidence / remaining action |
+| --- | --- | --- |
+| 1. Canonical-line grep | **Pass** | Locked lines 1, 2, 3, 5, 6, and 8 are present verbatim. |
+| 2. Kill-list and frequency sweep | **Pass with recorded canon exceptions** | Zero em dashes; homepage frequency caps pass; exceptions listed above. |
+| 3. Consent audit | **Pass** | Larry verbatim block; no other named client; family and medical boundaries present. |
+| 4. Product-expression check | **Pass** | One `private AI operating system`; infrastructure terms used only as brief-authorized point of view/descriptor. |
+| 5. Visual-system check | **Blocked on Travis** | Option A/B not chosen; generated images not graded or integrated. |
+| 6. Events | **Pass** | All seven required event hooks are present; diagnostic validation, completion, CTA, and reset were exercised. |
+| 7. Accessibility/responsive | **Conditional pass** | No overflow at four widths, one H1/page, alt coverage, 44px controls, keyboard disclosures, labeled dialog, Escape fix, diagnostic focus/reset, clean console. Mobile card copy remains 15px pending the visual-system decision. |
+| 8. Read-aloud/editor pass | **Pass for copy; Travis review remains** | Copy was read in narrative order after the mechanical sweep. Final founder read-aloud remains appropriate before approval. |
+
+## Rendered QA detail
+
+### Responsive
+
+- Homepage, Applications, and About checked at 375×812, 768×900, 1024×900, and 1440×900.
+- No horizontal overflow at any target width.
+- Each page has one H1.
+- All referenced images loaded when scrolled into view and include alt attributes.
+- Homepage primary buttons, buttons, and summary controls are at least 44px at 375px.
+- Existing 15px mobile capability-card copy is the only known responsive specification miss and is held by the visual gate.
+
+### Interaction
+
+- Diagnostic missing-answer submission displays the error and focuses the first unanswered control.
+- Six high-risk answers produce “The record depends heavily on you.”
+- Result includes “Bring this profile to a private conversation. It becomes the agenda.” and the diagnostic CTA.
+- Retake clears all selections, restores the form, and returns focus to the first question.
+- Objections respond to Enter and Space, synchronize `aria-expanded`, and keep one item open.
+- Trust dialog has a labeled close control and verified explicit Escape dismissal.
+- About timeline opens by control and keeps one entry expanded.
+- Browser console: no warnings or errors on Homepage, Applications, About, or consolidated preview.
+
+### Source and metadata
+
+- `app.js` passes `node --check`.
+- JSON-LD parses on all three pages.
+- Canonicals, Open Graph, Twitter Card metadata, robots, and sitemap routes are present.
+- `git diff --check` passes.
+- Production remains static HTML/CSS/JavaScript with no runtime dependency or third-party script.
+
+## Review screenshots and preview
 
 | Review view | File |
 | --- | --- |
-| Previous homepage | `docs/review-assets/launch-candidate-before-homepage.jpg` |
-| Launch-candidate homepage, desktop | `docs/review-assets/launch-candidate-homepage-desktop.jpg` |
-| Launch-candidate homepage, mobile | `docs/review-assets/launch-candidate-homepage-mobile.jpg` |
-| Continuity Diagnostic result, mobile | `docs/review-assets/launch-candidate-diagnostic-mobile.jpg` |
-| Applications, desktop | `docs/review-assets/launch-candidate-applications-desktop.jpg` |
-| About / IA timeline, desktop | `docs/review-assets/launch-candidate-about-timeline.jpg` |
+| Homepage hero, v2 desktop | `docs/review-assets/launch-candidate-v2-homepage-desktop.png` |
+| Higgsfield approval contact sheet | `docs/review-assets/higgsfield-v2-contact-sheet.jpg` |
+| Browsable full-resolution contact sheet | `docs/review-assets/higgsfield-v2/contact-sheet.html` |
+| Consolidated noindex homepage | `launch-candidate-single-file.html` (local-only review artifact) |
 
-The rendered pages preserve the restrained editorial visual system while making the offer, practical artifact, proof, and conversion path materially easier to scan.
+## Travis decisions
 
-## Accessibility and responsive QA
+### P0 — must close before approval
 
-Rendered QA completed at:
+1. Choose **Option A** canonical dark Fraunces/Inter or **Option B** ratified light editorial.
+2. Approve one source variant per required Higgsfield asset, or request a new generation round.
+3. After the visual choice, raise mobile card copy to the required 16px within the chosen type system.
 
-- 375 × 812;
-- 768 × 900;
-- 1024 × 900;
-- 1440 × 900;
-- mobile landscape.
+### P1 — strongly recommended
 
-- No horizontal overflow at any target width or at 812 × 375 landscape.
-- The pages have one H1 each and a logical semantic heading sequence.
-- The objection accordion responds to Enter and Space, keeps only one item open, and synchronizes `aria-expanded`.
-- The diagnostic has explicit labels, custom required-state recovery, first-error focus, focused results, reset with focus recovery, and a print/save action.
-- Primary controls meet or exceed 44px; the homepage primary CTA is 50px high.
-- Visible focus and reduced-motion behavior are retained.
-- Every image has alternative text.
-- Trust-dialog focus containment and Escape behavior are retained.
-- The IA timeline remains keyboard/tap operable and does not overflow.
+1. Confirm public use of the Choate Rosemary Hall and University of Pennsylvania claims.
+2. Reconcile founder-led public positioning with the older internal founder-name restriction.
+3. Confirm the recommended six-line Weight ladder.
+4. Confirm the recommended “Why not hire an assistant?” objection.
 
-## Metadata and structured-data QA
+### P2 — after source approval
 
-Rendered and source verification completed:
+1. Grade selected images to the approved visual system.
+2. Produce final desktop/mobile crops and the Asset A social/OG crop.
+3. Run the final 100% anatomy, paper-physics, and phantom-text inspection.
+4. Re-run visual regression, image payload, and print-result checks after integration.
 
-- all three pages have a unique title and description;
-- canonical URLs, Open Graph, and Twitter Card metadata are present;
-- homepage and Applications use valid Organization / WebSite / Service JSON-LD as appropriate;
-- About uses valid Person JSON-LD;
-- the sitemap includes Applications;
-- all local links and fragments resolve;
-- no retired product terminology remains;
-- “artificial intelligence” appears only where it is explicitly subordinated as a tool or contrasted with IA.
+## Explicit controls
 
-## Performance review
-
-The implementation remains static HTML/CSS/JavaScript with:
-
-- no runtime framework;
-- no third-party JavaScript;
-- self-hosted variable fonts with `font-display: swap`;
-- one desktop hero preload;
-- optimized existing WebP hero assets;
-- no new image payload;
-- semantic HTML for the Daily Brief, proof, diagnostic, and Applications content.
-
-Core launch files total approximately 579 KB uncompressed, including the four principal existing images used by the pages. Individual code payloads remain small: homepage 29.7 KB, Applications 11.6 KB, About 16.3 KB, CSS 29.4 KB, and JavaScript 8.3 KB. The rendered console produced no warnings or errors.
-
-## Unresolved Travis decisions
-
-1. Approve, revise, or remove the anonymized delivered transformation.
-2. Confirm the exact commercially supportable configuration/training/refinement promise.
-3. Confirm whether any named client evidence has explicit public consent.
-4. Decide whether the diagnostic should remain private in-browser or later support a consented handoff.
-5. Approve the Applications taxonomy and memoir working brief.
-6. Approve the launch-candidate hero and final invitation copy.
-
-## Explicit launch blockers
-
-1. Travis approval of the anonymized proof summary.
-2. Travis approval of service-scope language.
-3. Travis’s final visual review of the homepage, Applications page, diagnostic, About page, and IA timeline.
-
-Responsive, accessibility, interaction, metadata, link, and console QA found no technical P0 defect.
-
-No merge or deployment is authorized by this review package.
+- No merge occurred.
+- No deployment occurred.
+- `main` was not modified.
+- No generated image entered the site.
+- Draft PR #123 remains the review surface.

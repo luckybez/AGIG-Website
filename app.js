@@ -1,4 +1,4 @@
-/* Avant Garde — production JS (candidate v1.4.9)
+/* Avant Garde production JS (launch candidate v2)
    Minimal, dependency-free. No credentials or secrets belong in this file. */
 (function () {
   "use strict";
@@ -22,6 +22,12 @@
   if (dialog && openBtn) {
     openBtn.addEventListener("click", function () { dialog.showModal(); });
     closeBtn.addEventListener("click", function () { dialog.close(); });
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "Escape" && dialog.open) {
+        event.preventDefault();
+        dialog.close();
+      }
+    });
     dialog.addEventListener("click", function (e) {
       var r = dialog.getBoundingClientRect();
       var inside = e.clientX >= r.left && e.clientX <= r.right && e.clientY >= r.top && e.clientY <= r.bottom;
@@ -90,19 +96,19 @@
       var profile;
       if (score <= 3) {
         profile = {
-          title: "Continuity is largely maintained",
+          title: "The record is largely maintained",
           summary: "This domain appears to have a dependable operating record. The principal risk is not fragmentation itself, but whether the record remains current as facts, people, and responsibilities change.",
           next: "Select one upcoming review and test whether its sources, rationale, commitments, changes, and affected people can be inspected without reconstruction."
         };
       } else if (score <= 7) {
         profile = {
-          title: "Continuity is uneven",
+          title: "The record is uneven",
           summary: "Important context exists, but parts of the domain still depend on manual assembly or individual memory. This is where plans become stale and handoffs become fragile.",
           next: "Map one recurring review: its approved sources, owner, commitments, changed facts, people affected, and acceptance checks."
         };
       } else {
         profile = {
-          title: "Continuity depends heavily on you",
+          title: "The record depends heavily on you",
           summary: "This domain carries material reconstruction risk. Sources, rationale, commitments, changes, or responsibilities may not reliably return together when attention is required.",
           next: "Begin with the highest-consequence recurring review. Bound the source set and define what a current, traceable, reviewable brief must contain."
         };
