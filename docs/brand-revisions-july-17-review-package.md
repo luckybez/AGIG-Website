@@ -159,7 +159,91 @@ The trust disclosure retains `trust_principles_opened`.
 ## Unresolved decisions for Travis
 
 1. Confirm the recommended hero line or select one Gate 1 alternative.
-2. Confirm the use and placement of “Private IA Operating Systems” as the product expression.
+2. **Resolved July 17:** acronym-based operating-system labels were retired. The approved product description is “private Intelligence Augmentation systems.”
 3. Decide whether any prior client testimony has explicit, documented public consent and should be restored in a later proof module.
 4. Confirm whether the current Calendly destination and “Schedule a private conversation” label remain canonical.
 5. Review the generated imagery for brand fit and decide whether the human should remain partially visible or the composition should become entirely first-person.
+
+---
+
+## July 17 continuation — approved P0 and selected P1 implementation
+
+### Terminology migration
+
+All acronym-based operating-system product labels are retired. The public hierarchy is now:
+
+1. **Category:** Intelligence Augmentation
+2. **What Avant Garde builds:** private Intelligence Augmentation systems
+3. **Infrastructure:** private cognitive infrastructure
+4. **Strategic outcome:** Decision Infrastructure
+5. **Subordinate mechanism:** artificial intelligence, governed memory, source context, workflows, and reasoning support
+
+The system itself is never described as artificial intelligence. Homepage metadata, Open Graph, Twitter metadata, Organization JSON-LD, About metadata, review documents, and visible copy were audited against the retired labels.
+
+### Content restored and consolidated
+
+- The continuity problem now connects lost rationale to repeated work, weakened commitments, strained relationships, and missing human context.
+- Private cognitive infrastructure now names the client’s principles, governed memory, specialist perspectives, and working routines.
+- The capability band now covers Record, Prepare, Research and challenge, Teach, Assist through a daily brief, and Follow through.
+- The bounded first deployment now continues into founder-led mapping, configuration, training, review, and supported refinement without publishing an unapproved service duration.
+- Decision Infrastructure now includes a non-financial investment and risk bridge tied to repeated reconstruction, missed commitments, changed facts, and transferred responsibility.
+- The former proof module is explicitly framed as performance standards. Client names, quotations, and outcomes remain unpublished without documented public consent.
+- Shared responsibility is visible in the trust section.
+- A compact founder credibility block and direct route to the IA history were restored.
+- Calendly links now consistently use “Schedule a private conversation,” and the closing invitation names the decision-domain map the visitor leaves with.
+
+### Recovered IA history timeline
+
+Recovery source: `97da36ee30eafc103d94ab1116fc6d57a71fb81b` and its immediate parent. The specified commit relabeled the historical component; its parent contains the underlying timeline implementation.
+
+Recovered names and chronology:
+
+1. William Whewell — 1840
+2. Paul Otlet — 1910
+3. H. G. Wells — 1938
+4. Vannevar Bush — 1945
+5. J. C. R. Licklider — 1960
+6. Douglas Engelbart — 1962
+7. Andy Clark and David Chalmers — 1998
+
+The original descriptions, question/contribution/limit structure, common-thread close, and Otto’s notebook context remain intact. Desktop hover or focus opens one stable description. Enter and Space toggle the focused entry. Mobile uses controlled tap disclosure with one entry open at a time. Each interactive summary exposes `role="button"`, `aria-expanded`, and `aria-controls`; chronological DOM order and screen-reader access are preserved.
+
+### UI/UX Pro Max and browser QA
+
+- UI/UX Pro Max: retained the authority-led editorial system, navy/ivory/copper restraint, single primary CTA, founder credibility, visible trust posture, and progressive disclosure.
+- Responsive widths verified: 375, 768, 1024, and 1440 pixels.
+- No horizontal overflow on the homepage or About page at the tested widths.
+- Mobile body copy is 16px; primary CTAs are 50px high; timeline rows exceed the 44px touch minimum.
+- Timeline hover/focus, Enter, Space, controlled tap expansion, single-open state, visible non-color active treatment, logical order, `aria-expanded`, `aria-controls`, and reduced-motion CSS were checked.
+- Headings, meaningful image alternatives, decorative hero treatment, metadata, Open Graph, Twitter metadata, and JSON-LD were inspected in the rendered DOM.
+- Browser console: no warnings or errors.
+- Anti-mush scan: no generic automation or transformation clichés were introduced; claims remain observable and bounded.
+- Terminology scan: no active retired product label remains in website or repository-facing review copy.
+- JavaScript syntax and whitespace checks pass.
+
+### Before and after screenshots
+
+| View | Before | After |
+| --- | --- | --- |
+| Homepage, desktop | [Before homepage](review-assets/pr-123-before-homepage.jpg) | [After homepage](review-assets/pr-123-after-homepage.jpg) |
+| About / IA history, desktop | [Before About](review-assets/pr-123-before-about.jpg) | [After About](review-assets/pr-123-after-about.jpg) |
+| About / IA history, mobile | — | [After mobile timeline](review-assets/pr-123-after-about-mobile.jpg) |
+
+### Deferred by instruction
+
+- Applications page
+- Case-study page
+- Family-support scenario
+- New analytics taxonomy
+- Trust-detail page
+- New Higgsfield generation
+- Social-preview redesign
+
+### Decisions still requiring Travis
+
+1. Confirm the commercially accurate support/refinement promise if a duration is to be published later.
+2. Confirm whether any named client proof has explicit, documented public consent.
+3. Decide whether the memoir working brief should anchor a later Applications page.
+4. Decide whether a later Higgsfield continuity round should be commissioned.
+
+No merge or deployment occurred.

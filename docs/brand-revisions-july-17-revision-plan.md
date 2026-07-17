@@ -1,17 +1,17 @@
 # Brand revisions — July 17 recommended revision plan
 
-This plan is based on the preservation audit comparing `main` at `e80a31b` with PR #123 at `e97fafc`. It recommends future work only. No website implementation changes are included in this commit.
+This plan began as the preservation audit comparing `main` at `e80a31b` with PR #123 at `e97fafc`. Travis subsequently approved the P0 and selected P1 implementation described below. The July 17 continuation implements P0.1, P0.2, the consent-safe posture of P0.3, P0.4 without an unapproved duration, P0.5, P1.1, P1.2, P1.6, P1.7, P1.8, P1.9, and the recovered IA history timeline. Deferred recommendations remain future work.
 
 ## P0 — Must correct before approval
 
-### P0.1 Resolve the public product-expression hierarchy
+### P0.1 Resolve the public product-expression hierarchy — implemented
 
-- **Issue:** The current branch says “Private IA Operating System,” while the attached doctrine lists “Private AI Operating Systems” as product expression and also instructs that the system itself must not be called AI.
-- **Evidence:** `index.html` currently introduces Private IA Operating System; the attached audit brief explicitly asks to preserve a Private AI Operating Systems product expression.
-- **Correction:** Travis must select the proprietary product expression. In either case, public copy should lead with “a private Intelligence Augmentation system built around your world,” identify private cognitive infrastructure as what Avant Garde builds, and reserve artificial intelligence for subordinate tools.
+- **Issue:** Earlier branch doctrine used conflicting acronym-based operating-system labels while also instructing that the system itself must not be called artificial intelligence.
+- **Evidence:** The homepage and earlier audit brief presented those superseded labels as current product expressions.
+- **Correction:** **Approved and implemented July 17:** retire all acronym-based operating-system labels. Public copy now leads with “a private Intelligence Augmentation system built around your world,” identifies private cognitive infrastructure as what Avant Garde builds, and reserves artificial intelligence for a subordinate mechanism.
 - **Exact page/section:** Homepage hero-to-system transition, structured data, metadata, About page, and review documentation.
 - **Impact:** Copy and metadata/code.
-- **Travis approval required:** **Yes — explicit naming decision.**
+- **Travis approval required:** **Resolved by Travis’s governing terminology correction.**
 
 ### P0.2 Restore a complete causal link from fragmented tools to human consequence
 
@@ -200,4 +200,4 @@ This plan is based on the preservation audit comparing `main` at `e80a31b` with 
 
 ## Stop condition
 
-No recommendation in this plan is authorized for implementation by this document alone. Website work should resume only after Travis selects the approved P0/P1 items. No merge or deployment is authorized.
+The approved July 17 continuation is implemented on `feature/brand-revisions-july-17`. All other recommendations remain unauthorized unless Travis selects them explicitly. No merge or deployment is authorized.

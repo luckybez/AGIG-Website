@@ -95,7 +95,7 @@ Disposition terms are used exactly as follows: **Retain**, **Restore**, **Rewrit
 - **Data consolidation:** Medium because the imagery and copy emphasize bringing sources together.
 - **Personal productivity:** Low-medium; Daily Brief language is absent, but fit copy can still read as executive productivity.
 - **Abstract artificial-intelligence language:** Low after the terminology audit. Artificial intelligence is explicitly subordinate tooling.
-- **Overly technical:** Medium in “Private IA Operating System,” governed memory, revision history, and permissions without a human example nearby.
+- **Overly technical:** Medium in the now-superseded acronym-based operating-system label, governed memory, revision history, and permissions without a human example nearby.
 - **Excessively decision-specific:** High. Memoir, learning, family support, legacy, and broad assistance disappeared.
 - **Insufficiently consequential:** Medium. “Consequential review” appears, but named stakes and consent-cleared outcomes are absent from the homepage.
 
@@ -151,8 +151,8 @@ Credibility gaps:
 | **A private Intelligence Augmentation system** | High after one-sentence definition. | Strongest category alignment. | “Augmentation” is unfamiliar and needs expansion, never unexplained “IA.” |
 | **Private decision infrastructure** | High for executive buyers. | Better as outcome than product. | Over-narrows use cases and confuses build with result. |
 | **A private operating system built around your world** | Very high and human. | Good descriptor, less precise category language. | “Operating system” may imply software product or device replacement. |
-| **Private AI Operating Systems** as product expression | Familiar acronym but conflicts with the rule that the system is not itself AI unless carefully governed by the IA category. | Listed in the attached doctrine as product expression. | High brand-confusion risk; it can collapse IA back into artificial intelligence. |
-| **Private IA Operating System** | Doctrinally aligned with Intelligence Augmentation. | Strong if IA is always expanded. | “IA” is unfamiliar, resembles information architecture, and may be less buyer-legible than the full phrase. |
+| **Superseded artificial-intelligence acronym label** | Familiar acronym but conflicted with the rule that the system is not itself artificial intelligence. | Earlier doctrine listed it as a product expression. | High brand-confusion risk; retired by Travis on July 17. |
+| **Superseded Intelligence Augmentation acronym label** | Doctrinally closer to Intelligence Augmentation. | Strong only when expanded. | The acronym is unfamiliar and resembles information architecture; retired by Travis on July 17. |
 
 ### Recommended hierarchy
 
@@ -160,10 +160,10 @@ Credibility gaps:
 2. **Buyer-facing first description:** “a private Intelligence Augmentation system built around your world”
 3. **What Avant Garde builds:** private cognitive infrastructure
 4. **Outcome:** Decision Infrastructure
-5. **Product expression:** unresolved brand decision between “Private IA Operating System” and the attached doctrine’s “Private AI Operating Systems”
+5. **Product expression:** private Intelligence Augmentation systems
 6. **Mechanism:** artificial-intelligence tools, governed memory, source context, workflows, and reasoning support
 
-Do not lead with either acronym. Expand Intelligence Augmentation first. Do not call the system artificial intelligence. If Travis retains “Private AI Operating Systems” as a proprietary product expression, the site must explicitly state that the product belongs to the Intelligence Augmentation category and uses artificial-intelligence tools as mechanisms; the naming contradiction remains a P0 approval decision.
+**Superseded doctrine note:** earlier records considered two acronym-based operating-system labels. Travis retired both on July 17. Expand Intelligence Augmentation in public copy, describe artificial intelligence only as a bounded mechanism, and never call the system itself artificial intelligence.
 
 ## UI/UX Pro Max visual audit
 
@@ -220,7 +220,7 @@ Across the set:
 
 ## Decisions requiring Travis
 
-1. Confirm the public product-expression hierarchy: “Private IA Operating System” versus the attached doctrine’s “Private AI Operating Systems.” The system itself must never be called artificial intelligence.
+1. **Resolved July 17:** use “private Intelligence Augmentation systems” and never call the system itself artificial intelligence.
 2. Confirm whether Larry Conaway gave explicit, documented permission for his name, both quotations, and the efficiency claim.
 3. Decide whether the memoir working brief should become the anchor example on a dedicated Applications page.
 4. Approve or reject a compact homepage capabilities restoration that includes teaching, assistance, and advisory perspectives.
