@@ -747,3 +747,37 @@ dialog::backdrop { background: rgba(5,12,20,.78); }
   .header-cta { top: 14px; right: 16px; }
   .mobile-nav { margin-right: 76px; }
 }
+
+/* ===== v23 — The Weight: cinematic composition (text left, executive right) ===== */
+.weight-section { position: relative; overflow: hidden; background: var(--ink-950); color: var(--light); }
+.weight-media, .weight-scrim { position: absolute; inset: 0; }
+.weight-media img,
+.weight-media video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 70% center; }
+.weight-media video { z-index: 1; border: 0; }
+.weight-scrim {
+  z-index: 2;
+  pointer-events: none;
+  background:
+    linear-gradient(90deg, rgba(9,20,32,.97) 0%, rgba(9,20,32,.92) 36%, rgba(9,20,32,.6) 54%, rgba(9,20,32,.16) 74%, rgba(9,20,32,.42) 100%),
+    linear-gradient(0deg, rgba(9,20,32,.55) 0%, rgba(9,20,32,.12) 26%, rgba(9,20,32,.3) 100%);
+}
+.weight-content { position: relative; z-index: 3; }
+/* Left-column composition: this section is a photo-editorial moment, not a centered band */
+.weight-section > .shell > .section-number,
+.weight-section > .shell > h2 { margin-inline: 0; text-align: left; }
+.weight-section > .shell > h2 { max-width: 640px; font-size: clamp(32px, 3.4vw, 52px); }
+.weight-ladder { grid-template-columns: 1fr; max-width: 620px; margin: 48px 0 0; border-top-color: var(--line-dark); }
+.weight-ladder li { border-bottom-color: var(--line-dark); color: rgba(233, 239, 246, .74); }
+.weight-ladder li::before { color: var(--copper); }
+.weight-ladder li strong { color: var(--light); }
+.weight-ladder .weight-final { color: var(--light); }
+.weight-section .recognition-close { margin-inline: 0; text-align: left; max-width: 620px; color: var(--light); }
+
+@media (max-width: 900px) {
+  /* Stack: media strip on top (man intact), copy below on solid ink */
+  .weight-media { position: relative; inset: auto; height: 320px; }
+  .weight-media img, .weight-media video { object-position: 72% center; }
+  .weight-scrim { background: linear-gradient(0deg, var(--ink-950) 0%, rgba(9,20,32,.22) 34%, rgba(9,20,32,.05) 100%); height: 320px; inset: auto 0 auto 0; top: 0; }
+  .weight-section { padding-top: 0; }
+  .weight-content { padding-top: 44px; }
+}
