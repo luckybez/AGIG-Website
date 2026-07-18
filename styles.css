@@ -198,6 +198,10 @@ blockquote { margin: 0; }
 .hero-media video {
   object-fit: cover;
   object-position: center;
+  /* Bottom-anchored reframe: crops the pendant lamp out of the top of the
+     footage while keeping the table foreground. */
+  transform: scale(1.38);
+  transform-origin: 50% 100%;
 }
 .hero-scrim { background: linear-gradient(90deg, rgba(9,20,32,.98) 0%, rgba(9,20,32,.88) 45%, rgba(9,20,32,.52) 62%, rgba(9,20,32,.1) 88%), linear-gradient(0deg, rgba(9,20,32,.92) 0%, transparent 58%); }
 .hero-content { position: relative; z-index: 1; padding-block: 0 48px; }
