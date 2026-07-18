@@ -751,8 +751,14 @@ dialog::backdrop { background: rgba(5,12,20,.78); }
 /* ===== v23 — The Weight: cinematic composition (text left, executive right) ===== */
 .weight-section { position: relative; overflow: hidden; background: var(--ink-950); color: var(--light); }
 .weight-media, .weight-scrim { position: absolute; inset: 0; }
+/* Footage as a right-side panel, dropped below the section top so the
+   subject's head keeps clear headroom; edges blend into the ink field. */
+.weight-media { top: clamp(64px, 7vw, 130px); left: 24%; }
+.weight-media::before { content: ""; position: absolute; inset: 0; z-index: 2; pointer-events: none; background:
+  linear-gradient(180deg, var(--ink-950) 0%, rgba(9,20,32,0) 26%),
+  linear-gradient(90deg, var(--ink-950) 0%, rgba(9,20,32,0) 30%); }
 .weight-media img,
-.weight-media video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 70% center; }
+.weight-media video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 78% top; }
 .weight-media video { z-index: 1; border: 0; }
 .weight-scrim {
   z-index: 2;
@@ -781,3 +787,10 @@ dialog::backdrop { background: rgba(5,12,20,.78); }
   .weight-section { padding-top: 0; }
   .weight-content { padding-top: 44px; }
 }
+
+/* ===== v24 — Founder note (homepage section 14) ===== */
+.founder-note { text-align: center; }
+.founder-note h2 { max-width: 900px; margin-inline: auto; font: italic 500 clamp(30px, 3.6vw, 50px)/1.3 var(--serif); }
+.founder-attribution { margin: 26px 0 0; color: var(--copper); font-weight: 650; }
+.founder-link { margin: 8px 0 0; }
+.founder-link a { justify-content: center; }
