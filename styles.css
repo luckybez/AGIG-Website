@@ -724,7 +724,7 @@ dialog::backdrop { background: rgba(5,12,20,.78); }
 
 /* Invitation: seat the chairs lower so the copy above them breathes */
 @media (min-width: 901px) {
-  .invitation { background-size: 100% 100%, auto 60%; background-position: center top, center bottom; background-color: var(--ink-950); }
+  .invitation { background-size: 100% 100%, auto 68%; background-position: center top, center calc(100% - 170px); background-color: var(--ink-950); }
 }
 
 /* Header CTA: solid copper, locked to the top-right on every page */
