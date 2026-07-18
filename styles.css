@@ -252,7 +252,7 @@ blockquote { margin: 0; }
 
 .weight-section h2 { max-width: 980px; }
 .weight-ladder { max-width: 1080px; margin: 64px auto 0; padding: 0; list-style: none; counter-reset: weight; display: grid; grid-template-columns: 1fr 1fr; gap: 0 56px; border-top: 1px solid var(--line); }
-.weight-ladder li { counter-increment: weight; display: grid; grid-template-columns: 40px 1fr; gap: 16px; padding: 24px 0; border-bottom: 1px solid var(--line); font: 400 clamp(17px, 1.6vw, 21px)/1.5 var(--serif); color: var(--text-soft); }
+.weight-ladder li { counter-increment: weight; display: grid; grid-template-columns: 40px 1fr; gap: 16px; padding: 20px 0; border-bottom: 1px solid var(--line); font: 400 clamp(17px, 1.6vw, 21px)/1.5 var(--serif); color: var(--text-soft); }
 .weight-ladder li::before { content: "0" counter(weight); color: var(--copper-dark); font: 650 12px/1.9 var(--sans); letter-spacing: .13em; }
 .weight-ladder li p { margin: 0; }
 .weight-ladder li strong { color: var(--text); font-weight: 650; }
@@ -749,7 +749,7 @@ dialog::backdrop { background: rgba(5,12,20,.78); }
 }
 
 /* ===== v23 — The Weight: cinematic composition (text left, executive right) ===== */
-.weight-section { position: relative; overflow: hidden; background: var(--ink-950); color: var(--light); }
+.weight-section { position: relative; overflow: hidden; background: var(--ink-950); color: var(--light); padding-block: clamp(52px, 5.5vw, 84px) clamp(76px, 9vw, 132px); }
 .weight-media, .weight-scrim { position: absolute; inset: 0; }
 /* Footage as a right-side panel, dropped below the section top so the
    subject's head keeps clear headroom; edges blend into the ink field. */
@@ -772,7 +772,7 @@ dialog::backdrop { background: rgba(5,12,20,.78); }
 .weight-section > .shell > .section-number,
 .weight-section > .shell > h2 { margin-inline: 0; text-align: left; }
 .weight-section > .shell > h2 { max-width: 640px; font-size: clamp(32px, 3.4vw, 52px); }
-.weight-ladder { grid-template-columns: 1fr; max-width: 620px; margin: 48px 0 0; border-top-color: var(--line-dark); }
+.weight-ladder { grid-template-columns: 1fr; max-width: 620px; margin: 40px 0 0; border-top-color: var(--line-dark); }
 .weight-ladder li { border-bottom-color: var(--line-dark); color: rgba(233, 239, 246, .74); }
 .weight-ladder li::before { color: var(--copper); }
 .weight-ladder li strong { color: var(--light); }
