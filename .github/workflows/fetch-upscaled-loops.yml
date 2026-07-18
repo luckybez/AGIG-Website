@@ -1,0 +1,23 @@
+name: Fetch upscaled hero loops
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: claude/agig-website-setup-lkfhhc
+      - name: Download 1080p upscales from Higgsfield CDN
+        run: |
+          curl -fsSL -o assets/loops/beat1-weight.mp4 "https://d8j0ntlcm91z4.cloudfront.net/user_3GHcWRO3Lg7pVlIwA53mmtSyqD9/hf_20260718_172014_db267772-d4b4-4968-85b7-fe4f452b1323.mp4"
+          curl -fsSL -o assets/loops/beat2-turn.mp4 "https://d8j0ntlcm91z4.cloudfront.net/user_3GHcWRO3Lg7pVlIwA53mmtSyqD9/hf_20260718_172020_cf331214-a31c-475b-82b5-f95e10626024.mp4"
+          ls -la assets/loops/
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/loops/
+          git commit -m "Replace hero loops with Topaz 1080p upscales"
+          git push origin claude/agig-website-setup-lkfhhc
