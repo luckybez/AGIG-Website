@@ -29,7 +29,7 @@ The visual choice also governs the outstanding mobile body-copy-size correction.
 - Restored the six-line Weight ladder and its consequence close.
 - Relocated the fragments headline and kept the five-relationship strip.
 - Rebuilt the AI/IA distinction so artificial intelligence is a tool/mechanism and Intelligence Augmentation is the value and system discipline.
-- Kept the chat-history distinction and inserted the exact one-time product expression required by the brief.
+- Kept the chat-history distinction and names the delivered product as a private Intelligence Augmentation operating system.
 - Merged six capabilities with the Daily Brief.
 - Restored four narrative proof stories, both Larry Conaway quotes, and the existing disclaimer.
 - Added the five-stage white-glove engagement, credential-control language, up-to-six-month support, limited-client promise, and challenge-as-precision block.
@@ -65,10 +65,9 @@ The systems are described as Intelligence Augmentation or private intelligence s
 - the statement that a buyer can own every AI tool and still lack a private system;
 - the approved exoskeleton beat;
 - the doctrine line that artificial intelligence is the mechanism;
-- the brief-mandated expression `private AI operating system`, exactly once;
 - the protected footer signature, “The AI is the leverage.”
 
-No internal system name appears. The one-time product expression follows the latest governing brief even though the site's normal external naming remains IA.
+No internal system name appears. The product category is consistently Intelligence Augmentation; artificial intelligence is never presented as the product being sold.
 
 ## Anti-mush audit
 
@@ -82,8 +81,8 @@ The two-stage mechanical and editor pass is complete across the homepage, Applic
 | Empty power verbs / dead adjectives / vague stand-ins | 0, excluding protected canon |
 | Fake-profound flips | 0; the required “Why not just use…” question is an objection, not a flip |
 | Internal names and council vocabulary | 0 |
-| `private AI operating system` | 1 |
-| AI as a system category outside the brief-mandated expression | 0 |
+| AI-named product expression | 0 |
+| AI as a product or system category | 0 |
 
 Three canon-controlled exceptions are documented rather than hidden:
 
@@ -144,7 +143,7 @@ The capability's generated color/typography direction was not applied because th
 | 1. Canonical-line grep | **Pass** | Locked lines 1, 2, 3, 5, 6, and 8 are present verbatim. |
 | 2. Kill-list and frequency sweep | **Pass with recorded canon exceptions** | Zero em dashes; homepage frequency caps pass; exceptions listed above. |
 | 3. Consent audit | **Pass** | Larry verbatim block; no other named client; family and medical boundaries present. |
-| 4. Product-expression check | **Pass** | One `private AI operating system`; infrastructure terms used only as brief-authorized point of view/descriptor. |
+| 4. Product-expression check | **Pass** | The delivered product is a private Intelligence Augmentation operating system; AI appears only as a tool or mechanism. |
 | 5. Visual-system check | **Blocked on Travis** | Option A/B not chosen; generated images not graded or integrated. |
 | 6. Events | **Pass** | All seven required event hooks are present; diagnostic validation, completion, CTA, and reset were exercised. |
 | 7. Accessibility/responsive | **Conditional pass** | No overflow at four widths, one H1/page, alt coverage, 44px controls, keyboard disclosures, labeled dialog, Escape fix, diagnostic focus/reset, clean console. Mobile card copy remains 15px pending the visual-system decision. |

@@ -92,7 +92,7 @@ The pages consistently call the offering a private Intelligence Augmentation or 
 - an answer-producing tool in the contrast;
 - a mechanism inside the larger system;
 - a tool that may do thinking for a user in the approved exoskeleton beat;
-- the required brief expression `private AI operating system`, once;
+- the delivered product category is a private Intelligence Augmentation operating system;
 - the protected footer phrase, “The AI is the leverage.”
 
 The exact product expression appears once on the homepage. No deprecated internal system name appears.

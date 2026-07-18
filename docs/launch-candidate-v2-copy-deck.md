@@ -9,7 +9,7 @@
 
 - AVANT GARDE International Group is the external name.
 - The systems are Intelligence Augmentation systems. Artificial intelligence is described only as a tool or mechanism.
-- The brief-mandated product expression `private AI operating system` appears exactly once on the homepage.
+- The delivered product is a private Intelligence Augmentation operating system. Artificial intelligence is never named as the product.
 - Locked lines below are verbatim.
 - No em dashes appear in gated page prose.
 - No Higgsfield candidate has entered the build.
