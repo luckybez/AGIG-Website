@@ -206,12 +206,22 @@ blockquote { margin: 0; }
 .hero-lede, .lede { max-width: 690px; margin: 32px 0; color: var(--light); font-size: clamp(19px, 2vw, 24px); line-height: 1.5; }
 .hero-actions { display: flex; align-items: center; gap: 30px; flex-wrap: wrap; }
 @media (min-width: 901px) {
+  .hero::after {
+    content: "";
+    position: absolute;
+    inset: auto 0 0;
+    z-index: 2;
+    height: 32%;
+    pointer-events: none;
+    background: linear-gradient(180deg, rgba(42,28,18,0) 0%, rgba(42,28,18,.18) 10%, rgba(38,25,16,.96) 25%, #23170f 42%, #21160f 66%, #1a110c 100%);
+  }
   .hero-scrim {
     background:
       linear-gradient(180deg, rgba(9,20,32,.08) 14%, rgba(9,20,32,.24) 36%, rgba(9,20,32,.84) 54%, rgba(9,20,32,.98) 100%),
       radial-gradient(ellipse at 50% 66%, rgba(9,20,32,.48) 0%, rgba(9,20,32,.18) 42%, rgba(9,20,32,.46) 100%);
   }
   .hero-content {
+    z-index: 3;
     display: flex;
     flex-direction: column;
     align-items: center;
