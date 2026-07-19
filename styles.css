@@ -794,3 +794,7 @@ dialog::backdrop { background: rgba(5,12,20,.78); }
 .founder-attribution { margin: 26px 0 0; color: var(--copper); font-weight: 650; }
 .founder-link { margin: 8px 0 0; }
 .founder-link a { justify-content: center; }
+
+/* v28 — desktop-only line break for the Problem headline (copy ticket) */
+.break-desktop { display: none; }
+@media (min-width: 901px) { .break-desktop { display: inline; } }
