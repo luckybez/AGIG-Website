@@ -1,5 +1,9 @@
 name: Fetch upscaled hero loops
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+  push:
+    branches: [claude/agig-website-setup-lkfhhc]
+    paths: ['.github/fetch-now']
 permissions:
   contents: write
 jobs:
