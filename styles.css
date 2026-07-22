@@ -804,3 +804,4 @@ dialog::backdrop { background: rgba(5,12,20,.78); }
 .ia-definition p { margin: 0; color: var(--light-soft); font: 400 clamp(17px, 1.5vw, 20px)/1.65 var(--sans); }
 .case-feature blockquote p { margin: 0; }
 .case-feature blockquote p + p { margin-top: 14px; }
+.chain-lead { max-width: 900px; margin: 60px auto -44px; text-align: center; color: var(--copper); font: 500 clamp(20px, 2.2vw, 27px)/1.4 var(--serif); }
