@@ -798,3 +798,21 @@ dialog::backdrop { background: rgba(5,12,20,.78); }
 /* v28 — desktop-only line break for the Problem headline (copy ticket) */
 .break-desktop { display: none; }
 @media (min-width: 901px) { .break-desktop { display: inline; } }
+
+/* ===== v29 — WO-13 doctrine compliance ===== */
+.ia-definition { max-width: 900px; margin: 44px auto 0; padding: 32px 36px; border: 1px solid var(--line-dark); border-left: 4px solid var(--copper); text-align: left; }
+.ia-definition p { margin: 0; color: var(--light-soft); font: 400 clamp(17px, 1.5vw, 20px)/1.65 var(--sans); }
+.case-feature blockquote p { margin: 0; }
+.case-feature blockquote p + p { margin-top: 14px; }
+.chain-lead { max-width: 900px; margin: 60px auto -44px; text-align: center; color: var(--copper); font: 500 clamp(20px, 2.2vw, 27px)/1.4 var(--serif); }
+.hero-founder { margin: 18px 0 0; color: rgba(255,255,255,.72); font-size: 14px; letter-spacing: .04em; }
+@media (min-width: 901px) { .hero-founder { text-align: center; } }
+.early-proof { max-width: 860px; margin: 64px auto 0; padding: 30px 34px; border: 1px solid var(--line-dark); border-left: 4px solid var(--copper); }
+.early-proof blockquote p { margin: 0; color: var(--light); font: italic 500 clamp(21px, 2.3vw, 28px)/1.4 var(--serif); }
+.early-proof figcaption { margin-top: 14px; color: var(--copper); font-size: 14px; font-weight: 650; }
+.pci-portability { margin: 18px 0 0; font-size: 15px; color: var(--light-soft); }
+.pci-portability strong { display: block; color: var(--copper); margin-bottom: 6px; }
+.canonical-statement { max-width: 680px; margin: 26px 0 0; color: var(--light-soft); font-size: clamp(17px, 1.6vw, 20px); line-height: 1.6; }
+.trust-extra { margin-top: 8px; }
+.trust .trust-subhead { margin-top: 64px; }
+.judgment-line { max-width: 900px; margin: 40px 0 0; color: var(--copper); font: italic 500 clamp(21px, 2.4vw, 29px)/1.4 var(--serif); }
