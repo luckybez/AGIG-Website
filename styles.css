@@ -739,6 +739,12 @@ dialog::backdrop { background: rgba(5,12,20,.78); }
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
 }
 .header-cta:hover { background: var(--light); border-color: var(--light); color: var(--ink-950); }
+/* Keep the nav links clear of the fixed CTA: reserve the button's footprint
+   (≈230px + viewport inset) until the viewport is wide enough that the fixed
+   button falls outside the shell. */
+@media (min-width: 901px) {
+  .nav-links { margin-right: clamp(0px, calc(876px - 50vw), 254px); }
+}
 @media (max-width: 900px) {
   /* Menu stays in flow; clear the fixed CTA so they never overlap */
   .mobile-nav { margin-right: 84px; }
