@@ -802,3 +802,5 @@ dialog::backdrop { background: rgba(5,12,20,.78); }
 /* ===== v29 — WO-13 doctrine compliance ===== */
 .ia-definition { max-width: 900px; margin: 44px auto 0; padding: 32px 36px; border: 1px solid var(--line-dark); border-left: 4px solid var(--copper); text-align: left; }
 .ia-definition p { margin: 0; color: var(--light-soft); font: 400 clamp(17px, 1.5vw, 20px)/1.65 var(--sans); }
+.case-feature blockquote p { margin: 0; }
+.case-feature blockquote p + p { margin-top: 14px; }
