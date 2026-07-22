@@ -32,7 +32,7 @@
   --text-soft: #33465b;
   --light: #ffffff;
   --light-soft: #ffffff;
-  --copper: #ff8a1f;
+  --copper: #c87e46;
   --copper-dark: #bc4a00;
   --line: #cbd5df;
   --line-dark: rgba(255, 255, 255, 0.18);
@@ -145,7 +145,7 @@ blockquote { margin: 0; }
   right: 0;
   min-width: 220px;
   padding: 8px;
-  border: 1px solid rgba(255,138,31,.48);
+  border: 1px solid rgba(200,126,70,.48);
   background: var(--ink-950);
   box-shadow: 0 24px 60px rgba(0,0,0,.34);
 }
@@ -167,7 +167,7 @@ blockquote { margin: 0; }
 .button-small { min-height: 44px; padding: 10px 17px; font-size: 13px; }
 .button-primary { background: var(--copper); color: var(--ink-950); }
 .button-primary:hover { background: var(--light); }
-.button-outline { border-color: rgba(255,138,31,.82); color: var(--light); }
+.button-outline { border-color: rgba(200,126,70,.82); color: var(--light); }
 .button-outline:hover { border-color: var(--copper); background: var(--copper); color: var(--ink-950); }
 .button-dark { background: var(--ink-900); color: var(--light); }
 .button-dark:hover { background: var(--ink-800); }
@@ -282,7 +282,7 @@ blockquote { margin: 0; }
 .progression-grid { display: grid; grid-template-columns: repeat(3, 1fr); margin-top: 62px; border: 1px solid var(--line-dark); }
 .progression-grid article { min-width: 0; padding: clamp(30px, 4vw, 52px); }
 .progression-grid article + article { border-left: 1px solid var(--line-dark); }
-.progression-grid .progression-emphasis { background: rgba(255,138,31,.12); box-shadow: inset 0 4px 0 var(--copper); }
+.progression-grid .progression-emphasis { background: rgba(200,126,70,.12); box-shadow: inset 0 4px 0 var(--copper); }
 .comparison-label { margin-bottom: 18px; color: var(--copper); }
 .progression-grid h3 { min-height: 3.6em; margin-bottom: 22px; font-size: clamp(24px, 2.3vw, 32px); }
 .progression-grid p:last-child { color: var(--light-soft); }
@@ -465,7 +465,7 @@ dialog::backdrop { background: rgba(5,12,20,.78); }
 .story-body p { margin: 0; color: var(--text-soft); }
 .story-dark .story-body p { color: var(--light-soft); }
 .claim-boundary { margin-top: 34px; padding: 28px; border: 1px solid var(--line); background: var(--paper-light); }
-.story-dark .claim-boundary { border-color: var(--line-dark); background: rgba(255,138,31,.1); }
+.story-dark .claim-boundary { border-color: var(--line-dark); background: rgba(200,126,70,.1); }
 .claim-boundary strong { display: block; margin-bottom: 10px; color: var(--copper-dark); font-size: 13px; letter-spacing: .1em; text-transform: uppercase; }
 .story-dark .claim-boundary strong { color: var(--copper); }
 
