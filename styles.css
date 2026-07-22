@@ -819,6 +819,11 @@ dialog::backdrop { background: rgba(5,12,20,.78); }
 
 /* v30 — client-stories: compact invitation so the chairs sit low with breathing room */
 @media (min-width: 901px) {
-  .invitation-compact { min-height: 1020px; background-size: 100% 100%, auto 40%; background-position: center top, center bottom; }
-  .invitation-compact .invitation-inner { min-height: 1020px; justify-content: flex-start; padding-top: clamp(84px, 10vw, 130px); }
+  .invitation-compact {
+    min-height: 1320px;
+    background:
+      linear-gradient(180deg, rgba(9,20,32,.98) 0%, rgba(9,20,32,.92) 30%, rgba(9,20,32,.4) 54%, rgba(9,20,32,.06) 78%, rgba(9,20,32,.22) 100%),
+      var(--ink-950) url("assets/invitation-desktop.jpg") center bottom / auto 47% no-repeat;
+  }
+  .invitation-compact .invitation-inner { min-height: 1320px; justify-content: flex-start; padding-top: clamp(84px, 10vw, 130px); }
 }
