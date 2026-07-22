@@ -816,3 +816,9 @@ dialog::backdrop { background: rgba(5,12,20,.78); }
 .trust-extra { margin-top: 8px; }
 .trust .trust-subhead { margin-top: 64px; }
 .judgment-line { max-width: 900px; margin: 40px 0 0; color: var(--copper); font: italic 500 clamp(21px, 2.4vw, 29px)/1.4 var(--serif); }
+
+/* v30 — client-stories: compact invitation so the chairs sit low with breathing room */
+@media (min-width: 901px) {
+  .invitation-compact { min-height: 1020px; background-size: 100% 100%, auto 40%; background-position: center top, center bottom; }
+  .invitation-compact .invitation-inner { min-height: 1020px; justify-content: flex-start; padding-top: clamp(84px, 10vw, 130px); }
+}
