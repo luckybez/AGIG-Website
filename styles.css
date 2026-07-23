@@ -284,7 +284,8 @@ blockquote { margin: 0; }
 .progression-grid article + article { border-left: 1px solid var(--line-dark); }
 .progression-grid .progression-emphasis { background: rgba(200,126,70,.12); box-shadow: inset 0 4px 0 var(--copper); }
 .comparison-label { margin-bottom: 18px; color: var(--copper); }
-.progression-grid h3 { min-height: 3.6em; margin-bottom: 22px; font-size: clamp(24px, 2.3vw, 32px); }
+/* balances line lengths across the three comparison headings; prevents a single-word final line */
+.progression-grid h3 { min-height: 3.6em; margin-bottom: 22px; font-size: clamp(24px, 2.3vw, 32px); text-wrap: balance; }
 .progression-grid p:last-child { color: var(--light-soft); }
 .prompt-close { margin: 34px 0 0; max-width: 850px; color: var(--copper); font: 500 clamp(20px, 2.3vw, 29px)/1.4 var(--serif); }
 .doctrine-note { max-width: 900px; margin: 30px 0 0; color: var(--light-soft); }
