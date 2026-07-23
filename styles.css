@@ -25,7 +25,7 @@
   --ink-950: #091420;
   --ink-900: #0e1b2b;
   --ink-800: #18283a;
-  --paper: #ffffff;
+  --paper: #f7f9fc;
   --paper-light: #f7f9fc;
   --warm: #edf3f8;
   --text: #0b1a2b;
@@ -371,7 +371,7 @@ blockquote { margin: 0; }
 .accordion details[open] summary::after { content: "−"; }
 .accordion details > div { padding: 0 44px 22px 0; color: var(--text-soft); }
 .accordion details > div p { margin: 0; }
-.trust { background: #101d2c; color: var(--light); }
+.trust { background: var(--ink-900); color: var(--light); }
 .trust-grid { display: grid; grid-template-columns: 1.05fr .95fr; gap: 100px; }
 .trust-points { display: grid; grid-template-columns: 1fr 1fr; gap: 42px 34px; }
 .trust-points h3 { font: 650 17px var(--sans); color: var(--copper); }
