@@ -99,6 +99,9 @@ blockquote { margin: 0; }
 .section-lede.dark { color: var(--text-soft); }
 .section-intro { align-items: end; }
 .section { padding-block: var(--section); }
+@media (min-width: 901px) {
+  #main > section:not(.hero):not(.invitation) { min-height: 100svh; display: flex; flex-direction: column; justify-content: center; }
+}
 .paper { background: var(--paper); }
 .warm { background: var(--warm); }
 .ink { background: var(--ink-900); color: var(--light); }
