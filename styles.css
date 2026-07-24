@@ -222,7 +222,7 @@ blockquote { margin: 0; }
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-block: 0 100px;
+    padding-block: 0 72px;
     text-align: center;
   }
   .hero-content .eyebrow { margin-bottom: 18px; }
