@@ -228,7 +228,7 @@ blockquote { margin: 0; }
   .hero-content .eyebrow { margin-bottom: 18px; }
   .hero h1 {
     max-width: 800px;
-    font-size: clamp(42px, 4.2vw, 56px);
+    font-size: clamp(42px, 4.2vw, 48px);
     line-height: 1.04;
   }
   .hero-lede {
